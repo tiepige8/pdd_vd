@@ -30,6 +30,8 @@ VIDEO_EXTS = {".mp4", ".mov", ".avi", ".mkv", ".m4v", ".flv", ".wmv", ".webm"}
 DEFAULT_GOODS_ID = "861017472489"
 RETRYABLE_ERROR_CODES = {"50000", "50002", "52001", "52002", "52101", "52102", "52103", "70031"}
 AUTO_RUN_WINDOW_SECONDS = 120
+DEFAULT_HTTP_TIMEOUT = int(os.getenv("PDD_HTTP_TIMEOUT", "30"))
+UPLOAD_HTTP_TIMEOUT = int(os.getenv("PDD_UPLOAD_TIMEOUT", "120"))
 
 DEFAULT_CONFIG = {
     "clientId": "",
@@ -894,6 +896,7 @@ def call_pdd_api(
     attempt = 0
     while True:
         attempt += 1
+        timeout = UPLOAD_HTTP_TIMEOUT if files else DEFAULT_HTTP_TIMEOUT
         if files:
             body, content_type = encode_multipart(params, files)
             req = urllib.request.Request(
@@ -912,15 +915,15 @@ def call_pdd_api(
             )
         ctx = get_ssl_context()
         try:
-            with urllib.request.urlopen(req, timeout=30, context=ctx) as resp:
+            with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
                 raw = resp.read().decode("utf-8")
         except urllib.error.URLError as exc:
             if attempt <= retries:
                 delay = min(2 ** attempt, 8)
-                append_log(f"网络错误，{delay}s 后重试 ({attempt}/{retries})：{exc}", level="error")
+                append_log(f"网络错误，{delay}s 后重试 ({attempt}/{retries})：{exc!r}", level="error")
                 time.sleep(delay)
                 continue
-            raise RuntimeError(f"网络错误: {exc}") from exc
+            raise RuntimeError(f"网络错误: {exc!r}") from exc
         parsed = json.loads(raw)
         if "error_response" in parsed:
             err = parsed["error_response"]
