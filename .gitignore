@@ -22,6 +22,8 @@ __pycache__/
 *.pyc
 
 # Docs / media snapshots
-*.html
+/*.html
+api_docs/
+!public/*.html
 *.mp4
 api.zip
