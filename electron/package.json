@@ -1,0 +1,41 @@
+{
+  "name": "pdd-video-helper",
+  "version": "0.1.0",
+  "description": "PDD video uploader helper with embedded python backend",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.pdd.video.helper",
+    "productName": "PDD Video Helper",
+    "files": [
+      "../public/**",
+      "../server.py",
+      "../data/**",
+      "../video/**",
+      "main.js"
+    ],
+    "extraResources": [
+      {
+        "from": "../python-runtime",
+        "to": "python-runtime",
+        "filter": ["**/*"]
+      }
+    ],
+    "directories": {
+      "output": "../dist"
+    },
+    "win": {
+      "target": "nsis",
+      "artifactName": "${productName}-${version}-Setup.${ext}"
+    }
+  },
+  "dependencies": {
+    "electron": "^29.3.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.13.3"
+  }
+}

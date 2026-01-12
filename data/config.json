@@ -1,0 +1,12 @@
+{
+  "clientId": "457da7018d7f4a8ea386f198918ccef8",
+  "clientSecret": "55b8f1310299a52a9fcc31bc7e56b55db1841b9f",
+  "redirectUri": "https://www.iranboss.com/api/cl/callback",
+  "authBase": "https://mms.pinduoduo.com/open.html",
+  "goodsId": "861017472489",
+  "productGoodsMap": {
+    "染发剂子母管": "861017472489"
+  },
+  "videoDesc": "染博士安全染发",
+  "requireAuth": true
+}

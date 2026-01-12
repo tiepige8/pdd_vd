@@ -1,0 +1,12 @@
+{
+  "shops": {
+    "拼多多旗舰店": {
+      "start_time": "09:00",
+      "interval_seconds": 300,
+      "daily_limit": 50,
+      "enabled": true
+    }
+  },
+  "video_root": "/Users/tiepige/Downloads/pdd_vd/video",
+  "time_zone": "Asia/Shanghai"
+}

@@ -1,0 +1,21 @@
+{
+  "tasks": [
+    {
+      "id": "5df8afe4-a4b7-40b3-b3d2-ea239e5a778f",
+      "shop": "拼多多旗舰店",
+      "date": "20260112",
+      "filename": "染发剂子母管/111.mp4",
+      "rel_path": "染发剂子母管/111.mp4",
+      "product": "染发剂子母管",
+      "path": "/Users/tiepige/Downloads/pdd_vd/video/20260112/拼多多旗舰店/染发剂子母管/111.mp4",
+      "status": "done",
+      "started_at": "2026-01-12 18:06:56",
+      "message": "上传发布完成",
+      "vid": "openplat-video-sign#bkyilh3mbttlwodeex0gjjdbkynbtt6u",
+      "video_id": "6826314635076908038",
+      "cover_url": "https://video-snapshot.pddpic.com/openplat-img/2026-01-12/fb414f4d-345d-418f-b149-aa1ba631b591.jpeg",
+      "ended_at": "2026-01-12 18:07:37"
+    }
+  ],
+  "auto_runs": {}
+}
