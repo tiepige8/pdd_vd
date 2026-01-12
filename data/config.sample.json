@@ -1,0 +1,12 @@
+{
+  "clientId": "your_client_id",
+  "clientSecret": "your_client_secret",
+  "redirectUri": "http://localhost:3000/auth/callback",
+  "authBase": "https://mms.pinduoduo.com/open.html",
+  "goodsId": "861017472489",
+  "productGoodsMap": {
+    "染发剂子母管": "861017472489"
+  },
+  "videoDesc": "",
+  "requireAuth": true
+}

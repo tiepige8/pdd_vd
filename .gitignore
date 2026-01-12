@@ -1,0 +1,22 @@
+.DS_Store
+node_modules/
+
+# Runtime data/state
+data/upload.log
+data/covers/
+data/tokens.json
+data/config.json
+data/schedule.json
+data/upload_state.json
+
+# Keep sample configs
+!data/config.sample.json
+!data/schedule.sample.json
+!data/README.md
+
+# Videos
+video/
+
+# Python
+__pycache__/
+*.pyc
