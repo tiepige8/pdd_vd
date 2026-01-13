@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>拼多多商家视频助手 · 授权配置</title>
+    <title>拼多多视频助手 · 流程化</title>
     <style>
       :root {
         color-scheme: light;
@@ -53,6 +53,94 @@
         border-radius: 16px;
         padding: 18px;
         box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+      }
+      .flow {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+        align-items: start;
+      }
+      @media (max-width: 960px) {
+        .flow {
+          grid-template-columns: 1fr;
+        }
+      }
+      h2 {
+        font-size: 20px;
+        margin: 0;
+      }
+      .step-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+      .step-title {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .step-title p {
+        margin: 4px 0 0;
+      }
+      .step-num {
+        width: 34px;
+        height: 34px;
+        border-radius: 12px;
+        background: var(--primary-soft);
+        color: var(--primary);
+        font-weight: 700;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .log-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+      @media (max-width: 900px) {
+        .log-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .panel {
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 12px;
+        background: #fafcfe;
+      }
+      .log-tools {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin: 12px 0 10px;
+      }
+      .tab-group {
+        display: inline-flex;
+        align-items: center;
+        background: #f3f6fb;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 4px;
+        gap: 4px;
+      }
+      .tab {
+        border: none;
+        background: transparent;
+        color: var(--muted);
+        border-radius: 999px;
+        padding: 6px 12px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .tab.active {
+        background: #ffffff;
+        color: var(--text);
+        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
       }
       label {
         display: block;
@@ -119,6 +207,17 @@
         background: #fff;
         border-color: var(--border);
         color: var(--text);
+      }
+      .feedback {
+        margin-top: 8px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .feedback.error {
+        color: #b42318;
+      }
+      .feedback.success {
+        color: #1c7f56;
       }
       .btn.small {
         padding: 6px 10px;
@@ -310,60 +409,94 @@
   <body>
     <header>
       <h1>拼多多视频上传助手</h1>
-      <p class="sub">任务优先 · 手动上传随点随跑 · 自动上传仅在每日开始时间触发。</p>
+      <p class="sub">按流程执行：下载 → 上传 → 查看日志 → 其他配置。</p>
     </header>
 
-    <section class="layout">
-      <div class="col main">
-        <div class="card">
-          <div class="hero-top">
+    <section class="flow">
+      <div class="card step">
+        <div class="step-header">
+          <div class="step-title">
+            <div class="step-num">1</div>
             <div>
-              <div class="tag">任务中心</div>
-              <p class="muted">手动上传不受时间限制（已上传过的不重复）。</p>
-            </div>
-            <div class="hero-actions">
-              <button id="scanBtn" class="btn primary">手动上传</button>
+              <h2>下载百度云视频</h2>
+              <p class="muted">自动下载默认收起，手动下载随点随跑。</p>
             </div>
           </div>
-          <div class="actions" style="margin-top:8px;">
-            <button id="refreshStatusBtn" class="btn ghost">刷新状态</button>
-            <button id="resetBtn" class="btn ghost">清空上传记录</button>
+          <div class="actions">
+            <button id="downloadBtn" class="btn primary">手动下载</button>
           </div>
-          <div class="tag" style="margin-top:12px;">任务队列</div>
-          <table class="table" id="taskTable">
-            <thead>
-              <tr>
-                <th>店铺</th>
-                <th>文件</th>
-                <th>状态</th>
-                <th>开始</th>
-                <th>结束</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
         </div>
-
-        <div class="card">
-          <div class="section-title">
-            <span>上传日志</span>
-            <button class="btn ghost small" id="clearLogsBtn">清空日志</button>
+        <p class="feedback" id="downloadActionStatus"></p>
+        <details class="collapse" style="margin-top:12px;">
+          <summary>自动下载配置（收起）</summary>
+          <div class="row" style="margin-top:12px;">
+            <label>
+              <input type="checkbox" id="downloadEnabled" style="width:auto; margin-right:6px;" />
+              启用定点自动下载
+            </label>
           </div>
-          <div class="log-area" id="logArea"></div>
+          <label for="downloadTime">每日开始时间 (北京)</label>
+          <input id="downloadTime" placeholder="08:30" />
+          <label for="downloadRemoteRoot">百度网盘远端根目录</label>
+          <input id="downloadRemoteRoot" placeholder="/apps/你的应用或根目录" />
+          <p class="muted">系统会自动在该目录下查找 <code>video</code> 子目录。</p>
+          <label for="downloadLocalRoot">本地下载目录</label>
+          <input id="downloadLocalRoot" placeholder="video" />
+          <label for="baiduCliPath">BaiduPCS-Go 路径（可选）</label>
+          <input id="baiduCliPath" placeholder="例如：C:\\BaiduPCS-Go\\BaiduPCS-Go.exe" />
+          <div class="actions" style="margin-top:10px;">
+            <button id="saveDownloadBtn" class="btn primary">保存下载配置</button>
+          </div>
+        </details>
+        <div class="row" style="margin-top:12px;">
+          <div class="section-title">
+            <span>网盘登录状态</span>
+            <button class="btn ghost small" id="refreshBaiduBtn">刷新状态</button>
+          </div>
+          <div class="status" id="baiduStatus">
+            <span class="dot"></span>
+            <span>未检查</span>
+          </div>
+          <p class="muted" id="baiduStatusDetail"></p>
+          <div class="row" id="baiduGuide" style="margin-top:10px; display:none;">
+            <div class="tag" id="baiduGuideTitle">登录引导</div>
+            <div class="auth-url" id="baiduGuideText"></div>
+            <div class="actions" style="margin-top:8px;" id="baiduGuideActions">
+              <button class="btn ghost small" id="copyBaiduCmdBtn">复制命令</button>
+            </div>
+            <p class="muted" id="baiduGuideTip"></p>
+          </div>
         </div>
       </div>
 
-      <div class="col side">
-        <div class="card">
-          <div class="section-title">上传计划</div>
-          <label for="startTime">每日开始时间 (北京)</label>
-          <input id="startTime" placeholder="09:00" />
-          <label for="interval">上传间隔（秒）</label>
-          <input id="interval" placeholder="300" />
-          <label for="dailyLimit">每日上限（条）</label>
-          <input id="dailyLimit" placeholder="50" />
-          <label for="videoRoot">视频根目录</label>
-          <input id="videoRoot" placeholder="video" />
+      <div class="card step">
+        <div class="step-header">
+          <div class="step-title">
+            <div class="step-num">2</div>
+            <div>
+              <h2>上传视频</h2>
+              <p class="muted">手动上传不受时间限制（已上传过的不重复）。</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button id="scanBtn" class="btn primary">手动上传</button>
+            <button id="refreshStatusBtn" class="btn ghost">刷新状态</button>
+            <button id="resetBtn" class="btn ghost">清空上传记录</button>
+          </div>
+        </div>
+        <p class="feedback" id="uploadActionStatus"></p>
+        <details class="collapse" style="margin-top:12px;">
+          <summary>自动上传配置（收起）</summary>
+          <div class="row" style="margin-top:12px;">
+            <label for="startTime">每日开始时间 (北京)</label>
+            <input id="startTime" placeholder="09:00" />
+            <label for="interval">上传间隔（秒）</label>
+            <input id="interval" placeholder="300" />
+            <label for="dailyLimit">每日上限（条）</label>
+            <input id="dailyLimit" placeholder="50" />
+            <label for="videoRoot">视频根目录</label>
+            <input id="videoRoot" placeholder="video" />
+          </div>
           <div class="actions" style="margin-top:10px;">
             <button id="saveScheduleBtn" class="btn primary">配置上传计划</button>
           </div>
@@ -378,9 +511,72 @@
             </div>
             <p class="muted" id="ffmpegPath"></p>
           </div>
-        </div>
+        </details>
+      </div>
 
-        <div class="card">
+      <div class="card step">
+        <div class="step-header">
+          <div class="step-title">
+            <div class="step-num">3</div>
+            <div>
+              <h2>日志与记录</h2>
+              <p class="muted">默认只显示今天，可切换查看全部。</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="btn ghost small" id="clearLogsBtn">清空日志</button>
+          </div>
+        </div>
+        <div class="log-grid" style="margin-top:12px;">
+          <div class="panel">
+            <div class="section-title">
+              <span>下载日志</span>
+              <div class="tab-group" data-log-target="download">
+                <button class="tab active" data-log-scope="today" data-log-target="download">今天</button>
+                <button class="tab" data-log-scope="all" data-log-target="download">全部</button>
+              </div>
+            </div>
+            <div class="log-area" id="downloadLogArea"></div>
+          </div>
+          <div class="panel">
+            <div class="section-title">
+              <span>上传日志</span>
+              <div class="tab-group" data-log-target="upload">
+                <button class="tab active" data-log-scope="today" data-log-target="upload">今天</button>
+                <button class="tab" data-log-scope="all" data-log-target="upload">全部</button>
+              </div>
+            </div>
+            <div class="log-area" id="uploadLogArea"></div>
+          </div>
+        </div>
+        <div class="row" style="margin-top:12px;">
+          <div class="section-title">上传记录</div>
+          <table class="table" id="taskTable">
+            <thead>
+              <tr>
+                <th>店铺</th>
+                <th>文件</th>
+                <th>状态</th>
+                <th>开始</th>
+                <th>结束</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card step">
+        <div class="step-header">
+          <div class="step-title">
+            <div class="step-num">4</div>
+            <div>
+              <h2>其他配置</h2>
+              <p class="muted">产品目录映射、授权与 Token。</p>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top:12px;">
           <div class="section-title">产品目录配置</div>
           <label for="productGoodsMap">产品目录 -> 商品 ID（每行：产品名=商品ID）</label>
           <textarea
@@ -391,9 +587,8 @@
           <label for="videoDesc">视频标题/描述（可选）</label>
           <input id="videoDesc" placeholder="可填写标题或话题" autocomplete="off" />
         </div>
-
-        <details class="card collapse">
-          <summary>授权与 ID 配置（默认收起）</summary>
+        <details class="collapse" style="margin-top:12px;">
+          <summary>授权与 Token 配置（收起）</summary>
           <div class="row" style="margin-top:12px;">
             <label for="clientId">App ID / client_id</label>
             <input id="clientId" placeholder="在拼多多开放平台创建的 client_id" autocomplete="off" />
@@ -488,6 +683,11 @@
       const goodsIdInput = document.getElementById('goodsId');
       const productGoodsMapInput = document.getElementById('productGoodsMap');
       const videoDescInput = document.getElementById('videoDesc');
+      const downloadEnabledInput = document.getElementById('downloadEnabled');
+      const downloadTimeInput = document.getElementById('downloadTime');
+      const downloadRemoteRootInput = document.getElementById('downloadRemoteRoot');
+      const downloadLocalRootInput = document.getElementById('downloadLocalRoot');
+      const baiduCliPathInput = document.getElementById('baiduCliPath');
       const statusEl = document.getElementById('status');
       const authArea = document.getElementById('authArea');
       const authUrlEl = document.getElementById('authUrl');
@@ -496,7 +696,10 @@
       const tokenRefresh = document.getElementById('tokenRefresh');
       const tokenExpire = document.getElementById('tokenExpire');
       const tokenNextRefresh = document.getElementById('tokenNextRefresh');
-      const logArea = document.getElementById('logArea');
+      const downloadLogArea = document.getElementById('downloadLogArea');
+      const uploadLogArea = document.getElementById('uploadLogArea');
+      const downloadScopeTabs = document.querySelectorAll('[data-log-scope][data-log-target="download"]');
+      const uploadScopeTabs = document.querySelectorAll('[data-log-scope][data-log-target="upload"]');
       const taskTable = document.getElementById('taskTable').querySelector('tbody');
       const startTimeInput = document.getElementById('startTime');
       const intervalInput = document.getElementById('interval');
@@ -509,6 +712,23 @@
       const defaultRedirect = `${window.location.origin}/auth/callback`;
       document.getElementById('defaultRedirect').innerText = defaultRedirect;
       document.getElementById('stepRedirect').innerText = defaultRedirect;
+      const baiduStatus = document.getElementById('baiduStatus');
+      const baiduStatusDetail = document.getElementById('baiduStatusDetail');
+      const baiduGuide = document.getElementById('baiduGuide');
+      const baiduGuideTitle = document.getElementById('baiduGuideTitle');
+      const baiduGuideText = document.getElementById('baiduGuideText');
+      const baiduGuideTip = document.getElementById('baiduGuideTip');
+      const baiduGuideActions = document.getElementById('baiduGuideActions');
+      const copyBaiduCmdBtn = document.getElementById('copyBaiduCmdBtn');
+      const downloadActionStatus = document.getElementById('downloadActionStatus');
+      const uploadActionStatus = document.getElementById('uploadActionStatus');
+      let currentBaiduCmd = '';
+      let downloadLogScope = 'today';
+      let uploadLogScope = 'today';
+      let serverLogs = [];
+      const clientLogs = [];
+      const downloadKeywords = ['下载', '网盘', '远端', 'Baidu', 'BaiduPCS', '百度'];
+      const uploadKeywords = ['上传', '封面', '发布', '分片', 'init', 'complete', 'vid', 'goods_id', 'ffmpeg'];
 
       function mapToLines(map) {
         if (!map || typeof map !== 'object') return '';
@@ -545,6 +765,23 @@
         return map;
       }
 
+      function normalizeRemoteRoot(input) {
+        let value = (input || '').trim();
+        if (!value) return '';
+        const match = value.match(/path=([^&#]+)/);
+        if (match) {
+          try {
+            value = decodeURIComponent(match[1]);
+          } catch (err) {
+            value = match[1];
+          }
+        }
+        if (!value.startsWith('/')) {
+          value = `/${value}`;
+        }
+        return value;
+      }
+
       async function loadConfig() {
         const res = await fetch('/api/config');
         const data = await res.json();
@@ -556,6 +793,11 @@
         goodsIdInput.value = data.goodsId || '861017472489';
         productGoodsMapInput.value = mapToLines(data.productGoodsMap);
         videoDescInput.value = data.videoDesc || '';
+        downloadEnabledInput.checked = data.downloadEnabled !== false;
+        downloadTimeInput.value = data.downloadTime || '08:30';
+        downloadRemoteRootInput.value = data.downloadRemoteRoot || '';
+        downloadLocalRootInput.value = data.downloadLocalRoot || '';
+        baiduCliPathInput.value = data.baiduCliPath || '';
       }
 
       async function loadTokens() {
@@ -580,6 +822,11 @@
           goodsId: goodsIdInput.value.trim() || '861017472489',
           productGoodsMap: parseProductGoodsMap(productGoodsMapInput.value),
           videoDesc: videoDescInput.value.trim(),
+          downloadEnabled: downloadEnabledInput.checked,
+          downloadTime: downloadTimeInput.value.trim() || '08:30',
+          downloadRemoteRoot: normalizeRemoteRoot(downloadRemoteRootInput.value.trim()),
+          downloadLocalRoot: downloadLocalRootInput.value.trim(),
+          baiduCliPath: baiduCliPathInput.value.trim(),
         };
         const res = await fetch('/api/config', {
           method: 'POST',
@@ -623,14 +870,60 @@
         await checkFfmpeg();
       });
       document.getElementById('scanBtn').addEventListener('click', async () => {
-        await fetch('/api/upload/scan', { method: 'POST' });
-        log('已触发立即扫描上传');
-        await loadStatus();
+        setActionStatus(uploadActionStatus, '正在触发上传...');
+        try {
+          const res = await fetch('/api/upload/scan', { method: 'POST' });
+          if (!res.ok) {
+            const data = await res.json().catch(() => ({}));
+            const msg = data.error || res.statusText || '触发失败';
+            setActionStatus(uploadActionStatus, `上传触发失败：${msg}`, true);
+            log(`上传触发失败：${msg}`, true, 'upload');
+            return;
+          }
+          setActionStatus(uploadActionStatus, '已触发上传', false, true);
+          log('已触发立即扫描上传', false, 'upload');
+          await loadStatus();
+        } catch (err) {
+          setActionStatus(uploadActionStatus, `上传触发失败：${err}`, true);
+          log(`上传触发失败：${err}`, true, 'upload');
+        }
+      });
+      document.getElementById('downloadBtn').addEventListener('click', async () => {
+        setActionStatus(downloadActionStatus, '正在触发下载...');
+        try {
+          const res = await fetch('/api/download/manual', { method: 'POST' });
+          if (!res.ok) {
+            const data = await res.json().catch(() => ({}));
+            const msg = data.error || res.statusText || '触发失败';
+            setActionStatus(downloadActionStatus, `下载触发失败：${msg}`, true);
+            log(`下载触发失败：${msg}`, true, 'download');
+            return;
+          }
+          setActionStatus(downloadActionStatus, '已触发下载', false, true);
+          log('已触发立即下载', false, 'download');
+        } catch (err) {
+          setActionStatus(downloadActionStatus, `下载触发失败：${err}`, true);
+          log(`下载触发失败：${err}`, true, 'download');
+        }
       });
       document.getElementById('resetBtn').addEventListener('click', async () => {
-        await fetch('/api/upload/reset', { method: 'POST' });
-        log('已清空上传记录');
-        await loadStatus();
+        setActionStatus(uploadActionStatus, '正在清空记录...');
+        try {
+          const res = await fetch('/api/upload/reset', { method: 'POST' });
+          if (!res.ok) {
+            const data = await res.json().catch(() => ({}));
+            const msg = data.error || res.statusText || '清空失败';
+            setActionStatus(uploadActionStatus, `清空失败：${msg}`, true);
+            log(`清空上传记录失败：${msg}`, true, 'upload');
+            return;
+          }
+          setActionStatus(uploadActionStatus, '已清空上传记录', false, true);
+          log('已清空上传记录', false, 'upload');
+          await loadStatus();
+        } catch (err) {
+          setActionStatus(uploadActionStatus, `清空失败：${err}`, true);
+          log(`清空上传记录失败：${err}`, true, 'upload');
+        }
       });
       document.getElementById('exchangeBtn').addEventListener('click', async () => {
         const code = authCodeInput.value.trim();
@@ -654,7 +947,7 @@
       });
       document.getElementById('clearLogsBtn').addEventListener('click', async () => {
         await fetch('/api/logs/clear', { method: 'POST' });
-        logArea.innerHTML = '';
+        clientLogs.length = 0;
         await loadLogs();
       });
       document.getElementById('saveScheduleBtn').addEventListener('click', async () => {
@@ -669,16 +962,48 @@
             },
           },
         };
-        await fetch('/api/schedule', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(body),
-        });
-        log('上传计划已保存');
+        setActionStatus(uploadActionStatus, '正在保存上传计划...');
+        try {
+          const res = await fetch('/api/schedule', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body),
+          });
+          if (!res.ok) {
+            const data = await res.json().catch(() => ({}));
+            const msg = data.error || res.statusText || '保存失败';
+            setActionStatus(uploadActionStatus, `保存失败：${msg}`, true);
+            log(`上传计划保存失败：${msg}`, true, 'upload');
+            return;
+          }
+          setActionStatus(uploadActionStatus, '上传计划已保存', false, true);
+          log('上传计划已保存', false, 'upload');
+        } catch (err) {
+          setActionStatus(uploadActionStatus, `保存失败：${err}`, true);
+          log(`上传计划保存失败：${err}`, true, 'upload');
+        }
+      });
+      document.getElementById('saveDownloadBtn').addEventListener('click', async () => {
+        setActionStatus(downloadActionStatus, '正在保存下载配置...');
+        try {
+          await saveConfig();
+          setActionStatus(downloadActionStatus, '下载配置已保存', false, true);
+          log('下载配置已保存', false, 'download');
+        } catch (err) {
+          setActionStatus(downloadActionStatus, `保存失败：${err}`, true);
+          log(`下载配置保存失败：${err}`, true, 'download');
+        }
       });
       document.getElementById('refreshStatusBtn').addEventListener('click', async () => {
-        await loadStatus();
-        log('已刷新状态');
+        setActionStatus(uploadActionStatus, '正在刷新状态...');
+        try {
+          await loadStatus();
+          setActionStatus(uploadActionStatus, '状态已刷新', false, true);
+          log('已刷新状态', false, 'upload');
+        } catch (err) {
+          setActionStatus(uploadActionStatus, `刷新失败：${err}`, true);
+          log(`状态刷新失败：${err}`, true, 'upload');
+        }
       });
       document.getElementById('openAuthBtn').addEventListener('click', () => {
         if (window._latestAuthUrl) {
@@ -687,18 +1012,203 @@
           log('请先生成授权链接', true);
         }
       });
+      document.getElementById('refreshBaiduBtn').addEventListener('click', async () => {
+        await loadBaiduStatus();
+      });
+      copyBaiduCmdBtn.addEventListener('click', async () => {
+        if (!currentBaiduCmd) return;
+        try {
+          await navigator.clipboard.writeText(currentBaiduCmd);
+          log('登录命令已复制', false, 'download');
+        } catch (err) {
+          log(`复制失败: ${err}`, true, 'download');
+        }
+      });
 
-      function log(message, isError = false) {
-        const el = document.createElement('div');
-        el.className = 'log-item';
-        const ts = new Date().toLocaleTimeString();
-        el.innerHTML = `<span class="ts">[${ts}]</span> <span style="color:${isError ? '#b42318' : '#1f2937'}">${message}</span>`;
-        logArea.prepend(el);
+      function formatNow() {
+        const now = new Date();
+        const yyyy = now.getFullYear();
+        const mm = String(now.getMonth() + 1).padStart(2, '0');
+        const dd = String(now.getDate()).padStart(2, '0');
+        const hh = String(now.getHours()).padStart(2, '0');
+        const mi = String(now.getMinutes()).padStart(2, '0');
+        const ss = String(now.getSeconds()).padStart(2, '0');
+        return `${yyyy}-${mm}-${dd} ${hh}:${mi}:${ss}`;
+      }
+
+      function log(message, isError = false, type = 'upload') {
+        clientLogs.unshift({
+          ts: formatNow(),
+          message,
+          level: isError ? 'error' : 'info',
+          type,
+          _client: true,
+        });
+        renderLogs();
+      }
+
+      function containsAny(text, keywords) {
+        return keywords.some((k) => text.includes(k));
+      }
+
+      function getLogType(entry) {
+        if (entry.type) return entry.type;
+        const msg = entry.message || '';
+        if (containsAny(msg, downloadKeywords)) return 'download';
+        if (containsAny(msg, uploadKeywords)) return 'upload';
+        return 'upload';
+      }
+
+      function isToday(ts) {
+        if (!ts) return false;
+        const now = new Date();
+        const yyyy = now.getFullYear();
+        const mm = String(now.getMonth() + 1).padStart(2, '0');
+        const dd = String(now.getDate()).padStart(2, '0');
+        return ts.startsWith(`${yyyy}-${mm}-${dd}`);
+      }
+
+      function toTsValue(ts) {
+        if (!ts) return 0;
+        const parsed = Date.parse(ts.replace(' ', 'T'));
+        return Number.isNaN(parsed) ? 0 : parsed;
+      }
+
+      function renderLogArea(area, type, scope) {
+        const logs = [...clientLogs, ...serverLogs]
+          .filter((entry) => getLogType(entry) === type)
+          .filter((entry) => (scope === 'today' ? isToday(entry.ts || '') : true))
+          .sort((a, b) => toTsValue(b.ts) - toTsValue(a.ts));
+
+        if (!logs.length) {
+          area.innerHTML = '<div class="muted">暂无日志</div>';
+          return;
+        }
+        area.innerHTML = logs
+          .map((l) => {
+            const color = l.level === 'error' ? '#b42318' : '#1f2937';
+            return `<div class="log-item"><span class="ts">[${l.ts}]</span> <span style="color:${color}">${l.message}</span></div>`;
+          })
+          .join('');
+      }
+
+      function renderLogs() {
+        renderLogArea(downloadLogArea, 'download', downloadLogScope);
+        renderLogArea(uploadLogArea, 'upload', uploadLogScope);
       }
 
       function trimToken(t) {
         if (t.length <= 12) return t;
         return `${t.slice(0, 6)}...${t.slice(-6)}`;
+      }
+
+      downloadScopeTabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          downloadScopeTabs.forEach((el) => el.classList.remove('active'));
+          tab.classList.add('active');
+          downloadLogScope = tab.dataset.logScope;
+          renderLogs();
+        });
+      });
+
+      uploadScopeTabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          uploadScopeTabs.forEach((el) => el.classList.remove('active'));
+          tab.classList.add('active');
+          uploadLogScope = tab.dataset.logScope;
+          renderLogs();
+        });
+      });
+
+      function formatCliCommand(path) {
+        const raw = (path || '').trim();
+        if (!raw) return 'BaiduPCS-Go';
+        if (raw.includes(' ')) {
+          return `"${raw}"`;
+        }
+        return raw;
+      }
+
+      function showBaiduGuide({ title, text, cmd, tip }) {
+        baiduGuideTitle.textContent = title || '登录引导';
+        baiduGuideText.textContent = text || '';
+        baiduGuideTip.textContent = tip || '';
+        currentBaiduCmd = cmd || '';
+        if (currentBaiduCmd) {
+          baiduGuideActions.style.display = 'flex';
+        } else {
+          baiduGuideActions.style.display = 'none';
+        }
+        baiduGuide.style.display = 'block';
+      }
+
+      function hideBaiduGuide() {
+        baiduGuide.style.display = 'none';
+        currentBaiduCmd = '';
+      }
+
+      function setActionStatus(el, message, isError = false, isSuccess = false) {
+        if (!el) return;
+        el.textContent = message || '';
+        el.classList.toggle('error', Boolean(isError));
+        el.classList.toggle('success', Boolean(isSuccess));
+      }
+
+      async function loadBaiduStatus() {
+        baiduStatus.innerHTML = '<span class="dot"></span><span>检查中...</span>';
+        baiduStatusDetail.textContent = '';
+        hideBaiduGuide();
+        try {
+          const res = await fetch('/api/baidu/status');
+          const data = await res.json();
+          if (!data.available) {
+            baiduStatus.innerHTML = '<span class="dot bad"></span><span>未找到 CLI</span>';
+            baiduStatusDetail.textContent = data.message || '未找到 BaiduPCS-Go';
+            const tip = downloadRemoteRootInput.value.trim()
+              ? '已填写路径请先保存下载配置，再点击“刷新状态”。'
+              : '安装后在下载配置中填写 CLI 路径或加入 PATH。';
+            showBaiduGuide({
+              title: '安装与配置',
+              text: '1) 安装 BaiduPCS-Go\n2) 配置 CLI 路径或加入 PATH\n3) 重新刷新状态',
+              cmd: '',
+              tip,
+            });
+            return;
+          }
+          if (data.logged_in === true) {
+            baiduStatus.innerHTML = '<span class="dot ok"></span><span>已登录</span>';
+            hideBaiduGuide();
+          } else if (data.logged_in === false) {
+            baiduStatus.innerHTML = '<span class="dot bad"></span><span>未登录</span>';
+            const cmd = `${formatCliCommand(baiduCliPathInput.value)} login`;
+            showBaiduGuide({
+              title: '登录引导',
+              text: `请在终端执行以下命令登录：\n${cmd}`,
+              cmd,
+              tip: '登录完成后点击“刷新状态”。',
+            });
+          } else {
+            baiduStatus.innerHTML = '<span class="dot"></span><span>状态未知</span>';
+            showBaiduGuide({
+              title: '登录引导',
+              text: '无法判断登录状态，请尝试在终端执行：\nBaiduPCS-Go login',
+              cmd: 'BaiduPCS-Go login',
+              tip: '登录完成后点击“刷新状态”。',
+            });
+          }
+          if (data.message) {
+            baiduStatusDetail.textContent = data.message;
+          }
+        } catch (err) {
+          baiduStatus.innerHTML = '<span class="dot bad"></span><span>检查失败</span>';
+          baiduStatusDetail.textContent = String(err);
+          showBaiduGuide({
+            title: '登录引导',
+            text: '检查失败时，可先确认 CLI 可执行，并在终端运行：\nBaiduPCS-Go login',
+            cmd: 'BaiduPCS-Go login',
+            tip: '修复后点击“刷新状态”。',
+          });
+        }
       }
 
       async function checkFfmpeg() {
@@ -757,13 +1267,8 @@
       async function loadLogs() {
         const res = await fetch('/api/logs');
         const data = await res.json();
-        const logs = data.logs || [];
-        logArea.innerHTML = logs
-          .map((l) => {
-            const color = l.level === 'error' ? '#b42318' : '#1f2937';
-            return `<div class="log-item"><span class="ts">[${l.ts}]</span> <span style="color:${color}">${l.message}</span></div>`;
-          })
-          .join('');
+        serverLogs = data.logs || [];
+        renderLogs();
       }
 
       function startPolling() {
@@ -778,6 +1283,7 @@
       loadStatus();
       loadLogs();
       checkFfmpeg();
+      loadBaiduStatus();
       startPolling();
     </script>
   </body>

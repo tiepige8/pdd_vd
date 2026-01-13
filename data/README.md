@@ -3,7 +3,7 @@
 Runtime files are written here and should **not** be committed.
 
 Ignored files:
-- `config.json`, `tokens.json`, `schedule.json`, `upload_state.json`
+- `config.json`, `tokens.json`, `schedule.json`, `upload_state.json`, `download_state.json`
 - `upload.log`, `covers/`
 - video files (see `../video/`)
 

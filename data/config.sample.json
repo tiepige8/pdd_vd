@@ -8,5 +8,10 @@
     "染发剂子母管": "861017472489"
   },
   "videoDesc": "",
-  "requireAuth": true
+  "requireAuth": true,
+  "downloadEnabled": true,
+  "downloadTime": "08:30",
+  "downloadRemoteRoot": "/apps/your-root",
+  "downloadLocalRoot": "./video",
+  "baiduCliPath": ""
 }

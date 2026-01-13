@@ -10,6 +10,7 @@ data/tokens.json
 data/config.json
 data/schedule.json
 data/upload_state.json
+data/download_state.json
 
 # Keep sample configs
 !data/config.sample.json
@@ -26,7 +27,9 @@ __pycache__/
 # Docs / media snapshots
 /*.html
 api_docs/
+!public/
 !public/*.html
+!public/index.html
 *.mp4
 api.zip
 

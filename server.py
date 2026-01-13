@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -24,6 +25,7 @@ CONFIG_PATH = DATA_DIR / "config.json"
 TOKEN_PATH = DATA_DIR / "tokens.json"
 SCHEDULE_PATH = DATA_DIR / "schedule.json"
 STATE_PATH = DATA_DIR / "upload_state.json"
+DOWNLOAD_STATE_PATH = DATA_DIR / "download_state.json"
 LOG_PATH = DATA_DIR / "upload.log"
 COVER_DIR = DATA_DIR / "covers"
 VIDEO_EXTS = {".mp4", ".mov", ".avi", ".mkv", ".m4v", ".flv", ".wmv", ".webm"}
@@ -42,6 +44,11 @@ DEFAULT_CONFIG = {
     "productGoodsMap": {},
     "videoDesc": "",
     "requireAuth": True,
+    "downloadEnabled": True,
+    "downloadTime": "08:30",
+    "downloadRemoteRoot": "",
+    "downloadLocalRoot": str(ROOT / "video"),
+    "baiduCliPath": "",
 }
 
 DEFAULT_SCHEDULE = {
@@ -60,6 +67,7 @@ DEFAULT_SCHEDULE = {
 
 log_buffer = []
 upload_state = {"tasks": []}
+download_state = {"files": {}, "auto_runs": {}}
 stop_event = Event()
 ffmpeg_cache = {"ts": 0, "info": None}
 last_auth_warn_ts = 0
@@ -70,6 +78,8 @@ def ensure_dirs():
     COVER_DIR.mkdir(parents=True, exist_ok=True)
     if not SCHEDULE_PATH.exists():
         save_json(SCHEDULE_PATH, DEFAULT_SCHEDULE)
+    if not DOWNLOAD_STATE_PATH.exists():
+        save_json(DOWNLOAD_STATE_PATH, {"files": {}, "auto_runs": {}})
     if not STATE_PATH.exists():
         save_json(STATE_PATH, {"tasks": []})
     if not LOG_PATH.exists():
@@ -89,6 +99,29 @@ def save_json(path: Path, data):
 
 def load_tokens():
     return load_json(TOKEN_PATH, {})
+
+
+def normalize_remote_root(value: str) -> str:
+    raw = (value or "").strip()
+    if not raw:
+        return ""
+    if "pan.baidu.com" in raw or "path=" in raw:
+        match = re.search(r"(?:[?#&]|^)path=([^&#]+)", raw)
+        if match:
+            try:
+                raw = urllib.parse.unquote(match.group(1))
+            except Exception:
+                raw = match.group(1)
+        else:
+            try:
+                parsed = urllib.parse.urlparse(raw)
+                if parsed.path and parsed.path != "/":
+                    raw = parsed.path
+            except Exception:
+                pass
+    if raw and not raw.startswith("/"):
+        raw = f"/{raw}"
+    return raw
 
 
 def normalize_schedule(schedule: dict) -> dict:
@@ -139,6 +172,8 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json({"logs": tail_logs()})
         if parsed.path == "/api/system/ffmpeg":
             return self.send_json(get_ffmpeg_info())
+        if parsed.path == "/api/baidu/status":
+            return self.send_json(get_baidu_cli_status())
         if parsed.path == "/auth/callback":
             return self.handle_callback(parsed)
 
@@ -174,6 +209,11 @@ class Handler(SimpleHTTPRequestHandler):
                 "productGoodsMap": product_map,
                 "videoDesc": body.get("videoDesc", ""),
                 "requireAuth": bool(body.get("requireAuth", True)),
+                "downloadEnabled": bool(body.get("downloadEnabled", True)),
+                "downloadTime": body.get("downloadTime", DEFAULT_CONFIG["downloadTime"]),
+                "downloadRemoteRoot": normalize_remote_root(body.get("downloadRemoteRoot", "")),
+                "downloadLocalRoot": body.get("downloadLocalRoot", str(ROOT / "video")),
+                "baiduCliPath": body.get("baiduCliPath", ""),
             }
             save_json(CONFIG_PATH, next_conf)
             append_log("配置已保存")
@@ -238,6 +278,10 @@ class Handler(SimpleHTTPRequestHandler):
             persist_state()
             append_log("已清空上传记录")
             return self.send_json({"ok": True})
+        if parsed.path == "/api/download/manual":
+            append_log("收到手动下载请求")
+            Thread(target=run_download_once, kwargs={"manual": True}, daemon=True).start()
+            return self.send_json({"ok": True, "message": "已触发手动下载"})
         if parsed.path == "/api/logs/clear":
             log_buffer.clear()
             try:
@@ -416,10 +460,12 @@ def run():
     ensure_dirs()
     os.chdir(STATIC_DIR)
     load_state()
+    load_download_state()
     port = int(os.environ.get("PORT", "3000"))
     server = HTTPServer(("", port), Handler)
     start_refresh_worker()
     start_upload_scheduler()
+    start_download_scheduler()
     print(f"PDD helper (Python) running at http://localhost:{port}")
     server.serve_forever()
 
@@ -448,6 +494,11 @@ def start_refresh_worker():
 
 def start_upload_scheduler():
     thread = Thread(target=upload_scheduler_loop, daemon=True)
+    thread.start()
+
+
+def start_download_scheduler():
+    thread = Thread(target=download_scheduler_loop, daemon=True)
     thread.start()
 
 
@@ -527,6 +578,17 @@ def persist_state():
     save_json(STATE_PATH, upload_state)
 
 
+def load_download_state():
+    global download_state
+    download_state = load_json(DOWNLOAD_STATE_PATH, {"files": {}, "auto_runs": {}})
+    download_state.setdefault("files", {})
+    download_state.setdefault("auto_runs", {})
+
+
+def persist_download_state():
+    save_json(DOWNLOAD_STATE_PATH, download_state)
+
+
 def append_log(message, level="info"):
     entry = {"ts": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), "level": level, "message": message}
     log_buffer.append(entry)
@@ -543,6 +605,216 @@ def append_log(message, level="info"):
 def upload_scheduler_loop():
     while not stop_event.wait(30):
         run_scan_once(manual=False)
+
+
+def download_scheduler_loop():
+    while not stop_event.wait(60):
+        run_download_once(manual=False)
+
+
+def resolve_baidu_cli(config: dict) -> str:
+    custom = (config.get("baiduCliPath") or "").strip()
+    if custom and Path(custom).exists():
+        return custom
+    if os.name == "nt":
+        return shutil.which("BaiduPCS-Go.exe") or ""
+    return shutil.which("BaiduPCS-Go") or ""
+
+
+def get_baidu_cli_status() -> dict:
+    config = load_json(CONFIG_PATH, DEFAULT_CONFIG)
+    cli_path = resolve_baidu_cli(config)
+    if not cli_path:
+        return {"available": False, "logged_in": False, "message": "未找到 BaiduPCS-Go"}
+    cmd_variants = [[cli_path, "who"], [cli_path, "user"], [cli_path, "account"]]
+    output = ""
+    last_err = ""
+    for cmd in cmd_variants:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        out = (result.stdout or result.stderr or "").strip()
+        if result.returncode == 0 and out:
+            output = out
+            break
+        if out:
+            last_err = out
+    if not output:
+        return {
+            "available": True,
+            "logged_in": None,
+            "message": last_err or "无法读取登录状态",
+        }
+    lower = output.lower()
+    if "not login" in lower or "not logged" in lower or "未登录" in output or "not logged in" in lower:
+        logged_in = False
+    else:
+        logged_in = True
+    return {"available": True, "logged_in": logged_in, "message": output}
+
+
+def parse_baidu_list(raw: str):
+    raw = raw.strip()
+    if not raw:
+        return []
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        return []
+    if isinstance(data, dict):
+        for key in ("data", "list", "files", "result"):
+            if key in data and isinstance(data[key], list):
+                return data[key]
+        if "files" in data and isinstance(data["files"], list):
+            return data["files"]
+    if isinstance(data, list):
+        return data
+    return []
+
+
+def list_baidu_dir(cli_path: str, remote_dir: str, recursive: bool = False):
+    cmd = [cli_path, "ls", "--json"]
+    if recursive:
+        cmd.append("--recursive")
+    cmd.append(remote_dir)
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError((result.stderr or result.stdout or "").strip() or "ls 失败")
+    return parse_baidu_list(result.stdout)
+
+
+def normalize_remote_entry(entry: dict):
+    path = entry.get("path") or entry.get("path_lower") or entry.get("Path") or ""
+    name = entry.get("name") or entry.get("filename") or ""
+    is_dir = entry.get("isdir") or entry.get("is_dir") or entry.get("isDir") or False
+    size = entry.get("size") or entry.get("Size") or 0
+    mtime = entry.get("mtime") or entry.get("server_mtime") or entry.get("modify_time") or 0
+    if not path and name:
+        path = name
+    return {
+        "path": str(path),
+        "name": str(name or Path(path).name),
+        "is_dir": bool(is_dir),
+        "size": int(size) if str(size).isdigit() else size,
+        "mtime": mtime,
+    }
+
+
+def collect_remote_videos(cli_path: str, remote_dir: str):
+    entries = list_baidu_dir(cli_path, remote_dir, recursive=True)
+    if not entries:
+        entries = list_baidu_dir(cli_path, remote_dir, recursive=False)
+        result = []
+        for raw in entries:
+            entry = normalize_remote_entry(raw)
+            if entry["is_dir"]:
+                result.extend(collect_remote_videos(cli_path, entry["path"]))
+            else:
+                result.append(entry)
+        entries = result
+    files = []
+    for raw in entries:
+        entry = normalize_remote_entry(raw)
+        if entry["is_dir"]:
+            continue
+        if not entry["path"]:
+            continue
+        ext = Path(entry["path"]).suffix.lower()
+        if ext in VIDEO_EXTS:
+            files.append(entry)
+    return files
+
+
+def download_remote_file(cli_path: str, remote_path: str, local_root: Path):
+    local_root.mkdir(parents=True, exist_ok=True)
+    cmd_variants = [
+        [cli_path, "download", remote_path, "--outdir", str(local_root)],
+        [cli_path, "download", remote_path, "-o", str(local_root)],
+        [cli_path, "download", "-o", str(local_root), remote_path],
+    ]
+    last_err = ""
+    for cmd in cmd_variants:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode == 0:
+            return
+        last_err = (result.stderr or result.stdout or "").strip()
+    raise RuntimeError(last_err or "download 失败")
+
+
+def run_download_once(manual: bool = False):
+    if manual:
+        append_log("手动触发下载")
+    config = load_json(CONFIG_PATH, DEFAULT_CONFIG)
+    if not config.get("downloadEnabled", True) and not manual:
+        return
+    remote_root = normalize_remote_root(config.get("downloadRemoteRoot"))
+    if not remote_root:
+        if manual:
+            append_log("未配置远端根目录，跳过下载", level="error")
+        return
+    remote_root = remote_root.rstrip("/")
+    remote_video_dir = f"{remote_root}/video" if remote_root else "/video"
+    local_root = Path(config.get("downloadLocalRoot") or str(ROOT / "video"))
+    now_struct = time.localtime()
+    today_str = time.strftime("%Y%m%d", now_struct)
+    current_seconds = now_struct.tm_hour * 3600 + now_struct.tm_min * 60 + now_struct.tm_sec
+
+    if not manual:
+        start_time = config.get("downloadTime", "08:30")
+        try:
+            h, m = [int(x) for x in start_time.split(":")]
+            start_seconds = h * 3600 + m * 60
+        except Exception:
+            start_seconds = 8 * 3600 + 30 * 60
+        if current_seconds < start_seconds:
+            return
+        if current_seconds > start_seconds + AUTO_RUN_WINDOW_SECONDS:
+            return
+        auto_runs = download_state.setdefault("auto_runs", {})
+        if auto_runs.get("download") == today_str:
+            return
+        auto_runs["download"] = today_str
+        persist_download_state()
+        append_log(f"到达下载时间 {start_time}，自动开始下载")
+
+    cli_path = resolve_baidu_cli(config)
+    if not cli_path:
+        append_log("未找到 BaiduPCS-Go，可在配置中指定路径", level="error")
+        return
+    append_log(f"扫描远端目录: {remote_video_dir}")
+    try:
+        remote_files = collect_remote_videos(cli_path, remote_video_dir)
+    except Exception as exc:
+        append_log(f"远端扫描失败: {exc}", level="error")
+        return
+    if not remote_files:
+        append_log("远端未发现视频文件")
+        return
+
+    files_state = download_state.setdefault("files", {})
+    new_files = []
+    for entry in remote_files:
+        path = entry.get("path") or ""
+        if not path:
+            continue
+        if path not in files_state:
+            new_files.append(entry)
+    append_log(f"发现远端视频 {len(remote_files)} 个，新增 {len(new_files)} 个")
+    for entry in new_files:
+        remote_path = entry["path"]
+        rel_path = remote_path.replace(remote_video_dir, "").lstrip("/")
+        target_dir = local_root / Path(rel_path).parent
+        try:
+            append_log(f"开始下载 {remote_path}")
+            download_remote_file(cli_path, remote_path, target_dir)
+            files_state[remote_path] = {
+                "size": entry.get("size", 0),
+                "mtime": entry.get("mtime", 0),
+                "downloaded_at": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                "local_dir": str(target_dir),
+            }
+            persist_download_state()
+            append_log(f"下载完成 {remote_path}")
+        except Exception as exc:
+            append_log(f"下载失败 {remote_path}: {exc}", level="error")
 
 
 def run_scan_once(manual: bool = False):
