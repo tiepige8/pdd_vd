@@ -1,4 +1,6 @@
 .DS_Store
+.AppleDouble
+.LSOverride
 node_modules/
 
 # Runtime data/state
@@ -27,3 +29,16 @@ api_docs/
 !public/*.html
 *.mp4
 api.zip
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+*.suo
+*.user
+bin/
+obj/
