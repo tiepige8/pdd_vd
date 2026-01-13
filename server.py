@@ -581,7 +581,7 @@ def run_scan_once(manual: bool = False):
             start_seconds = h * 3600 + m * 60
         except Exception:
             start_seconds = 9 * 3600
-        if current_seconds < start_seconds:
+        if not manual and current_seconds < start_seconds:
             if manual:
                 append_log(f"[{shop}] 未到开始时间 {start_time}，跳过")
             continue
@@ -634,12 +634,12 @@ def run_scan_once(manual: bool = False):
                 append_log(f"[{shop}] 已有进行中的上传任务，等待完成后再继续")
             continue
         completed_count = len([t for t in today_tasks if t.get("status") == "done"])
-        if completed_count >= daily_limit:
+        if not manual and completed_count >= daily_limit:
             if manual:
                 append_log(f"[{shop}] 已达每日上限 {daily_limit}，跳过")
             continue
 
-        if today_tasks:
+        if not manual and today_tasks:
             last_task = max(today_tasks, key=lambda t: t.get("ended_at", ""))
             if last_task.get("ended_at"):
                 try:
