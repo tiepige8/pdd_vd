@@ -7,12 +7,15 @@
     <style>
       :root {
         color-scheme: light;
-        --bg: #0f172a;
-        --card: #111827;
-        --muted: #9ca3af;
-        --accent: #22c55e;
-        --accent2: #38bdf8;
-        --border: rgba(255, 255, 255, 0.08);
+        --bg: #f5f9f7;
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --primary: #2bb673;
+        --primary-soft: #e7f6ef;
+        --accent: #5ec2f2;
+        --accent-soft: #e9f6fd;
+        --border: #e5edf3;
       }
       * {
         box-sizing: border-box;
@@ -20,40 +23,36 @@
       body {
         margin: 0;
         min-height: 100vh;
-        background: radial-gradient(circle at 10% 20%, rgba(34, 197, 94, 0.1), transparent 30%),
-          radial-gradient(circle at 80% 0%, rgba(56, 189, 248, 0.12), transparent 28%),
-          radial-gradient(circle at 50% 90%, rgba(59, 130, 246, 0.08), transparent 35%),
-          var(--bg);
-        color: #e5e7eb;
-        font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-        padding: 32px 16px 64px;
+        background: linear-gradient(180deg, #f7fbf9 0%, #f4f7fb 100%);
+        color: var(--text);
+        font-family: 'Avenir Next', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        padding: 28px 20px 60px;
       }
       h1 {
-        font-size: 28px;
-        margin: 0 0 12px;
+        font-size: 26px;
+        margin: 0 0 6px;
       }
       .sub {
         color: var(--muted);
-        margin-bottom: 24px;
+        margin-bottom: 18px;
       }
-      .grid {
+      .layout {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 16px;
+        grid-template-columns: 1.7fr 1fr;
+        gap: 18px;
         align-items: start;
       }
       @media (max-width: 960px) {
-        .grid {
+        .layout {
           grid-template-columns: 1fr;
         }
       }
       .card {
-        background: linear-gradient(145deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+        background: var(--card);
         border: 1px solid var(--border);
         border-radius: 16px;
-        padding: 20px;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
-        backdrop-filter: blur(8px);
+        padding: 18px;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
       }
       label {
         display: block;
@@ -63,57 +62,67 @@
       }
       input {
         width: 100%;
-        padding: 12px 14px;
+        padding: 10px 12px;
         border-radius: 10px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.03);
-        color: #f8fafc;
+        background: #f8fafc;
+        color: var(--text);
         outline: none;
         transition: border-color 0.2s, box-shadow 0.2s;
       }
       textarea {
         width: 100%;
-        padding: 12px 14px;
+        padding: 10px 12px;
         border-radius: 10px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.03);
-        color: #f8fafc;
+        background: #f8fafc;
+        color: var(--text);
         outline: none;
         transition: border-color 0.2s, box-shadow 0.2s;
-        min-height: 120px;
+        min-height: 110px;
         resize: vertical;
         font-family: inherit;
       }
       input:focus {
-        border-color: rgba(56, 189, 248, 0.6);
-        box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+        border-color: rgba(46, 187, 139, 0.5);
+        box-shadow: 0 0 0 3px rgba(46, 187, 139, 0.12);
       }
       textarea:focus {
-        border-color: rgba(56, 189, 248, 0.6);
-        box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+        border-color: rgba(46, 187, 139, 0.5);
+        box-shadow: 0 0 0 3px rgba(46, 187, 139, 0.12);
       }
       .row {
         margin-bottom: 14px;
       }
-      button {
-        border: none;
+      .btn {
+        border: 1px solid transparent;
         border-radius: 10px;
         padding: 10px 14px;
         font-weight: 600;
         cursor: pointer;
-        color: #0b1120;
-        background: linear-gradient(135deg, #22c55e, #16a34a);
-        box-shadow: 0 14px 40px rgba(34, 197, 94, 0.25);
-        transition: transform 0.1s ease, box-shadow 0.2s ease;
+        background: #fff;
+        color: var(--text);
+        transition: transform 0.1s ease, box-shadow 0.2s ease, border-color 0.2s ease;
       }
-      button:hover {
+      .btn:hover {
         transform: translateY(-1px);
       }
-      button.secondary {
-        margin-left: 8px;
-        background: linear-gradient(135deg, #38bdf8, #2563eb);
-        color: #ecfeff;
-        box-shadow: 0 14px 40px rgba(56, 189, 248, 0.2);
+      .btn.primary {
+        background: var(--primary);
+        color: #fff;
+      }
+      .btn.secondary {
+        background: var(--accent);
+        color: #fff;
+      }
+      .btn.ghost {
+        background: #fff;
+        border-color: var(--border);
+        color: var(--text);
+      }
+      .btn.small {
+        padding: 6px 10px;
+        font-size: 12px;
       }
       .actions {
         display: flex;
@@ -130,7 +139,7 @@
         padding: 6px 10px;
         border-radius: 999px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.04);
+        background: var(--primary-soft);
         gap: 6px;
         font-size: 12px;
         margin-bottom: 10px;
@@ -138,7 +147,7 @@
       .auth-url {
         word-break: break-all;
         font-size: 13px;
-        background: rgba(15, 23, 42, 0.7);
+        background: #f3f6fb;
         padding: 12px;
         border-radius: 10px;
         border: 1px solid var(--border);
@@ -146,7 +155,7 @@
       pre {
         margin: 0;
         padding: 12px;
-        background: #0b1224;
+        background: #f3f6fb;
         border-radius: 10px;
         border: 1px solid var(--border);
         font-size: 12px;
@@ -154,10 +163,10 @@
       }
       .tag {
         display: inline-block;
-        padding: 4px 8px;
+        padding: 4px 10px;
         border-radius: 999px;
-        background: rgba(56, 189, 248, 0.1);
-        color: #bae6fd;
+        background: var(--accent-soft);
+        color: #1f4a58;
         font-size: 12px;
         margin-bottom: 6px;
       }
@@ -167,7 +176,7 @@
         line-height: 1.6;
       }
       a {
-        color: #38bdf8;
+        color: #2b90c4;
         text-decoration: none;
       }
       .token-grid {
@@ -176,7 +185,7 @@
         gap: 8px;
       }
       .stat {
-        background: rgba(255, 255, 255, 0.04);
+        background: #f7fafc;
         border: 1px solid var(--border);
         border-radius: 10px;
         padding: 10px;
@@ -190,18 +199,18 @@
         margin-top: 4px;
       }
       .log-area {
-        background: rgba(0, 0, 0, 0.35);
+        background: #f7fafc;
         border: 1px solid var(--border);
         border-radius: 10px;
         padding: 12px;
         min-height: 160px;
-        max-height: 260px;
+        max-height: 300px;
         overflow-y: auto;
         font-size: 12px;
       }
       .log-item {
         margin-bottom: 6px;
-        color: #e5e7eb;
+        color: var(--text);
       }
       .log-item .ts {
         color: var(--muted);
@@ -217,10 +226,10 @@
       .table td {
         border: 1px solid var(--border);
         padding: 6px;
-        color: #e5e7eb;
+        color: var(--text);
       }
       .table th {
-        background: rgba(255, 255, 255, 0.04);
+        background: #f4f7fb;
         text-align: left;
       }
       .badge {
@@ -230,37 +239,22 @@
         font-size: 11px;
       }
       .badge.success {
-        background: rgba(34, 197, 94, 0.15);
-        color: #bbf7d0;
+        background: #e7f6ef;
+        color: #1c7f56;
       }
       .badge.processing {
-        background: rgba(56, 189, 248, 0.15);
-        color: #bae6fd;
+        background: #e9f6fd;
+        color: #256b86;
       }
       .badge.failed {
-        background: rgba(248, 113, 113, 0.15);
-        color: #fecaca;
+        background: #fdecec;
+        color: #b42318;
       }
       .status {
         display: inline-flex;
         align-items: center;
         gap: 6px;
         font-size: 13px;
-      }
-      details {
-        border: 1px solid var(--border);
-        border-radius: 10px;
-        padding: 10px 12px;
-        background: rgba(255, 255, 255, 0.02);
-      }
-      details summary {
-        cursor: pointer;
-        color: #e5e7eb;
-        font-weight: 600;
-        list-style: none;
-      }
-      details summary::-webkit-details-marker {
-        display: none;
       }
       .dot {
         width: 8px;
@@ -269,64 +263,188 @@
         background: #94a3b8;
       }
       .dot.ok {
-        background: #22c55e;
+        background: var(--primary);
       }
       .dot.bad {
         background: #f87171;
+      }
+      .hero-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+      }
+      .hero-actions {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .section-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      details.collapse summary {
+        cursor: pointer;
+        font-weight: 600;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      details.collapse summary::-webkit-details-marker {
+        display: none;
+      }
+      details.collapse summary::after {
+        content: "展开";
+        font-size: 12px;
+        color: var(--muted);
+      }
+      details.collapse[open] summary::after {
+        content: "收起";
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>拼多多商家后台 · 授权配置 / 上传助手</h1>
-      <p class="sub">默认回调：<code id="defaultRedirect"></code> · 每日开始时间到点自动开跑，过时需手动触发。</p>
+      <h1>拼多多视频上传助手</h1>
+      <p class="sub">任务优先 · 手动上传随点随跑 · 自动上传仅在每日开始时间触发。</p>
     </header>
 
-    <section class="grid">
-      <div class="stack">
+    <section class="layout">
+      <div class="col main">
         <div class="card">
-          <div class="pill">主操作区</div>
-          <div class="row">
-            <p class="muted">授权、手动扫描上传、日志入口。</p>
-          </div>
-          <div class="row">
-            <button id="genBtn">生成授权链接</button>
-            <button class="secondary" id="openAuthBtn">在新窗口打开</button>
-            <button class="secondary" id="scanBtn">立即扫描上传</button>
-            <button class="secondary" id="resetBtn">清空上传记录</button>
-          </div>
-          <div class="row" id="authArea" style="display: none">
-            <p class="tag">授权链接</p>
-            <div class="auth-url" id="authUrl"></div>
-            <p class="muted">复制到浏览器或点击打开（需商家账号登录）。</p>
-          </div>
-          <details class="row">
-            <summary>手动换取 Token（仅备用）</summary>
-            <div class="row" style="margin-top:8px;">
-              <label for="authCode">回调 code</label>
-              <input id="authCode" placeholder="从回调 URL 里复制 code=..." />
-              <label for="authState">回调 state（可选）</label>
-              <input id="authState" placeholder="从回调 URL 里复制 state=..." />
+          <div class="hero-top">
+            <div>
+              <div class="tag">任务中心</div>
+              <p class="muted">手动上传不受时间限制（已上传过的不重复）。</p>
             </div>
-            <div class="actions" style="margin-top:4px;">
-              <button id="exchangeBtn">用 code 换取 token</button>
+            <div class="hero-actions">
+              <button id="scanBtn" class="btn primary">手动上传</button>
             </div>
-          </details>
-        <div class="row">
-          <div class="tag">操作日志 / 结果</div>
-          <div class="actions" style="margin-bottom:8px;">
-            <button class="secondary" id="clearLogsBtn">清空日志</button>
+          </div>
+          <div class="actions" style="margin-top:8px;">
+            <button id="refreshStatusBtn" class="btn ghost">刷新状态</button>
+            <button id="resetBtn" class="btn ghost">清空上传记录</button>
+          </div>
+          <div class="tag" style="margin-top:12px;">任务队列</div>
+          <table class="table" id="taskTable">
+            <thead>
+              <tr>
+                <th>店铺</th>
+                <th>文件</th>
+                <th>状态</th>
+                <th>开始</th>
+                <th>结束</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="card">
+          <div class="section-title">
+            <span>上传日志</span>
+            <button class="btn ghost small" id="clearLogsBtn">清空日志</button>
           </div>
           <div class="log-area" id="logArea"></div>
         </div>
       </div>
 
+      <div class="col side">
         <div class="card">
-          <div class="pill">授权状态（折叠）</div>
-          <p class="muted">回调到 <code>/auth/callback</code> 后自动刷新 token。</p>
-          <details>
-            <summary>展开查看 token 详情</summary>
-            <div class="token-grid" style="margin-top:8px;">
+          <div class="section-title">上传计划</div>
+          <label for="startTime">每日开始时间 (北京)</label>
+          <input id="startTime" placeholder="09:00" />
+          <label for="interval">上传间隔（秒）</label>
+          <input id="interval" placeholder="300" />
+          <label for="dailyLimit">每日上限（条）</label>
+          <input id="dailyLimit" placeholder="50" />
+          <label for="videoRoot">视频根目录</label>
+          <input id="videoRoot" placeholder="video" />
+          <div class="actions" style="margin-top:10px;">
+            <button id="saveScheduleBtn" class="btn primary">配置上传计划</button>
+          </div>
+          <div class="row" style="margin-top:12px;">
+            <div class="section-title">
+              <span>环境检测</span>
+              <button class="btn ghost small" id="ffmpegCheckBtn">检查 ffmpeg</button>
+            </div>
+            <div class="status" id="ffmpegStatus">
+              <span class="dot"></span>
+              <span>ffmpeg: 未检查</span>
+            </div>
+            <p class="muted" id="ffmpegPath"></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">产品目录配置</div>
+          <label for="productGoodsMap">产品目录 -> 商品 ID（每行：产品名=商品ID）</label>
+          <textarea
+            id="productGoodsMap"
+            placeholder="染发剂子母管=861017472489&#10;洗发水绿色款=861017472490"
+          ></textarea>
+          <p class="muted">当视频在对应产品目录下时，优先使用这里的商品 ID。</p>
+          <label for="videoDesc">视频标题/描述（可选）</label>
+          <input id="videoDesc" placeholder="可填写标题或话题" autocomplete="off" />
+        </div>
+
+        <details class="card collapse">
+          <summary>授权与 ID 配置（默认收起）</summary>
+          <div class="row" style="margin-top:12px;">
+            <label for="clientId">App ID / client_id</label>
+            <input id="clientId" placeholder="在拼多多开放平台创建的 client_id" autocomplete="off" />
+          </div>
+          <div class="row">
+            <label for="clientSecret">App Secret / client_secret</label>
+            <input
+              id="clientSecret"
+              placeholder="在拼多多开放平台获取的 client_secret"
+              autocomplete="off"
+              type="password"
+            />
+          </div>
+          <div class="row">
+            <label for="redirectUri">Redirect URI</label>
+            <input id="redirectUri" placeholder="例如：http://localhost:3000/auth/callback" />
+            <p class="muted">默认回调：<code id="defaultRedirect"></code></p>
+          </div>
+          <div class="row">
+            <label for="authBase">授权入口（可留默认）</label>
+            <input
+              id="authBase"
+              placeholder="默认：https://mms.pinduoduo.com/open.html"
+              autocomplete="off"
+            />
+            <p class="muted">服务市场/多店场景可替换为官方文档中的授权地址。</p>
+          </div>
+          <div class="row">
+            <label>
+              <input type="checkbox" id="requireAuth" style="width:auto; margin-right:6px;" />
+              未授权不上传（推荐开启）
+            </label>
+          </div>
+          <div class="row">
+            <label for="goodsId">默认发布商品 ID</label>
+            <input id="goodsId" placeholder="默认：861017472489" autocomplete="off" />
+          </div>
+          <div class="actions">
+            <button id="saveBtn" class="btn primary">保存配置</button>
+            <button class="btn ghost" id="genBtn">生成授权链接</button>
+            <button class="btn ghost" id="openAuthBtn">在新窗口打开</button>
+          </div>
+          <p class="muted" id="status"></p>
+          <div class="row" id="authArea" style="display: none">
+            <p class="tag">授权链接</p>
+            <div class="auth-url" id="authUrl"></div>
+            <p class="muted">复制到浏览器或点击打开（需商家账号登录）。</p>
+          </div>
+          <div class="row">
+            <div class="tag">Token 概览</div>
+            <div class="token-grid">
               <div class="stat">
                 <div class="label">Access Token</div>
                 <div class="value" id="tokenAccess">-</div>
@@ -345,110 +463,19 @@
               </div>
             </div>
             <pre id="tokenBox" style="margin-top:12px;">尚未获取授权。</pre>
-          </details>
-        </div>
-
-        <div class="card">
-          <div class="pill">使用步骤 / 同步思路</div>
-          <ul>
-            <li>确认回调地址 <code id="stepRedirect"></code> 已在开放平台白名单。</li>
-            <li>先完成授权，token 写入 <code>data/tokens.json</code> 并自动续期。</li>
-            <li>视频批量上传思路：先用 BaiduPCS-Go/官方 SDK 将网盘 <code>pdd_vd/YYYYMMDD/店铺/产品</code> 同步到本地目录，再调用拼多多分片上传接口（待接入）。</li>
-            <li>每天多店铺可按目录批量遍历上传，结合本页日志展示进度。超过每日开始时间后仅手动触发。</li>
-          </ul>
-          <div class="tag">上传队列</div>
-          <table class="table" id="taskTable">
-            <thead>
-              <tr>
-                <th>店铺</th>
-                <th>文件</th>
-                <th>状态</th>
-                <th>开始</th>
-                <th>结束</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="pill">基础配置（右侧）</div>
-        <div class="row">
-          <label for="clientId">App ID / client_id</label>
-          <input id="clientId" placeholder="在拼多多开放平台创建的 client_id" autocomplete="off" />
-        </div>
-        <div class="row">
-          <label for="clientSecret">App Secret / client_secret</label>
-          <input
-            id="clientSecret"
-            placeholder="在拼多多开放平台获取的 client_secret"
-            autocomplete="off"
-            type="password"
-          />
-        </div>
-        <div class="row">
-          <label for="redirectUri">Redirect URI</label>
-          <input id="redirectUri" placeholder="例如：http://localhost:3000/auth/callback" />
-        </div>
-        <div class="row">
-          <label for="authBase">授权入口（可留默认）</label>
-          <input
-            id="authBase"
-            placeholder="默认：https://mms.pinduoduo.com/open.html"
-            autocomplete="off"
-          />
-          <p class="muted">服务市场/多店场景可替换为官方文档中的授权地址。</p>
-        </div>
-        <div class="row">
-          <label>
-            <input type="checkbox" id="requireAuth" style="width:auto; margin-right:6px;" />
-            未授权不上传（推荐开启）
-          </label>
-        </div>
-        <div class="row">
-          <label for="goodsId">发布商品 ID（可配置）</label>
-          <input id="goodsId" placeholder="默认：861017472489" autocomplete="off" />
-        </div>
-        <div class="row">
-          <label for="productGoodsMap">产品目录 -> 商品 ID（每行：产品名=商品ID）</label>
-          <textarea
-            id="productGoodsMap"
-            placeholder="染发剂子母管=861017472489&#10;洗发水绿色款=861017472490"
-          ></textarea>
-          <p class="muted">当视频在对应产品目录下时，优先使用这里的商品 ID。</p>
-        </div>
-        <div class="row">
-          <label for="videoDesc">视频标题/描述（可选）</label>
-          <input id="videoDesc" placeholder="可填写标题或话题" autocomplete="off" />
-        </div>
-        <div class="actions">
-          <button id="saveBtn">保存配置</button>
-          <button class="secondary" id="ffmpegCheckBtn">检查 ffmpeg</button>
-        </div>
-        <p class="muted" id="status"></p>
-        <div class="row">
-          <div class="status" id="ffmpegStatus">
-            <span class="dot"></span>
-            <span>ffmpeg: 未检查</span>
           </div>
-          <p class="muted" id="ffmpegPath"></p>
-        </div>
-        <div class="row" style="margin-top:16px;">
-          <div class="tag">上传计划</div>
-          <label for="startTime">每日开始时间 (北京)</label>
-          <input id="startTime" placeholder="09:00" />
-          <label for="interval">上传间隔（秒）</label>
-          <input id="interval" placeholder="300" />
-          <label for="dailyLimit">每日上限（条）</label>
-          <input id="dailyLimit" placeholder="50" />
-          <label for="videoRoot">视频根目录</label>
-          <input id="videoRoot" placeholder="video" />
-          <div class="actions" style="margin-top:8px;">
-            <button id="saveScheduleBtn">保存上传计划</button>
-            <button class="secondary" id="refreshStatusBtn">刷新状态</button>
+          <div class="row">
+            <div class="tag">手动换取 Token（备用）</div>
+            <label for="authCode">回调 code</label>
+            <input id="authCode" placeholder="从回调 URL 里复制 code=..." />
+            <label for="authState">回调 state（可选）</label>
+            <input id="authState" placeholder="从回调 URL 里复制 state=..." />
+            <div class="actions" style="margin-top:8px;">
+              <button id="exchangeBtn" class="btn ghost">用 code 换取 token</button>
+            </div>
           </div>
-        </div>
+          <p class="muted">回调地址：<code id="stepRedirect"></code></p>
+        </details>
       </div>
     </section>
 
@@ -665,7 +692,7 @@
         const el = document.createElement('div');
         el.className = 'log-item';
         const ts = new Date().toLocaleTimeString();
-        el.innerHTML = `<span class="ts">[${ts}]</span> <span style="color:${isError ? '#f87171' : '#e5e7eb'}">${message}</span>`;
+        el.innerHTML = `<span class="ts">[${ts}]</span> <span style="color:${isError ? '#b42318' : '#1f2937'}">${message}</span>`;
         logArea.prepend(el);
       }
 
@@ -733,7 +760,7 @@
         const logs = data.logs || [];
         logArea.innerHTML = logs
           .map((l) => {
-            const color = l.level === 'error' ? '#f87171' : '#e5e7eb';
+            const color = l.level === 'error' ? '#b42318' : '#1f2937';
             return `<div class="log-item"><span class="ts">[${l.ts}]</span> <span style="color:${color}">${l.message}</span></div>`;
           })
           .join('');
