@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>拼多多视频助手 · 流程化</title>
+    <title>拼多多视频上传助手 · 流程化</title>
     <style>
       :root {
         color-scheme: light;
@@ -41,6 +41,57 @@
         grid-template-columns: 1.7fr 1fr;
         gap: 18px;
         align-items: start;
+      }
+      .page-block {
+        margin-bottom: 18px;
+      }
+      .row-grid {
+        display: grid;
+        gap: 18px;
+        align-items: start;
+      }
+      .row-grid.three {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .row-grid.two {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      @media (max-width: 1100px) {
+        .row-grid.three {
+          grid-template-columns: 1fr;
+        }
+        .row-grid.two {
+          grid-template-columns: 1fr;
+        }
+      }
+      .card.fixed {
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+      }
+      .card.fixed .fixed-body {
+        overflow: hidden;
+        flex: 1;
+      }
+      .card.fixed.collapsed .fixed-body {
+        max-height: 320px;
+      }
+      .card.fixed:not(.collapsed) {
+        height: auto;
+      }
+      .card.fixed:not(.collapsed) .fixed-body {
+        max-height: none;
+      }
+      .toggle-collapse {
+        margin-top: 10px;
+        align-self: flex-start;
+      }
+      .primary-panel {
+        border: 2px solid rgba(46, 187, 139, 0.35);
+        background: linear-gradient(180deg, #ffffff 0%, #f3fbf7 100%);
+      }
+      .note {
+        margin: 0 0 12px;
       }
       @media (max-width: 960px) {
         .layout {
@@ -158,6 +209,16 @@
         outline: none;
         transition: border-color 0.2s, box-shadow 0.2s;
       }
+      select {
+        width: 100%;
+        padding: 10px 12px;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        background: #f8fafc;
+        color: var(--text);
+        outline: none;
+        transition: border-color 0.2s, box-shadow 0.2s;
+      }
       textarea {
         width: 100%;
         padding: 10px 12px;
@@ -172,6 +233,10 @@
         font-family: inherit;
       }
       input:focus {
+        border-color: rgba(46, 187, 139, 0.5);
+        box-shadow: 0 0 0 3px rgba(46, 187, 139, 0.12);
+      }
+      select:focus {
         border-color: rgba(46, 187, 139, 0.5);
         box-shadow: 0 0 0 3px rgba(46, 187, 139, 0.12);
       }
@@ -199,6 +264,36 @@
         background: var(--primary);
         color: #fff;
       }
+      .btn.big {
+        padding: 12px 22px;
+        font-size: 16px;
+        border-radius: 12px;
+      }
+      @media (max-width: 900px) {
+        .btn.big {
+          width: 100%;
+        }
+      }
+      .stat-grid {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .shop-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .shop-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: #f8fafc;
+        font-size: 12px;
+      }
       .btn.secondary {
         background: var(--accent);
         color: #fff;
@@ -212,6 +307,7 @@
         margin-top: 8px;
         font-size: 13px;
         color: var(--muted);
+        min-height: 18px;
       }
       .feedback.error {
         color: #b42318;
@@ -306,6 +402,30 @@
         max-height: 300px;
         overflow-y: auto;
         font-size: 12px;
+        white-space: pre-line;
+      }
+      .shop-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 8px 4px;
+        border-bottom: 1px solid var(--border);
+      }
+      .shop-row:last-child {
+        border-bottom: none;
+      }
+      .shop-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .shop-actions {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
       }
       .log-item {
         margin-bottom: 6px;
@@ -326,6 +446,10 @@
         border: 1px solid var(--border);
         padding: 6px;
         color: var(--text);
+      }
+      .table-wrapper {
+        max-height: 360px;
+        overflow: auto;
       }
       .table th {
         background: #f4f7fb;
@@ -385,6 +509,10 @@
         font-weight: 600;
         margin-bottom: 8px;
       }
+      .block-title {
+        font-weight: 600;
+        margin: 10px 0 6px;
+      }
       details.collapse summary {
         cursor: pointer;
         font-weight: 600;
@@ -412,188 +540,144 @@
       <p class="sub">按流程执行：下载 → 上传 → 查看日志 → 其他配置。</p>
     </header>
 
-    <section class="flow">
-      <div class="card step">
-        <div class="step-header">
-          <div class="step-title">
-            <div class="step-num">1</div>
-            <div>
-              <h2>下载百度云视频</h2>
-              <p class="muted">自动下载默认收起，手动下载随点随跑。</p>
+    
+
+    <section class="page-block">
+      <div class="card primary-panel">
+        <div class="hero-top">
+          <div>
+            <h2>自动化上传入口</h2>
+            <p class="muted">点击后一键下载，下载完成自动开始上传</p>
+          </div>
+          <div class="stat-grid">
+            <div class="stat">
+              <div class="label">今日下载成功</div>
+              <div class="value" id="downloadSuccessCount">0</div>
+            </div>
+            <div class="stat">
+              <div class="label">今日上传成功</div>
+              <div class="value" id="uploadSuccessCount">0</div>
             </div>
           </div>
-          <div class="actions">
-            <button id="downloadBtn" class="btn primary">手动下载</button>
-          </div>
         </div>
-        <p class="feedback" id="downloadActionStatus"></p>
-        <details class="collapse" style="margin-top:12px;">
-          <summary>自动下载配置（收起）</summary>
+        <div class="row" style="margin-top:12px; display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+          <button id="autoRunBtn" class="btn primary big">一键执行</button>
+          <button id="autoPauseBtn" class="btn ghost">暂停任务</button>
+          <span class="muted" id="autoRunStatus"></span>
+        </div>
+        <div class="row" style="margin-top:8px; display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+          <label style="margin:0;">启用每日自动执行（使用首个发布时段）</label>
+          <input type="checkbox" id="autoRunEnabled" style="width:auto; margin:0 8px 0 0;" />
+        </div>
+        <div class="row" style="margin-top:8px; display:flex; gap:16px; flex-wrap:wrap;">
+          <span class="muted" id="downloadProgress">下载进度：-</span>
+          <span class="muted" id="uploadProgress">上传进度：-</span>
+        </div>
+        <div class="row" style="margin-top:8px;">
+          <label style="margin-bottom:6px;">上传店铺（默认全选）</label>
+          <div id="uploadShopList" class="shop-list"></div>
+        </div>
+        <details class="collapse" style="margin-top:18px;">
+          <summary>手动操作</summary>
           <div class="row" style="margin-top:12px;">
-            <label>
-              <input type="checkbox" id="downloadEnabled" style="width:auto; margin-right:6px;" />
-              启用定点自动下载
-            </label>
-          </div>
-          <label for="downloadTime">每日开始时间 (北京)</label>
-          <input id="downloadTime" placeholder="08:30" />
-          <label for="downloadRemoteRoot">百度网盘远端根目录</label>
-          <input id="downloadRemoteRoot" placeholder="/apps/你的应用或根目录" />
-          <p class="muted">系统会自动在该目录下查找 <code>video</code> 子目录。</p>
-          <label for="downloadLocalRoot">本地下载目录</label>
-          <input id="downloadLocalRoot" placeholder="video" />
-          <label for="baiduCliPath">BaiduPCS-Go 路径（可选）</label>
-          <input id="baiduCliPath" placeholder="例如：C:\\BaiduPCS-Go\\BaiduPCS-Go.exe" />
-          <div class="actions" style="margin-top:10px;">
-            <button id="saveDownloadBtn" class="btn primary">保存下载配置</button>
+            <div class="row-grid two">
+              <div class="panel">
+                <div class="section-title">下载操作</div>
+                <div class="actions">
+                  <button id="downloadBtn" class="btn primary">手动下载</button>
+                  <button id="downloadPauseToggle" class="btn ghost">暂停下载</button>
+                </div>
+                <p class="feedback" id="downloadActionStatus"></p>
+              </div>
+              <div class="panel">
+                <div class="section-title">上传操作</div>
+                <div class="actions">
+                  <button id="scanBtn" class="btn primary">手动上传（按分段）</button>
+                  <button id="scanBtnIgnore" class="btn ghost">手动上传（忽略分段）</button>
+                  <button id="uploadPauseToggle" class="btn ghost">暂停上传</button>
+                  <button id="refreshStatusBtn" class="btn ghost">刷新状态</button>
+                  <button id="resetBtn" class="btn ghost">清空上传记录</button>
+                </div>
+                <p class="feedback" id="uploadActionStatus"></p>
+              </div>
+            </div>
           </div>
         </details>
-        <div class="row" style="margin-top:12px;">
+      </div>
+    </section>
+
+    <section class="page-block">
+      <div class="row-grid two">
+        <div class="card">
           <div class="section-title">
-            <span>网盘登录状态</span>
-            <button class="btn ghost small" id="refreshBaiduBtn">刷新状态</button>
+            <span>日志与记录</span>
+            <button id="clearLogsBtn" class="btn ghost small">清空日志</button>
           </div>
-          <div class="status" id="baiduStatus">
-            <span class="dot"></span>
-            <span>未检查</span>
-          </div>
-          <p class="muted" id="baiduStatusDetail"></p>
-          <div class="row" id="baiduGuide" style="margin-top:10px; display:none;">
-            <div class="tag" id="baiduGuideTitle">登录引导</div>
-            <div class="auth-url" id="baiduGuideText"></div>
-            <div class="actions" style="margin-top:8px;" id="baiduGuideActions">
-              <button class="btn ghost small" id="copyBaiduCmdBtn">复制命令</button>
+          <div class="panel">
+            <div class="section-title">全部日志</div>
+            <div class="log-tools">
+              <div class="tab-group">
+                <button class="tab active" data-log-scope="today">今天</button>
+                <button class="tab" data-log-scope="all">全部</button>
+              </div>
             </div>
-            <p class="muted" id="baiduGuideTip"></p>
+            <div class="log-area" id="logArea"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="section-title">上传记录</div>
+          <div class="table-wrapper">
+            <table class="table" id="taskTable">
+              <thead>
+                <tr>
+                  <th>店铺</th>
+                  <th>文件</th>
+                  <th>状态</th>
+                  <th>备注</th>
+                  <th>开始</th>
+                  <th>结束</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="actions" style="justify-content: space-between; margin-top:12px;">
+            <button class="btn ghost small" id="taskPrevBtn">上一页</button>
+            <span class="muted" id="taskPageInfo">第 1 / 1 页</span>
+            <button class="btn ghost small" id="taskNextBtn">下一页</button>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="card step">
-        <div class="step-header">
-          <div class="step-title">
-            <div class="step-num">2</div>
-            <div>
-              <h2>上传视频</h2>
-              <p class="muted">手动上传不受时间限制（已上传过的不重复）。</p>
-            </div>
-          </div>
-          <div class="actions">
-            <button id="scanBtn" class="btn primary">手动上传</button>
-            <button id="refreshStatusBtn" class="btn ghost">刷新状态</button>
-            <button id="resetBtn" class="btn ghost">清空上传记录</button>
-          </div>
-        </div>
-        <p class="feedback" id="uploadActionStatus"></p>
-        <details class="collapse" style="margin-top:12px;">
-          <summary>自动上传配置（收起）</summary>
-          <div class="row" style="margin-top:12px;">
-            <label for="startTime">每日开始时间 (北京)</label>
-            <input id="startTime" placeholder="09:00" />
-            <label for="interval">上传间隔（秒）</label>
-            <input id="interval" placeholder="300" />
-            <label for="dailyLimit">每日上限（条）</label>
-            <input id="dailyLimit" placeholder="50" />
-            <label for="videoRoot">视频根目录</label>
-            <input id="videoRoot" placeholder="video" />
+    <section class="page-block">
+      <p class="muted note">默认不要动，需要修改联系研发人员。</p>
+      <div class="card fixed collapsed" data-card="shops">
+        <div class="section-title">店铺配置</div>
+        <div class="fixed-body">
+          <div class="row">
+            <label for="shopList">店铺列表（每行一个，需与视频目录一致）</label>
+            <textarea id="shopList" placeholder="拼多多旗舰店"></textarea>
+            <p class="muted">先保存店铺列表，后面的授权与产品配置会读取这里的店铺名。</p>
           </div>
           <div class="actions" style="margin-top:10px;">
-            <button id="saveScheduleBtn" class="btn primary">配置上传计划</button>
+            <button id="saveShopsBtn" class="btn primary">保存店铺配置</button>
           </div>
-          <div class="row" style="margin-top:12px;">
-            <div class="section-title">
-              <span>环境检测</span>
-              <button class="btn ghost small" id="ffmpegCheckBtn">检查 ffmpeg</button>
-            </div>
-            <div class="status" id="ffmpegStatus">
-              <span class="dot"></span>
-              <span>ffmpeg: 未检查</span>
-            </div>
-            <p class="muted" id="ffmpegPath"></p>
-          </div>
-        </details>
+        </div>
+        <button class="btn ghost small toggle-collapse" data-target="shops">展开</button>
       </div>
+    </section>
 
-      <div class="card step">
-        <div class="step-header">
-          <div class="step-title">
-            <div class="step-num">3</div>
-            <div>
-              <h2>日志与记录</h2>
-              <p class="muted">默认只显示今天，可切换查看全部。</p>
-            </div>
-          </div>
-          <div class="actions">
-            <button class="btn ghost small" id="clearLogsBtn">清空日志</button>
-          </div>
-        </div>
-        <div class="log-grid" style="margin-top:12px;">
-          <div class="panel">
-            <div class="section-title">
-              <span>下载日志</span>
-              <div class="tab-group" data-log-target="download">
-                <button class="tab active" data-log-scope="today" data-log-target="download">今天</button>
-                <button class="tab" data-log-scope="all" data-log-target="download">全部</button>
-              </div>
-            </div>
-            <div class="log-area" id="downloadLogArea"></div>
-          </div>
-          <div class="panel">
-            <div class="section-title">
-              <span>上传日志</span>
-              <div class="tab-group" data-log-target="upload">
-                <button class="tab active" data-log-scope="today" data-log-target="upload">今天</button>
-                <button class="tab" data-log-scope="all" data-log-target="upload">全部</button>
-              </div>
-            </div>
-            <div class="log-area" id="uploadLogArea"></div>
-          </div>
-        </div>
-        <div class="row" style="margin-top:12px;">
-          <div class="section-title">上传记录</div>
-          <table class="table" id="taskTable">
-            <thead>
-              <tr>
-                <th>店铺</th>
-                <th>文件</th>
-                <th>状态</th>
-                <th>开始</th>
-                <th>结束</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="card step">
-        <div class="step-header">
-          <div class="step-title">
-            <div class="step-num">4</div>
-            <div>
-              <h2>其他配置</h2>
-              <p class="muted">产品目录映射、授权与 Token。</p>
-            </div>
-          </div>
-        </div>
-        <div class="row" style="margin-top:12px;">
-          <div class="section-title">产品目录配置</div>
-          <label for="productGoodsMap">产品目录 -> 商品 ID（每行：产品名=商品ID）</label>
-          <textarea
-            id="productGoodsMap"
-            placeholder="染发剂子母管=861017472489&#10;洗发水绿色款=861017472490"
-          ></textarea>
-          <p class="muted">当视频在对应产品目录下时，优先使用这里的商品 ID。</p>
-          <label for="videoDesc">视频标题/描述（可选）</label>
-          <input id="videoDesc" placeholder="可填写标题或话题" autocomplete="off" />
-        </div>
-        <details class="collapse" style="margin-top:12px;">
-          <summary>授权与 Token 配置（收起）</summary>
-          <div class="row" style="margin-top:12px;">
+    <section class="page-block">
+      <div class="row-grid three">
+        <div class="card fixed collapsed" data-card="auth">
+          <div class="section-title">账号授权（Token）</div>
+          <div class="fixed-body">
+            <label>授权店铺</label>
+            <div id="authShopList" class="panel"></div>
+            <p class="muted">每个店铺需要单独授权，店铺名需与日期目录一致。</p>
             <label for="clientId">App ID / client_id</label>
             <input id="clientId" placeholder="在拼多多开放平台创建的 client_id" autocomplete="off" />
-          </div>
-          <div class="row">
             <label for="clientSecret">App Secret / client_secret</label>
             <input
               id="clientSecret"
@@ -601,690 +685,224 @@
               autocomplete="off"
               type="password"
             />
-          </div>
-          <div class="row">
             <label for="redirectUri">Redirect URI</label>
             <input id="redirectUri" placeholder="例如：http://localhost:3000/auth/callback" />
             <p class="muted">默认回调：<code id="defaultRedirect"></code></p>
-          </div>
-          <div class="row">
+            <span id="stepRedirect" style="display:none;"></span>
             <label for="authBase">授权入口（可留默认）</label>
-            <input
-              id="authBase"
-              placeholder="默认：https://mms.pinduoduo.com/open.html"
-              autocomplete="off"
-            />
+            <input id="authBase" placeholder="默认：https://mms.pinduoduo.com/open.html" autocomplete="off" />
             <p class="muted">服务市场/多店场景可替换为官方文档中的授权地址。</p>
-          </div>
-          <div class="row">
             <label>
               <input type="checkbox" id="requireAuth" style="width:auto; margin-right:6px;" />
               未授权不上传（推荐开启）
             </label>
-          </div>
-          <div class="row">
-            <label for="goodsId">默认发布商品 ID</label>
-            <input id="goodsId" placeholder="默认：861017472489" autocomplete="off" />
-          </div>
-          <div class="actions">
-            <button id="saveBtn" class="btn primary">保存配置</button>
-            <button class="btn ghost" id="genBtn">生成授权链接</button>
-            <button class="btn ghost" id="openAuthBtn">在新窗口打开</button>
-          </div>
-          <p class="muted" id="status"></p>
-          <div class="row" id="authArea" style="display: none">
-            <p class="tag">授权链接</p>
-            <div class="auth-url" id="authUrl"></div>
-            <p class="muted">复制到浏览器或点击打开（需商家账号登录）。</p>
-          </div>
-          <div class="row">
-            <div class="tag">Token 概览</div>
-            <div class="token-grid">
-              <div class="stat">
-                <div class="label">Access Token</div>
-                <div class="value" id="tokenAccess">-</div>
-              </div>
-              <div class="stat">
-                <div class="label">Refresh Token</div>
-                <div class="value" id="tokenRefresh">-</div>
-              </div>
-              <div class="stat">
-                <div class="label">Expires At</div>
-                <div class="value" id="tokenExpire">-</div>
-              </div>
-              <div class="stat">
-                <div class="label">Next Refresh</div>
-                <div class="value" id="tokenNextRefresh">-</div>
+            <p id="status" class="muted" style="display:none;"></p>
+            <div class="row" id="authArea" style="display: none; margin-top:12px;">
+              <p class="tag">授权链接</p>
+              <div class="auth-url" id="authUrl"></div>
+              <div class="tag" style="margin-top:10px;">Token 概览</div>
+              <div class="token-grid">
+                <div class="stat">
+                  <div class="label">Access Token</div>
+                  <div class="value" id="tokenAccess">-</div>
+                </div>
+                <div class="stat">
+                  <div class="label">Refresh Token</div>
+                  <div class="value" id="tokenRefresh">-</div>
+                </div>
+                <div class="stat">
+                  <div class="label">Expires</div>
+                  <div class="value" id="tokenExpire">-</div>
+                </div>
               </div>
             </div>
-            <pre id="tokenBox" style="margin-top:12px;">尚未获取授权。</pre>
+            <div class="block" style="margin-top:12px;">
+              <div class="block-title">手动换取 Token（备用）</div>
+              <div class="row">
+                <label for="authCode">回调 code</label>
+                <input id="authCode" placeholder="从回调 URL 里复制 code=..." />
+                <label for="authState">回调 state（可选）</label>
+                <input id="authState" placeholder="从回调 URL 里复制 state=..." />
+                <p class="muted">请在店铺列表中点“换取 Token”完成绑定。</p>
+              </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="tag">手动换取 Token（备用）</div>
-            <label for="authCode">回调 code</label>
-            <input id="authCode" placeholder="从回调 URL 里复制 code=..." />
-            <label for="authState">回调 state（可选）</label>
-            <input id="authState" placeholder="从回调 URL 里复制 state=..." />
+          <button class="btn ghost small toggle-collapse" data-target="auth">展开</button>
+        </div>
+
+        <div class="card fixed collapsed" data-card="baidu">
+          <div class="section-title">
+            <span>百度网盘登录信息</span>
+            <div class="actions" style="gap:6px;">
+              <button class="btn ghost small" id="refreshBaiduBtn">刷新状态</button>
+              <button class="btn ghost small" id="baiduLogoutBtn">退出登录</button>
+            </div>
+          </div>
+          <div class="fixed-body">
+            <div class="status" id="baiduStatus">
+              <span class="dot"></span>
+              <span>未检查</span>
+            </div>
+            <p class="muted" id="baiduStatusDetail"></p>
+            <p class="feedback" id="baiduActionStatus"></p>
+            <pre id="baiduLoginOutput" style="display:none; margin-top:8px;"></pre>
+            <label for="baiduBdussInput">BDUSS 登录</label>
+            <input id="baiduBdussInput" placeholder="填 BDUSS" />
+            <label for="baiduStokenInput" style="margin-top:8px;">STOKEN（可选）</label>
+            <input id="baiduStokenInput" placeholder="可选，填 STOKEN" />
             <div class="actions" style="margin-top:8px;">
-              <button id="exchangeBtn" class="btn ghost">用 code 换取 token</button>
+              <button id="baiduBdussLoginBtn" class="btn secondary">一键 BDUSS 登录（Electron）</button>
             </div>
           </div>
-          <p class="muted">回调地址：<code id="stepRedirect"></code></p>
-        </details>
+          <button class="btn ghost small toggle-collapse" data-target="baidu">展开</button>
+        </div>
+
+        <div class="card fixed collapsed" data-card="misc">
+          <div class="section-title">其他配置</div>
+          <div class="fixed-body">
+            <div class="block">
+              <div class="block-title">产品目录配置</div>
+              <div class="row">
+                <label for="productShopSelect">当前店铺</label>
+                <select id="productShopSelect"></select>
+                <label for="productGoodsMap">产品目录 -> 商品 ID（每行：产品名=商品ID）</label>
+                <textarea
+                  id="productGoodsMap"
+                  placeholder="染发剂子母管=861017472489&#10;洗发水绿色款=861017472490"
+                ></textarea>
+                <label for="productTitleTags">产品目录 -> 标签（每行：产品名=标签1,标签2）</label>
+                <textarea
+                  id="productTitleTags"
+                  placeholder="染发剂子母管=好物推荐,爆款好物&#10;洗发水绿色款=控油洗发,清爽蓬松"
+                ></textarea>
+                <label for="hotTitleTags">热点标签（随机选 2 个）</label>
+                <textarea
+                  id="hotTitleTags"
+                  placeholder="美妆好物大盘点&#10;省到家的护发好物清单&#10;头皮护理好物推荐&#10;干枯毛躁护发好物"
+                ></textarea>
+                <p class="muted">发布时会自动追加空格+标签（#），并从热点与产品标签各随机选 2 个。</p>
+                <label for="publishTimeSlots">发布时段（每天，按行填写 HH:mm）</label>
+                <textarea
+                  id="publishTimeSlots"
+                  placeholder="06:00&#10;13:00&#10;20:00"
+                ></textarea>
+                <label for="publishRatio">发布比例（与时段一一对应）</label>
+                <input id="publishRatio" placeholder="3,5,2" />
+<label for="goodsId">默认商品 ID</label>
+                <input id="goodsId" placeholder="861017472489" />
+                <p class="muted">视频在对应产品目录下时，优先使用这里的商品 ID。</p>
+                <label for="videoDesc">视频标题/描述（可选）</label>
+                <input id="videoDesc" placeholder="可填写标题或话题" autocomplete="off" />
+                <div class="actions" style="margin-top:10px;">
+                  <button id="saveBtn" class="btn" style="display:none;"></button>
+                </div>
+              </div>
+            </div>
+            <div class="block" style="margin-top:12px;">
+              <div class="block-title">下载配置</div>
+              <div class="row">
+                <label for="feishuWebhook">飞书群 Webhook（可选）</label>
+                <input id="feishuWebhook" placeholder="https://open.feishu.cn/..." />
+                <div class="actions" style="margin-top:8px;">
+                  <button id="feishuTestBtn" class="btn ghost">发送测试消息</button>
+                </div>
+                <label for="downloadRemoteRoot">百度网盘远端根目录</label>
+                <input id="downloadRemoteRoot" placeholder="/apps/你的应用或根目录" />
+                <p class="muted">系统会自动在该目录下查找 <code>video</code> 子目录。</p>
+                <label for="downloadLocalRoot">本地下载保存目录（如 D:\pdd_videos）</label>
+                <input id="downloadLocalRoot" placeholder="例如 D:\\pdd_videos" />
+                <label for="baiduCliPath">BaiduPCS-Go 路径（可选）</label>
+                <input id="baiduCliPath" placeholder="BaiduPCS-Go.exe（放在项目根目录即可）" />
+                <div class="actions" style="margin-top:10px;"></div>
+              </div>
+            </div>
+            <div class="block" style="margin-top:12px;">
+              <div class="block-title">转写与标题</div>
+              <div class="row">
+                <label>
+                  <input type="checkbox" id="asrEnabled" style="width:auto; margin-right:6px;" />
+                  启用自动转写（阿里云 DashScope）
+                </label>
+                <label for="dashscopeApiKey">DashScope API Key</label>
+                <input id="dashscopeApiKey" placeholder="填阿里云 DashScope API Key" autocomplete="off" type="password" />
+                <label for="dashscopeAsrModel">ASR 模型</label>
+                <input id="dashscopeAsrModel" placeholder="qwen3-asr-flash" />
+                <label for="asrMaxSeconds">转写时长（秒）</label>
+                <input id="asrMaxSeconds" placeholder="60" />
+                <label for="asrContext">热词/上下文</label>
+                <textarea
+                  id="asrContext"
+                  placeholder="可填写品牌、人名、地名等，按行或逗号分隔"
+                ></textarea>
+                <label for="titleModel">标题模型（文本）</label>
+                <input id="titleModel" placeholder="qwen-turbo" />
+                <label for="titlePrompt">标题提示词</label>
+                <textarea
+                  id="titlePrompt"
+                  placeholder="请将下面口播文案总结成一个完整的中文标题句子，长度控制在{min_len}-{max_len}字以内。"
+                ></textarea>
+                <p class="muted">支持变量：{transcript} {product_name} {min_len} {max_len}</p>
+                <div class="row" style="display:flex; gap:10px;">
+                  <div style="flex:1;">
+                    <label for="titleMinLen">标题最小字数</label>
+                    <input id="titleMinLen" placeholder="10" />
+                  </div>
+                  <div style="flex:1;">
+                    <label for="titleMaxLen">标题最大字数</label>
+                    <input id="titleMaxLen" placeholder="20" />
+                  </div>
+                </div>
+                <p class="muted">自动标题会优先写入上传描述，并在上传记录备注中展示。</p>
+                <div class="actions" style="margin-top:10px;"></div>
+              </div>
+            </div>
+            <div class="block" style="margin-top:12px;">
+              <div class="block-title">高级上传配置（隐藏）</div>
+              <div class="row">
+                <label for="downloadTime">每日开始下载时间（北京）</label>
+                <input id="downloadTime" placeholder="00:05" />
+                <label>
+                  <input type="checkbox" id="downloadEnabled" style="width:auto; margin-right:6px;" />
+                  启用定点自动下载
+                </label>
+                <div style="display:none;">
+                  <label for="startTime">每日开始时间(北京)</label>
+                  <input id="startTime" placeholder="09:00" />
+                </div>
+                <label for="interval">上传间隔（秒）</label>
+                <input id="interval" placeholder="300" />
+                <label for="dailyLimit">每日上限（条）</label>
+                <input id="dailyLimit" placeholder="50" />
+                <label for="videoRoot">上传扫描目录（视频根目录，例如 D:\pdd_videos）</label>
+                <input id="videoRoot" placeholder="例如 D:\\pdd_videos" />
+                <div class="actions" style="margin-top:10px;"></div>
+                <div class="row" style="margin-top:12px;">
+                  <div class="section-title">
+                    <span>环境检查</span>
+                    <button class="btn ghost small" id="ffmpegCheckBtn">检查ffmpeg</button>
+                  </div>
+                  <div class="status" id="ffmpegStatus">
+                    <span class="dot"></span>
+                    <span>ffmpeg: 未检查</span>
+                  </div>
+                  <p class="muted" id="ffmpegPath"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn ghost small toggle-collapse" data-target="misc">展开</button>
+        </div>
       </div>
     </section>
 
-    <script>
-      const clientIdInput = document.getElementById('clientId');
-      const clientSecretInput = document.getElementById('clientSecret');
-      const redirectInput = document.getElementById('redirectUri');
-      const authBaseInput = document.getElementById('authBase');
-      const requireAuthInput = document.getElementById('requireAuth');
-      const goodsIdInput = document.getElementById('goodsId');
-      const productGoodsMapInput = document.getElementById('productGoodsMap');
-      const videoDescInput = document.getElementById('videoDesc');
-      const downloadEnabledInput = document.getElementById('downloadEnabled');
-      const downloadTimeInput = document.getElementById('downloadTime');
-      const downloadRemoteRootInput = document.getElementById('downloadRemoteRoot');
-      const downloadLocalRootInput = document.getElementById('downloadLocalRoot');
-      const baiduCliPathInput = document.getElementById('baiduCliPath');
-      const statusEl = document.getElementById('status');
-      const authArea = document.getElementById('authArea');
-      const authUrlEl = document.getElementById('authUrl');
-      const tokenBox = document.getElementById('tokenBox');
-      const tokenAccess = document.getElementById('tokenAccess');
-      const tokenRefresh = document.getElementById('tokenRefresh');
-      const tokenExpire = document.getElementById('tokenExpire');
-      const tokenNextRefresh = document.getElementById('tokenNextRefresh');
-      const downloadLogArea = document.getElementById('downloadLogArea');
-      const uploadLogArea = document.getElementById('uploadLogArea');
-      const downloadScopeTabs = document.querySelectorAll('[data-log-scope][data-log-target="download"]');
-      const uploadScopeTabs = document.querySelectorAll('[data-log-scope][data-log-target="upload"]');
-      const taskTable = document.getElementById('taskTable').querySelector('tbody');
-      const startTimeInput = document.getElementById('startTime');
-      const intervalInput = document.getElementById('interval');
-      const dailyLimitInput = document.getElementById('dailyLimit');
-      const videoRootInput = document.getElementById('videoRoot');
-      const authCodeInput = document.getElementById('authCode');
-      const authStateInput = document.getElementById('authState');
-      const ffmpegStatus = document.getElementById('ffmpegStatus');
-      const ffmpegPath = document.getElementById('ffmpegPath');
-      const defaultRedirect = `${window.location.origin}/auth/callback`;
-      document.getElementById('defaultRedirect').innerText = defaultRedirect;
-      document.getElementById('stepRedirect').innerText = defaultRedirect;
-      const baiduStatus = document.getElementById('baiduStatus');
-      const baiduStatusDetail = document.getElementById('baiduStatusDetail');
-      const baiduGuide = document.getElementById('baiduGuide');
-      const baiduGuideTitle = document.getElementById('baiduGuideTitle');
-      const baiduGuideText = document.getElementById('baiduGuideText');
-      const baiduGuideTip = document.getElementById('baiduGuideTip');
-      const baiduGuideActions = document.getElementById('baiduGuideActions');
-      const copyBaiduCmdBtn = document.getElementById('copyBaiduCmdBtn');
-      const downloadActionStatus = document.getElementById('downloadActionStatus');
-      const uploadActionStatus = document.getElementById('uploadActionStatus');
-      let currentBaiduCmd = '';
-      let downloadLogScope = 'today';
-      let uploadLogScope = 'today';
-      let serverLogs = [];
-      const clientLogs = [];
-      const downloadKeywords = ['下载', '网盘', '远端', 'Baidu', 'BaiduPCS', '百度'];
-      const uploadKeywords = ['上传', '封面', '发布', '分片', 'init', 'complete', 'vid', 'goods_id', 'ffmpeg'];
+    <section class="page-block">
+      <div class="card">
+        <div class="actions" style="justify-content:flex-end;">
+          <button id="saveAllConfigBtn" class="btn primary big">保存全部配置</button>
+        </div>
+      </div>
+    </section>
 
-      function mapToLines(map) {
-        if (!map || typeof map !== 'object') return '';
-        return Object.entries(map)
-          .map(([name, goodsId]) => `${name}=${goodsId}`)
-          .join('\n');
-      }
-
-      function parseProductGoodsMap(text) {
-        const raw = (text || '').trim();
-        if (!raw) return {};
-        if (raw.startsWith('{') && raw.endsWith('}')) {
-          try {
-            const parsed = JSON.parse(raw);
-            return parsed && typeof parsed === 'object' ? parsed : {};
-          } catch (err) {
-            return {};
-          }
-        }
-        const map = {};
-        raw.split(/\r?\n/).forEach((line) => {
-          const trimmed = line.trim();
-          if (!trimmed) return;
-          let idx = trimmed.indexOf('=');
-          if (idx < 0) idx = trimmed.indexOf(':');
-          if (idx < 0) idx = trimmed.indexOf('：');
-          if (idx < 0) return;
-          const name = trimmed.slice(0, idx).trim();
-          const goodsId = trimmed.slice(idx + 1).trim();
-          if (name && goodsId) {
-            map[name] = goodsId;
-          }
-        });
-        return map;
-      }
-
-      function normalizeRemoteRoot(input) {
-        let value = (input || '').trim();
-        if (!value) return '';
-        const match = value.match(/path=([^&#]+)/);
-        if (match) {
-          try {
-            value = decodeURIComponent(match[1]);
-          } catch (err) {
-            value = match[1];
-          }
-        }
-        if (!value.startsWith('/')) {
-          value = `/${value}`;
-        }
-        return value;
-      }
-
-      async function loadConfig() {
-        const res = await fetch('/api/config');
-        const data = await res.json();
-        clientIdInput.value = data.clientId || '';
-        clientSecretInput.value = data.clientSecret || '';
-        redirectInput.value = data.redirectUri || defaultRedirect;
-        authBaseInput.value = data.authBase || 'https://mms.pinduoduo.com/open.html';
-        requireAuthInput.checked = data.requireAuth !== false;
-        goodsIdInput.value = data.goodsId || '861017472489';
-        productGoodsMapInput.value = mapToLines(data.productGoodsMap);
-        videoDescInput.value = data.videoDesc || '';
-        downloadEnabledInput.checked = data.downloadEnabled !== false;
-        downloadTimeInput.value = data.downloadTime || '08:30';
-        downloadRemoteRootInput.value = data.downloadRemoteRoot || '';
-        downloadLocalRootInput.value = data.downloadLocalRoot || '';
-        baiduCliPathInput.value = data.baiduCliPath || '';
-      }
-
-      async function loadTokens() {
-        const res = await fetch('/api/tokens');
-        const data = await res.json();
-        const last = data.lastAuth || {};
-        tokenAccess.textContent = last.access_token ? trimToken(last.access_token) : '-';
-        tokenRefresh.textContent = last.refresh_token ? trimToken(last.refresh_token) : '-';
-        tokenExpire.textContent = last.expiresAtIso || '-';
-        tokenNextRefresh.textContent = last.nextRefreshAtIso || '-';
-        tokenBox.textContent = Object.keys(data).length ? JSON.stringify(data, null, 2) : '尚未获取授权。';
-      }
-
-      async function saveConfig() {
-        statusEl.textContent = '';
-        const payload = {
-          clientId: clientIdInput.value.trim(),
-          clientSecret: clientSecretInput.value.trim(),
-          redirectUri: redirectInput.value.trim() || defaultRedirect,
-          authBase: authBaseInput.value.trim() || 'https://mms.pinduoduo.com/open.html',
-          requireAuth: requireAuthInput.checked,
-          goodsId: goodsIdInput.value.trim() || '861017472489',
-          productGoodsMap: parseProductGoodsMap(productGoodsMapInput.value),
-          videoDesc: videoDescInput.value.trim(),
-          downloadEnabled: downloadEnabledInput.checked,
-          downloadTime: downloadTimeInput.value.trim() || '08:30',
-          downloadRemoteRoot: normalizeRemoteRoot(downloadRemoteRootInput.value.trim()),
-          downloadLocalRoot: downloadLocalRootInput.value.trim(),
-          baiduCliPath: baiduCliPathInput.value.trim(),
-        };
-        const res = await fetch('/api/config', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
-        });
-        if (!res.ok) {
-          statusEl.textContent = '保存失败，请检查输入。';
-          return;
-        }
-        statusEl.textContent = '已保存。';
-      }
-
-      async function generateAuth() {
-        statusEl.textContent = '';
-        const res = await fetch('/api/auth/url');
-        const data = await res.json();
-        if (!res.ok) {
-          statusEl.textContent = data.error || '生成链接失败';
-          authArea.style.display = 'none';
-          log('生成授权链接失败', true);
-          return;
-        }
-        authArea.style.display = 'block';
-        authUrlEl.textContent = data.url;
-        authUrlEl.onclick = () => window.open(data.url, '_blank');
-        log('生成授权链接成功');
-        window._latestAuthUrl = data.url;
-      }
-
-      document.getElementById('saveBtn').addEventListener('click', async () => {
-        await saveConfig();
-        log('配置已保存');
-      });
-      document.getElementById('genBtn').addEventListener('click', async () => {
-        await saveConfig();
-        await generateAuth();
-        await loadTokens();
-      });
-      document.getElementById('ffmpegCheckBtn').addEventListener('click', async () => {
-        await checkFfmpeg();
-      });
-      document.getElementById('scanBtn').addEventListener('click', async () => {
-        setActionStatus(uploadActionStatus, '正在触发上传...');
-        try {
-          const res = await fetch('/api/upload/scan', { method: 'POST' });
-          if (!res.ok) {
-            const data = await res.json().catch(() => ({}));
-            const msg = data.error || res.statusText || '触发失败';
-            setActionStatus(uploadActionStatus, `上传触发失败：${msg}`, true);
-            log(`上传触发失败：${msg}`, true, 'upload');
-            return;
-          }
-          setActionStatus(uploadActionStatus, '已触发上传', false, true);
-          log('已触发立即扫描上传', false, 'upload');
-          await loadStatus();
-        } catch (err) {
-          setActionStatus(uploadActionStatus, `上传触发失败：${err}`, true);
-          log(`上传触发失败：${err}`, true, 'upload');
-        }
-      });
-      document.getElementById('downloadBtn').addEventListener('click', async () => {
-        setActionStatus(downloadActionStatus, '正在触发下载...');
-        try {
-          const res = await fetch('/api/download/manual', { method: 'POST' });
-          if (!res.ok) {
-            const data = await res.json().catch(() => ({}));
-            const msg = data.error || res.statusText || '触发失败';
-            setActionStatus(downloadActionStatus, `下载触发失败：${msg}`, true);
-            log(`下载触发失败：${msg}`, true, 'download');
-            return;
-          }
-          setActionStatus(downloadActionStatus, '已触发下载', false, true);
-          log('已触发立即下载', false, 'download');
-        } catch (err) {
-          setActionStatus(downloadActionStatus, `下载触发失败：${err}`, true);
-          log(`下载触发失败：${err}`, true, 'download');
-        }
-      });
-      document.getElementById('resetBtn').addEventListener('click', async () => {
-        setActionStatus(uploadActionStatus, '正在清空记录...');
-        try {
-          const res = await fetch('/api/upload/reset', { method: 'POST' });
-          if (!res.ok) {
-            const data = await res.json().catch(() => ({}));
-            const msg = data.error || res.statusText || '清空失败';
-            setActionStatus(uploadActionStatus, `清空失败：${msg}`, true);
-            log(`清空上传记录失败：${msg}`, true, 'upload');
-            return;
-          }
-          setActionStatus(uploadActionStatus, '已清空上传记录', false, true);
-          log('已清空上传记录', false, 'upload');
-          await loadStatus();
-        } catch (err) {
-          setActionStatus(uploadActionStatus, `清空失败：${err}`, true);
-          log(`清空上传记录失败：${err}`, true, 'upload');
-        }
-      });
-      document.getElementById('exchangeBtn').addEventListener('click', async () => {
-        const code = authCodeInput.value.trim();
-        const state = authStateInput.value.trim();
-        if (!code) {
-          log('请先填写回调 code', true);
-          return;
-        }
-        const res = await fetch('/api/oauth/exchange', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ code, state }),
-        });
-        const data = await res.json();
-        if (!res.ok) {
-          log(`换取 token 失败: ${data.error || 'unknown'}`, true);
-          return;
-        }
-        log('手动换取 token 成功');
-        await loadTokens();
-      });
-      document.getElementById('clearLogsBtn').addEventListener('click', async () => {
-        await fetch('/api/logs/clear', { method: 'POST' });
-        clientLogs.length = 0;
-        await loadLogs();
-      });
-      document.getElementById('saveScheduleBtn').addEventListener('click', async () => {
-        const body = {
-          video_root: videoRootInput.value.trim() || undefined,
-          shops: {
-            '拼多多旗舰店': {
-              start_time: startTimeInput.value.trim() || '09:00',
-              interval_seconds: parseInt(intervalInput.value.trim() || '300', 10),
-              daily_limit: parseInt(dailyLimitInput.value.trim() || '50', 10),
-              enabled: true,
-            },
-          },
-        };
-        setActionStatus(uploadActionStatus, '正在保存上传计划...');
-        try {
-          const res = await fetch('/api/schedule', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(body),
-          });
-          if (!res.ok) {
-            const data = await res.json().catch(() => ({}));
-            const msg = data.error || res.statusText || '保存失败';
-            setActionStatus(uploadActionStatus, `保存失败：${msg}`, true);
-            log(`上传计划保存失败：${msg}`, true, 'upload');
-            return;
-          }
-          setActionStatus(uploadActionStatus, '上传计划已保存', false, true);
-          log('上传计划已保存', false, 'upload');
-        } catch (err) {
-          setActionStatus(uploadActionStatus, `保存失败：${err}`, true);
-          log(`上传计划保存失败：${err}`, true, 'upload');
-        }
-      });
-      document.getElementById('saveDownloadBtn').addEventListener('click', async () => {
-        setActionStatus(downloadActionStatus, '正在保存下载配置...');
-        try {
-          await saveConfig();
-          setActionStatus(downloadActionStatus, '下载配置已保存', false, true);
-          log('下载配置已保存', false, 'download');
-        } catch (err) {
-          setActionStatus(downloadActionStatus, `保存失败：${err}`, true);
-          log(`下载配置保存失败：${err}`, true, 'download');
-        }
-      });
-      document.getElementById('refreshStatusBtn').addEventListener('click', async () => {
-        setActionStatus(uploadActionStatus, '正在刷新状态...');
-        try {
-          await loadStatus();
-          setActionStatus(uploadActionStatus, '状态已刷新', false, true);
-          log('已刷新状态', false, 'upload');
-        } catch (err) {
-          setActionStatus(uploadActionStatus, `刷新失败：${err}`, true);
-          log(`状态刷新失败：${err}`, true, 'upload');
-        }
-      });
-      document.getElementById('openAuthBtn').addEventListener('click', () => {
-        if (window._latestAuthUrl) {
-          window.open(window._latestAuthUrl, '_blank');
-        } else {
-          log('请先生成授权链接', true);
-        }
-      });
-      document.getElementById('refreshBaiduBtn').addEventListener('click', async () => {
-        await loadBaiduStatus();
-      });
-      copyBaiduCmdBtn.addEventListener('click', async () => {
-        if (!currentBaiduCmd) return;
-        try {
-          await navigator.clipboard.writeText(currentBaiduCmd);
-          log('登录命令已复制', false, 'download');
-        } catch (err) {
-          log(`复制失败: ${err}`, true, 'download');
-        }
-      });
-
-      function formatNow() {
-        const now = new Date();
-        const yyyy = now.getFullYear();
-        const mm = String(now.getMonth() + 1).padStart(2, '0');
-        const dd = String(now.getDate()).padStart(2, '0');
-        const hh = String(now.getHours()).padStart(2, '0');
-        const mi = String(now.getMinutes()).padStart(2, '0');
-        const ss = String(now.getSeconds()).padStart(2, '0');
-        return `${yyyy}-${mm}-${dd} ${hh}:${mi}:${ss}`;
-      }
-
-      function log(message, isError = false, type = 'upload') {
-        clientLogs.unshift({
-          ts: formatNow(),
-          message,
-          level: isError ? 'error' : 'info',
-          type,
-          _client: true,
-        });
-        renderLogs();
-      }
-
-      function containsAny(text, keywords) {
-        return keywords.some((k) => text.includes(k));
-      }
-
-      function getLogType(entry) {
-        if (entry.type) return entry.type;
-        const msg = entry.message || '';
-        if (containsAny(msg, downloadKeywords)) return 'download';
-        if (containsAny(msg, uploadKeywords)) return 'upload';
-        return 'upload';
-      }
-
-      function isToday(ts) {
-        if (!ts) return false;
-        const now = new Date();
-        const yyyy = now.getFullYear();
-        const mm = String(now.getMonth() + 1).padStart(2, '0');
-        const dd = String(now.getDate()).padStart(2, '0');
-        return ts.startsWith(`${yyyy}-${mm}-${dd}`);
-      }
-
-      function toTsValue(ts) {
-        if (!ts) return 0;
-        const parsed = Date.parse(ts.replace(' ', 'T'));
-        return Number.isNaN(parsed) ? 0 : parsed;
-      }
-
-      function renderLogArea(area, type, scope) {
-        const logs = [...clientLogs, ...serverLogs]
-          .filter((entry) => getLogType(entry) === type)
-          .filter((entry) => (scope === 'today' ? isToday(entry.ts || '') : true))
-          .sort((a, b) => toTsValue(b.ts) - toTsValue(a.ts));
-
-        if (!logs.length) {
-          area.innerHTML = '<div class="muted">暂无日志</div>';
-          return;
-        }
-        area.innerHTML = logs
-          .map((l) => {
-            const color = l.level === 'error' ? '#b42318' : '#1f2937';
-            return `<div class="log-item"><span class="ts">[${l.ts}]</span> <span style="color:${color}">${l.message}</span></div>`;
-          })
-          .join('');
-      }
-
-      function renderLogs() {
-        renderLogArea(downloadLogArea, 'download', downloadLogScope);
-        renderLogArea(uploadLogArea, 'upload', uploadLogScope);
-      }
-
-      function trimToken(t) {
-        if (t.length <= 12) return t;
-        return `${t.slice(0, 6)}...${t.slice(-6)}`;
-      }
-
-      downloadScopeTabs.forEach((tab) => {
-        tab.addEventListener('click', () => {
-          downloadScopeTabs.forEach((el) => el.classList.remove('active'));
-          tab.classList.add('active');
-          downloadLogScope = tab.dataset.logScope;
-          renderLogs();
-        });
-      });
-
-      uploadScopeTabs.forEach((tab) => {
-        tab.addEventListener('click', () => {
-          uploadScopeTabs.forEach((el) => el.classList.remove('active'));
-          tab.classList.add('active');
-          uploadLogScope = tab.dataset.logScope;
-          renderLogs();
-        });
-      });
-
-      function formatCliCommand(path) {
-        const raw = (path || '').trim();
-        if (!raw) return 'BaiduPCS-Go';
-        if (raw.includes(' ')) {
-          return `"${raw}"`;
-        }
-        return raw;
-      }
-
-      function showBaiduGuide({ title, text, cmd, tip }) {
-        baiduGuideTitle.textContent = title || '登录引导';
-        baiduGuideText.textContent = text || '';
-        baiduGuideTip.textContent = tip || '';
-        currentBaiduCmd = cmd || '';
-        if (currentBaiduCmd) {
-          baiduGuideActions.style.display = 'flex';
-        } else {
-          baiduGuideActions.style.display = 'none';
-        }
-        baiduGuide.style.display = 'block';
-      }
-
-      function hideBaiduGuide() {
-        baiduGuide.style.display = 'none';
-        currentBaiduCmd = '';
-      }
-
-      function setActionStatus(el, message, isError = false, isSuccess = false) {
-        if (!el) return;
-        el.textContent = message || '';
-        el.classList.toggle('error', Boolean(isError));
-        el.classList.toggle('success', Boolean(isSuccess));
-      }
-
-      async function loadBaiduStatus() {
-        baiduStatus.innerHTML = '<span class="dot"></span><span>检查中...</span>';
-        baiduStatusDetail.textContent = '';
-        hideBaiduGuide();
-        try {
-          const res = await fetch('/api/baidu/status');
-          const data = await res.json();
-          if (!data.available) {
-            baiduStatus.innerHTML = '<span class="dot bad"></span><span>未找到 CLI</span>';
-            baiduStatusDetail.textContent = data.message || '未找到 BaiduPCS-Go';
-            const tip = downloadRemoteRootInput.value.trim()
-              ? '已填写路径请先保存下载配置，再点击“刷新状态”。'
-              : '安装后在下载配置中填写 CLI 路径或加入 PATH。';
-            showBaiduGuide({
-              title: '安装与配置',
-              text: '1) 安装 BaiduPCS-Go\n2) 配置 CLI 路径或加入 PATH\n3) 重新刷新状态',
-              cmd: '',
-              tip,
-            });
-            return;
-          }
-          if (data.logged_in === true) {
-            baiduStatus.innerHTML = '<span class="dot ok"></span><span>已登录</span>';
-            hideBaiduGuide();
-          } else if (data.logged_in === false) {
-            baiduStatus.innerHTML = '<span class="dot bad"></span><span>未登录</span>';
-            const cmd = `${formatCliCommand(baiduCliPathInput.value)} login`;
-            showBaiduGuide({
-              title: '登录引导',
-              text: `请在终端执行以下命令登录：\n${cmd}`,
-              cmd,
-              tip: '登录完成后点击“刷新状态”。',
-            });
-          } else {
-            baiduStatus.innerHTML = '<span class="dot"></span><span>状态未知</span>';
-            showBaiduGuide({
-              title: '登录引导',
-              text: '无法判断登录状态，请尝试在终端执行：\nBaiduPCS-Go login',
-              cmd: 'BaiduPCS-Go login',
-              tip: '登录完成后点击“刷新状态”。',
-            });
-          }
-          if (data.message) {
-            baiduStatusDetail.textContent = data.message;
-          }
-        } catch (err) {
-          baiduStatus.innerHTML = '<span class="dot bad"></span><span>检查失败</span>';
-          baiduStatusDetail.textContent = String(err);
-          showBaiduGuide({
-            title: '登录引导',
-            text: '检查失败时，可先确认 CLI 可执行，并在终端运行：\nBaiduPCS-Go login',
-            cmd: 'BaiduPCS-Go login',
-            tip: '修复后点击“刷新状态”。',
-          });
-        }
-      }
-
-      async function checkFfmpeg() {
-        ffmpegStatus.innerHTML = '<span class="dot"></span><span>ffmpeg: 检查中...</span>';
-        ffmpegPath.textContent = '';
-        try {
-          const res = await fetch('/api/system/ffmpeg');
-          const data = await res.json();
-          if (data.available) {
-            ffmpegStatus.innerHTML = '<span class="dot ok"></span><span>ffmpeg: 已就绪</span>';
-            const version = data.version ? ` (${data.version})` : '';
-            ffmpegPath.textContent = `${data.path || ''}${version}`;
-          } else {
-            ffmpegStatus.innerHTML = '<span class="dot bad"></span><span>ffmpeg: 未安装</span>';
-            ffmpegPath.textContent = '请安装后再上传。';
-          }
-        } catch (err) {
-          ffmpegStatus.innerHTML = '<span class="dot bad"></span><span>ffmpeg: 检查失败</span>';
-          ffmpegPath.textContent = String(err);
-        }
-      }
-
-      async function loadSchedule() {
-        const res = await fetch('/api/schedule');
-        const data = await res.json();
-        const shopCfg = (data.shops && (data.shops['拼多多旗舰店'] || data.shops.QJD)) || {};
-        startTimeInput.value = shopCfg.start_time || '09:00';
-        intervalInput.value = shopCfg.interval_seconds || 300;
-        dailyLimitInput.value = shopCfg.daily_limit || 50;
-        videoRootInput.value = data.video_root || '';
-      }
-
-      async function loadStatus() {
-        const res = await fetch('/api/upload/status');
-        const data = await res.json();
-        const tasks = data.tasks || [];
-        taskTable.innerHTML = tasks
-          .slice(-100)
-          .reverse()
-          .map((t) => {
-            const badgeClass =
-              t.status === 'done' ? 'badge success' : t.status === 'failed' ? 'badge failed' : 'badge processing';
-            const statusText =
-              t.status === 'done' ? '完成' : t.status === 'failed' ? '失败' : t.status === 'processing' ? '进行中' : t.status;
-            return `<tr>
-                <td>${t.shop || ''}</td>
-                <td title="${t.filename || ''}">${t.filename || ''}</td>
-                <td><span class="${badgeClass}">${statusText}</span></td>
-                <td>${t.started_at || ''}</td>
-                <td>${t.ended_at || ''}</td>
-              </tr>`;
-          })
-          .join('');
-      }
-
-      async function loadLogs() {
-        const res = await fetch('/api/logs');
-        const data = await res.json();
-        serverLogs = data.logs || [];
-        renderLogs();
-      }
-
-      function startPolling() {
-        setInterval(loadTokens, 10000);
-        setInterval(loadStatus, 7000);
-        setInterval(loadLogs, 5000);
-      }
-
-      loadConfig();
-      loadTokens();
-      loadSchedule();
-      loadStatus();
-      loadLogs();
-      checkFfmpeg();
-      loadBaiduStatus();
-      startPolling();
-    </script>
+<script src="app.js"></script>
   </body>
 </html>

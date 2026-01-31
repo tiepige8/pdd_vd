@@ -1,0 +1,1925 @@
+[2026-01-28 00:07:52] INFO: 配置已保存
+[2026-01-28 00:25:56] INFO: 配置已保存
+[2026-01-28 00:30:45] INFO: download window reached 00:30, auto start
+[2026-01-28 00:30:45] INFO: scan remote dir: /a_vso/video/20260128
+[2026-01-28 00:31:11] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (1)(1).mp4
+[2026-01-28 00:31:18] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (1)(1).mp4 elapsed 6.6s
+[2026-01-28 00:31:18] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (1)(2).mp4
+[2026-01-28 00:31:22] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (1)(2).mp4 elapsed 4.1s
+[2026-01-28 00:31:22] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (1)(3).mp4
+[2026-01-28 00:31:28] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (1)(3).mp4 elapsed 6.1s
+[2026-01-28 00:31:28] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (1).mp4
+[2026-01-28 00:31:39] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (1).mp4 elapsed 10.7s
+[2026-01-28 00:31:39] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(1).mp4
+[2026-01-28 00:31:46] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(1).mp4 elapsed 7.8s
+[2026-01-28 00:31:46] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(2).mp4
+[2026-01-28 00:32:07] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(2).mp4 大小=0.00MB 无变化 平均=0.00MB/s 速率=0.00MB/s
+[2026-01-28 00:32:27] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(2).mp4 大小=33.41MB +33.41MB 平均=0.82MB/s 速率=1.64MB/s
+[2026-01-28 00:32:48] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(2).mp4 大小=33.41MB 无变化 平均=0.55MB/s 速率=0.00MB/s
+[2026-01-28 00:33:08] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(2).mp4 大小=33.41MB 无变化 平均=0.41MB/s 速率=0.00MB/s
+[2026-01-28 00:33:29] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(2).mp4 大小=33.41MB 无变化 平均=0.33MB/s 速率=0.00MB/s
+[2026-01-28 00:33:29] ERROR: 下载停滞: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(2).mp4 超过60s无变化
+[2026-01-28 00:33:37] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2)(2).mp4 elapsed 110.8s
+[2026-01-28 00:33:37] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2).mp4
+[2026-01-28 00:33:44] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日 (2).mp4 elapsed 6.6s
+[2026-01-28 00:33:44] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日(1).mp4
+[2026-01-28 00:33:52] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日(1).mp4 elapsed 7.7s
+[2026-01-28 00:33:52] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日(2).mp4
+[2026-01-28 00:33:57] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日(2).mp4 elapsed 5.1s
+[2026-01-28 00:33:57] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日(3).mp4
+[2026-01-28 00:34:04] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日(3).mp4 elapsed 7.6s
+[2026-01-28 00:34:04] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日.mp4
+[2026-01-28 00:34:11] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月5日.mp4 elapsed 6.6s
+[2026-01-28 00:34:11] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(1).mp4
+[2026-01-28 00:34:18] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(1).mp4 elapsed 6.6s
+[2026-01-28 00:34:18] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(2).mp4
+[2026-01-28 00:34:25] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(2).mp4 elapsed 7.2s
+[2026-01-28 00:34:25] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(3).mp4
+[2026-01-28 00:34:45] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(3).mp4 大小=9.00MB +9.00MB 平均=0.44MB/s 速率=0.44MB/s
+[2026-01-28 00:35:07] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(3).mp4 大小=13.00MB +4.00MB 平均=0.32MB/s 速率=0.20MB/s
+[2026-01-28 00:35:26] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(3).mp4 大小=14.00MB +1.00MB 平均=0.23MB/s 速率=0.05MB/s
+[2026-01-28 00:35:46] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(3).mp4 大小=15.35MB +1.35MB 平均=0.19MB/s 速率=0.07MB/s
+[2026-01-28 00:36:01] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1)(3).mp4 elapsed 95.9s
+[2026-01-28 00:36:01] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4
+[2026-01-28 00:36:21] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4 大小=24.69MB +24.69MB 平均=1.21MB/s 速率=1.21MB/s
+[2026-01-28 00:36:41] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4 大小=24.69MB 无变化 平均=0.60MB/s 速率=0.00MB/s
+[2026-01-28 00:37:02] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4 大小=24.69MB 无变化 平均=0.40MB/s 速率=0.00MB/s
+[2026-01-28 00:37:22] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4 大小=24.69MB 无变化 平均=0.30MB/s 速率=0.00MB/s
+[2026-01-28 00:37:22] ERROR: 下载停滞: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4 超过60s无变化
+[2026-01-28 00:37:43] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4 大小=24.69MB 无变化 平均=0.24MB/s 速率=0.00MB/s
+[2026-01-28 00:37:43] ERROR: 下载停滞: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4 超过60s无变化
+[2026-01-28 00:37:46] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (1).mp4 elapsed 105.7s
+[2026-01-28 00:37:46] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(1).mp4
+[2026-01-28 00:37:53] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(1).mp4 elapsed 7.1s
+[2026-01-28 00:37:53] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(2).mp4
+[2026-01-28 00:38:01] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(2).mp4 elapsed 7.7s
+[2026-01-28 00:38:01] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(3).mp4
+[2026-01-28 00:38:06] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(3).mp4 elapsed 5.1s
+[2026-01-28 00:38:06] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(4).mp4
+[2026-01-28 00:38:14] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(4).mp4 elapsed 7.7s
+[2026-01-28 00:38:14] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(5).mp4
+[2026-01-28 00:38:19] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2)(5).mp4 elapsed 5.1s
+[2026-01-28 00:38:19] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2).mp4
+[2026-01-28 00:38:39] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2).mp4 大小=0.00MB 无变化 平均=0.00MB/s 速率=0.00MB/s
+[2026-01-28 00:39:00] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2).mp4 大小=36.74MB +36.74MB 平均=0.90MB/s 速率=1.80MB/s
+[2026-01-28 00:39:20] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2).mp4 大小=36.74MB 无变化 平均=0.60MB/s 速率=0.00MB/s
+[2026-01-28 00:39:41] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2).mp4 大小=36.74MB 无变化 平均=0.45MB/s 速率=0.00MB/s
+[2026-01-28 00:39:51] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日 (2).mp4 elapsed 91.9s
+[2026-01-28 00:39:51] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(1).mp4
+[2026-01-28 00:39:55] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(1).mp4 elapsed 4.1s
+[2026-01-28 00:39:55] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(10).mp4
+[2026-01-28 00:40:03] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(10).mp4 elapsed 7.6s
+[2026-01-28 00:40:03] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(11).mp4
+[2026-01-28 00:40:10] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(11).mp4 elapsed 7.7s
+[2026-01-28 00:40:10] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(12).mp4
+[2026-01-28 00:40:17] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(12).mp4 elapsed 6.6s
+[2026-01-28 00:40:17] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(13).mp4
+[2026-01-28 00:40:24] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(13).mp4 elapsed 6.6s
+[2026-01-28 00:40:24] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(14).mp4
+[2026-01-28 00:40:32] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(14).mp4 elapsed 8.7s
+[2026-01-28 00:40:32] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(2).mp4
+[2026-01-28 00:40:38] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(2).mp4 elapsed 6.1s
+[2026-01-28 00:40:38] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(3).mp4
+[2026-01-28 00:40:59] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(3).mp4 大小=21.00MB +21.00MB 平均=1.03MB/s 速率=1.03MB/s
+[2026-01-28 00:41:19] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(3).mp4 大小=22.00MB +1.00MB 平均=0.54MB/s 速率=0.05MB/s
+[2026-01-28 00:41:40] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(3).mp4 大小=22.90MB +0.90MB 平均=0.37MB/s 速率=0.04MB/s
+[2026-01-28 00:42:00] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(3).mp4 大小=22.90MB 无变化 平均=0.28MB/s 速率=0.00MB/s
+[2026-01-28 00:42:19] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(3).mp4 elapsed 100.1s
+[2026-01-28 00:42:19] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(4).mp4
+[2026-01-28 00:42:39] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(4).mp4 大小=0.00MB 无变化 平均=0.00MB/s 速率=0.00MB/s
+[2026-01-28 00:42:59] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(4).mp4 大小=29.00MB +29.00MB 平均=0.71MB/s 速率=1.42MB/s
+[2026-01-28 00:43:20] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(4).mp4 大小=29.00MB 无变化 平均=0.47MB/s 速率=0.00MB/s
+[2026-01-28 00:43:40] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(4).mp4 大小=29.00MB 无变化 平均=0.35MB/s 速率=0.00MB/s
+[2026-01-28 00:44:01] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(4).mp4 大小=29.00MB 无变化 平均=0.28MB/s 速率=0.00MB/s
+[2026-01-28 00:44:01] ERROR: 下载停滞: /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(4).mp4 超过60s无变化
+[2026-01-28 00:44:07] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(4).mp4 elapsed 108.3s
+[2026-01-28 00:44:07] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(5).mp4
+[2026-01-28 00:44:14] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(5).mp4 elapsed 7.7s
+[2026-01-28 00:44:14] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(6).mp4
+[2026-01-28 00:44:20] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(6).mp4 elapsed 5.6s
+[2026-01-28 00:44:20] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(7).mp4
+[2026-01-28 00:44:27] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(7).mp4 elapsed 6.6s
+[2026-01-28 00:44:27] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(8).mp4
+[2026-01-28 00:44:36] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(8).mp4 elapsed 9.7s
+[2026-01-28 00:44:36] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(9).mp4
+[2026-01-28 00:44:41] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日(9).mp4 elapsed 4.1s
+[2026-01-28 00:44:41] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日.mp4
+[2026-01-28 00:44:45] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/1月8日.mp4 elapsed 4.6s
+[2026-01-28 00:44:45] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (15).mp4
+[2026-01-28 00:44:51] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (15).mp4 elapsed 5.6s
+[2026-01-28 00:44:51] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (16).mp4
+[2026-01-28 00:45:03] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (16).mp4 elapsed 11.8s
+[2026-01-28 00:45:03] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (17).mp4
+[2026-01-28 00:45:23] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (17).mp4 大小=47.00MB +47.00MB 平均=2.30MB/s 速率=2.30MB/s
+[2026-01-28 00:45:43] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (17).mp4 大小=50.83MB +3.83MB 平均=1.24MB/s 速率=0.19MB/s
+[2026-01-28 00:46:04] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (17).mp4 大小=50.83MB 无变化 平均=0.83MB/s 速率=0.00MB/s
+[2026-01-28 00:46:24] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (17).mp4 大小=50.83MB 无变化 平均=0.62MB/s 速率=0.00MB/s
+[2026-01-28 00:46:30] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (17).mp4 elapsed 87.8s
+[2026-01-28 00:46:30] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (18).mp4
+[2026-01-28 00:46:38] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (18).mp4 elapsed 7.7s
+[2026-01-28 00:46:38] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (19).mp4
+[2026-01-28 00:46:46] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (19).mp4 elapsed 8.2s
+[2026-01-28 00:46:46] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (20).mp4
+[2026-01-28 00:46:53] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (20).mp4 elapsed 7.1s
+[2026-01-28 00:46:53] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (23).mp4
+[2026-01-28 00:47:01] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (23).mp4 elapsed 7.1s
+[2026-01-28 00:47:01] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4
+[2026-01-28 00:47:21] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 大小=37.00MB +37.00MB 平均=1.81MB/s 速率=1.81MB/s
+[2026-01-28 00:47:41] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 大小=38.00MB +1.00MB 平均=0.93MB/s 速率=0.05MB/s
+[2026-01-28 00:48:02] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 大小=39.00MB +1.00MB 平均=0.64MB/s 速率=0.05MB/s
+[2026-01-28 00:48:22] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 大小=49.00MB +10.00MB 平均=0.60MB/s 速率=0.49MB/s
+[2026-01-28 00:48:43] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 大小=77.00MB +28.00MB 平均=0.75MB/s 速率=1.37MB/s
+[2026-01-28 00:49:03] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 大小=78.00MB +1.00MB 平均=0.64MB/s 速率=0.05MB/s
+[2026-01-28 00:49:23] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 大小=85.00MB +7.00MB 平均=0.59MB/s 速率=0.34MB/s
+[2026-01-28 00:49:44] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 大小=86.26MB +1.26MB 平均=0.53MB/s 速率=0.06MB/s
+[2026-01-28 00:49:55] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (24).mp4 elapsed 174.1s
+[2026-01-28 00:49:55] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (25).mp4
+[2026-01-28 00:50:05] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (25).mp4 elapsed 10.7s
+[2026-01-28 00:50:05] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (26).mp4
+[2026-01-28 00:50:15] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (26).mp4 elapsed 9.7s
+[2026-01-28 00:50:15] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (27).mp4
+[2026-01-28 00:50:36] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (27).mp4 大小=55.32MB +55.32MB 平均=2.71MB/s 速率=2.71MB/s
+[2026-01-28 00:50:56] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (27).mp4 大小=55.32MB 无变化 平均=1.35MB/s 速率=0.00MB/s
+[2026-01-28 00:51:16] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (27).mp4 大小=55.32MB 无变化 平均=0.90MB/s 速率=0.00MB/s
+[2026-01-28 00:51:30] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (27).mp4 elapsed 74.6s
+[2026-01-28 00:51:30] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (28).mp4
+[2026-01-28 00:51:38] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂袋包/新（拼多多） (28).mp4 elapsed 8.7s
+[2026-01-28 00:51:38] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (1).mp4
+[2026-01-28 00:51:46] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (1).mp4 elapsed 7.6s
+[2026-01-28 00:51:46] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (10).mp4
+[2026-01-28 00:51:56] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (10).mp4 elapsed 9.7s
+[2026-01-28 00:51:56] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (11).mp4
+[2026-01-28 00:51:59] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (11).mp4 elapsed 3.6s
+[2026-01-28 00:51:59] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (12).mp4
+[2026-01-28 00:52:03] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (12).mp4 elapsed 3.1s
+[2026-01-28 00:52:03] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (13).mp4
+[2026-01-28 00:52:10] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (13).mp4 elapsed 7.2s
+[2026-01-28 00:52:10] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (2).mp4
+[2026-01-28 00:52:14] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (2).mp4 elapsed 4.1s
+[2026-01-28 00:52:14] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (3).mp4
+[2026-01-28 00:52:34] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (3).mp4 大小=25.00MB +25.00MB 平均=1.22MB/s 速率=1.22MB/s
+[2026-01-28 00:52:51] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (3).mp4 elapsed 36.8s
+[2026-01-28 00:52:51] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (4).mp4
+[2026-01-28 00:53:02] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (4).mp4 elapsed 11.2s
+[2026-01-28 00:53:02] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (5).mp4
+[2026-01-28 00:53:22] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (5).mp4 大小=37.00MB +37.00MB 平均=1.81MB/s 速率=1.81MB/s
+[2026-01-28 00:53:43] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (5).mp4 大小=38.00MB +1.00MB 平均=0.93MB/s 速率=0.05MB/s
+[2026-01-28 00:54:03] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (5).mp4 大小=40.00MB +2.00MB 平均=0.65MB/s 速率=0.10MB/s
+[2026-01-28 00:54:23] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (5).mp4 大小=61.00MB +21.00MB 平均=0.75MB/s 速率=1.03MB/s
+[2026-01-28 00:54:44] INFO: 下载心跳: /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (5).mp4 大小=62.72MB +1.72MB 平均=0.61MB/s 速率=0.08MB/s
+[2026-01-28 00:54:51] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (5).mp4 elapsed 108.8s
+[2026-01-28 00:54:51] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (6).mp4
+[2026-01-28 00:54:57] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (6).mp4 elapsed 6.1s
+[2026-01-28 00:54:57] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (7).mp4
+[2026-01-28 00:55:04] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (7).mp4 elapsed 7.1s
+[2026-01-28 00:55:04] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (8).mp4
+[2026-01-28 00:55:11] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (8).mp4 elapsed 7.6s
+[2026-01-28 00:55:11] INFO: download start /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (9).mp4
+[2026-01-28 00:55:19] INFO: download done /a_vso/video/20260128/拼多多个护店/染发剂子母管/0128拼多多 (9).mp4 elapsed 7.1s
+[2026-01-28 00:55:19] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1)(1).mp4
+[2026-01-28 00:55:26] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1)(1).mp4 elapsed 7.2s
+[2026-01-28 00:55:26] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1)(2).mp4
+[2026-01-28 00:55:30] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1)(2).mp4 elapsed 4.1s
+[2026-01-28 00:55:30] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1)(3).mp4
+[2026-01-28 00:55:36] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1)(3).mp4 elapsed 5.6s
+[2026-01-28 00:55:36] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1).mp4
+[2026-01-28 00:55:56] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1).mp4 大小=29.37MB +29.37MB 平均=1.44MB/s 速率=1.44MB/s
+[2026-01-28 00:56:16] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1).mp4 大小=29.37MB 无变化 平均=0.72MB/s 速率=0.00MB/s
+[2026-01-28 00:56:33] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (1).mp4 elapsed 57.7s
+[2026-01-28 00:56:33] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (2)(1).mp4
+[2026-01-28 00:56:40] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (2)(1).mp4 elapsed 7.1s
+[2026-01-28 00:56:40] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (2)(2).mp4
+[2026-01-28 00:56:45] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (2)(2).mp4 elapsed 4.1s
+[2026-01-28 00:56:45] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (2).mp4
+[2026-01-28 00:56:51] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日 (2).mp4 elapsed 6.1s
+[2026-01-28 00:56:51] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日(1).mp4
+[2026-01-28 00:56:59] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日(1).mp4 elapsed 8.2s
+[2026-01-28 00:56:59] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日(2).mp4
+[2026-01-28 00:57:04] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日(2).mp4 elapsed 5.1s
+[2026-01-28 00:57:04] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日(3).mp4
+[2026-01-28 00:57:07] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日(3).mp4 elapsed 3.1s
+[2026-01-28 00:57:07] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日.mp4
+[2026-01-28 00:57:14] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月5日.mp4 elapsed 7.1s
+[2026-01-28 00:57:14] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (1)(1).mp4
+[2026-01-28 00:57:18] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (1)(1).mp4 elapsed 4.1s
+[2026-01-28 00:57:18] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (1)(2).mp4
+[2026-01-28 00:57:23] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (1)(2).mp4 elapsed 5.1s
+[2026-01-28 00:57:23] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (1)(3).mp4
+[2026-01-28 00:57:25] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (1)(3).mp4 elapsed 2.0s
+[2026-01-28 00:57:25] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (1).mp4
+[2026-01-28 00:57:29] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (1).mp4 elapsed 3.1s
+[2026-01-28 00:57:29] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(1).mp4
+[2026-01-28 00:57:34] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(1).mp4 elapsed 5.1s
+[2026-01-28 00:57:34] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(2).mp4
+[2026-01-28 00:57:40] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(2).mp4 elapsed 6.6s
+[2026-01-28 00:57:40] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(3).mp4
+[2026-01-28 00:57:45] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(3).mp4 elapsed 5.1s
+[2026-01-28 00:57:45] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(4).mp4
+[2026-01-28 00:57:50] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(4).mp4 elapsed 5.1s
+[2026-01-28 00:57:50] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(5).mp4
+[2026-01-28 00:57:57] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2)(5).mp4 elapsed 6.1s
+[2026-01-28 00:57:57] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2).mp4
+[2026-01-28 00:58:03] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日 (2).mp4 elapsed 6.1s
+[2026-01-28 00:58:03] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(1).mp4
+[2026-01-28 00:58:07] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(1).mp4 elapsed 4.1s
+[2026-01-28 00:58:07] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(10).mp4
+[2026-01-28 00:58:16] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(10).mp4 elapsed 8.7s
+[2026-01-28 00:58:16] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(11).mp4
+[2026-01-28 00:58:24] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(11).mp4 elapsed 8.2s
+[2026-01-28 00:58:24] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(12).mp4
+[2026-01-28 00:58:31] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(12).mp4 elapsed 7.1s
+[2026-01-28 00:58:31] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(13).mp4
+[2026-01-28 00:58:34] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(13).mp4 elapsed 3.1s
+[2026-01-28 00:58:34] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(14).mp4
+[2026-01-28 00:58:37] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(14).mp4 elapsed 3.1s
+[2026-01-28 00:58:37] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(2).mp4
+[2026-01-28 00:58:43] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(2).mp4 elapsed 6.1s
+[2026-01-28 00:58:43] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(3).mp4
+[2026-01-28 00:58:46] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(3).mp4 elapsed 3.1s
+[2026-01-28 00:58:46] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(4).mp4
+[2026-01-28 00:58:50] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(4).mp4 elapsed 4.1s
+[2026-01-28 00:58:50] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(5).mp4
+[2026-01-28 00:58:54] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(5).mp4 elapsed 4.1s
+[2026-01-28 00:58:54] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(6).mp4
+[2026-01-28 00:59:01] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(6).mp4 elapsed 6.1s
+[2026-01-28 00:59:01] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(7).mp4
+[2026-01-28 00:59:06] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(7).mp4 elapsed 5.1s
+[2026-01-28 00:59:06] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(8).mp4
+[2026-01-28 00:59:10] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(8).mp4 elapsed 4.1s
+[2026-01-28 00:59:10] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(9).mp4
+[2026-01-28 00:59:14] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日(9).mp4 elapsed 4.1s
+[2026-01-28 00:59:14] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日.mp4
+[2026-01-28 00:59:18] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/1月8日.mp4 elapsed 4.1s
+[2026-01-28 00:59:18] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (15).mp4
+[2026-01-28 00:59:22] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (15).mp4 elapsed 4.1s
+[2026-01-28 00:59:22] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (16).mp4
+[2026-01-28 00:59:32] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (16).mp4 elapsed 10.2s
+[2026-01-28 00:59:32] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (17).mp4
+[2026-01-28 00:59:40] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (17).mp4 elapsed 8.2s
+[2026-01-28 00:59:40] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (18).mp4
+[2026-01-28 00:59:49] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (18).mp4 elapsed 8.2s
+[2026-01-28 00:59:49] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (19).mp4
+[2026-01-28 00:59:56] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (19).mp4 elapsed 7.1s
+[2026-01-28 00:59:56] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (20).mp4
+[2026-01-28 01:00:04] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (20).mp4 elapsed 8.2s
+[2026-01-28 01:00:04] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (23).mp4
+[2026-01-28 01:00:15] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (23).mp4 elapsed 11.2s
+[2026-01-28 01:00:15] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (24).mp4
+[2026-01-28 01:00:36] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (24).mp4 大小=37.00MB +37.00MB 平均=1.81MB/s 速率=1.81MB/s
+[2026-01-28 01:00:56] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (24).mp4 大小=39.00MB +2.00MB 平均=0.95MB/s 速率=0.10MB/s
+[2026-01-28 01:01:16] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (24).mp4 大小=73.00MB +34.00MB 平均=1.19MB/s 速率=1.67MB/s
+[2026-01-28 01:01:37] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (24).mp4 大小=79.00MB +6.00MB 平均=0.97MB/s 速率=0.29MB/s
+[2026-01-28 01:01:57] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (24).mp4 大小=86.26MB +7.26MB 平均=0.84MB/s 速率=0.36MB/s
+[2026-01-28 01:01:58] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (24).mp4 elapsed 102.6s
+[2026-01-28 01:01:58] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (25).mp4
+[2026-01-28 01:02:07] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (25).mp4 elapsed 9.2s
+[2026-01-28 01:02:07] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (26).mp4
+[2026-01-28 01:02:18] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (26).mp4 elapsed 11.2s
+[2026-01-28 01:02:18] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (27).mp4
+[2026-01-28 01:02:25] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (27).mp4 elapsed 7.2s
+[2026-01-28 01:02:25] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (28).mp4
+[2026-01-28 01:02:35] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂袋包/新（拼多多） (28).mp4 elapsed 9.7s
+[2026-01-28 01:02:35] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (1).mp4
+[2026-01-28 01:02:42] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (1).mp4 elapsed 7.1s
+[2026-01-28 01:02:42] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (10).mp4
+[2026-01-28 01:02:52] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (10).mp4 elapsed 9.7s
+[2026-01-28 01:02:52] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (11).mp4
+[2026-01-28 01:02:58] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (11).mp4 elapsed 5.6s
+[2026-01-28 01:02:58] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (12).mp4
+[2026-01-28 01:03:04] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (12).mp4 elapsed 6.6s
+[2026-01-28 01:03:04] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (13).mp4
+[2026-01-28 01:03:10] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (13).mp4 elapsed 5.6s
+[2026-01-28 01:03:10] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (2).mp4
+[2026-01-28 01:03:30] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (2).mp4 大小=30.00MB +30.00MB 平均=1.47MB/s 速率=1.47MB/s
+[2026-01-28 01:03:48] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (2).mp4 elapsed 38.3s
+[2026-01-28 01:03:48] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (3).mp4
+[2026-01-28 01:03:51] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (3).mp4 elapsed 3.1s
+[2026-01-28 01:03:51] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (4).mp4
+[2026-01-28 01:03:57] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (4).mp4 elapsed 6.1s
+[2026-01-28 01:03:57] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (5).mp4
+[2026-01-28 01:04:04] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (5).mp4 elapsed 6.1s
+[2026-01-28 01:04:04] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (6).mp4
+[2026-01-28 01:04:11] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (6).mp4 elapsed 7.1s
+[2026-01-28 01:04:11] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (7).mp4
+[2026-01-28 01:04:18] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (7).mp4 elapsed 7.1s
+[2026-01-28 01:04:18] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (8).mp4
+[2026-01-28 01:04:24] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (8).mp4 elapsed 6.1s
+[2026-01-28 01:04:24] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (9).mp4
+[2026-01-28 01:04:31] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/染发剂子母管/0128拼多多 (9).mp4 elapsed 7.1s
+[2026-01-28 01:04:31] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (1).mp4
+[2026-01-28 01:04:39] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (1).mp4 elapsed 8.2s
+[2026-01-28 01:04:39] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (2).mp4
+[2026-01-28 01:05:00] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (2).mp4 大小=42.00MB +42.00MB 平均=2.06MB/s 速率=2.06MB/s
+[2026-01-28 01:05:20] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (2).mp4 大小=85.00MB +43.00MB 平均=2.08MB/s 速率=2.11MB/s
+[2026-01-28 01:05:41] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (2).mp4 大小=113.31MB +28.31MB 平均=1.85MB/s 速率=1.39MB/s
+[2026-01-28 01:05:49] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (2).mp4 elapsed 69.4s
+[2026-01-28 01:05:49] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (3).mp4
+[2026-01-28 01:05:59] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (3).mp4 elapsed 10.2s
+[2026-01-28 01:05:59] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (4).mp4
+[2026-01-28 01:06:06] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (4).mp4 elapsed 6.6s
+[2026-01-28 01:06:06] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (5).mp4
+[2026-01-28 01:06:14] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (5).mp4 elapsed 8.2s
+[2026-01-28 01:06:14] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (6).mp4
+[2026-01-28 01:06:20] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (6).mp4 elapsed 6.1s
+[2026-01-28 01:06:20] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (7).mp4
+[2026-01-28 01:06:40] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (7).mp4 大小=54.00MB +54.00MB 平均=2.64MB/s 速率=2.64MB/s
+[2026-01-28 01:07:01] INFO: 下载心跳: /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (7).mp4 大小=82.11MB +28.11MB 平均=2.01MB/s 速率=1.38MB/s
+[2026-01-28 01:07:05] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (7).mp4 elapsed 44.9s
+[2026-01-28 01:07:05] INFO: download start /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (8).mp4
+[2026-01-28 01:07:13] INFO: download done /a_vso/video/20260128/拼多多美容护发官方旗舰店/小黑/0128拼多多小黑 (8).mp4 elapsed 8.7s
+[2026-01-28 01:07:13] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (1)(1).mp4
+[2026-01-28 01:07:22] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (1)(1).mp4 elapsed 8.2s
+[2026-01-28 01:07:22] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (1)(2).mp4
+[2026-01-28 01:07:26] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (1)(2).mp4 elapsed 4.1s
+[2026-01-28 01:07:26] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (1)(3).mp4
+[2026-01-28 01:07:32] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (1)(3).mp4 elapsed 6.1s
+[2026-01-28 01:07:32] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (1).mp4
+[2026-01-28 01:07:39] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (1).mp4 elapsed 7.1s
+[2026-01-28 01:07:39] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (2)(1).mp4
+[2026-01-28 01:07:46] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (2)(1).mp4 elapsed 7.1s
+[2026-01-28 01:07:46] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (2)(2).mp4
+[2026-01-28 01:08:07] INFO: 下载心跳: /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (2)(2).mp4 大小=33.41MB +33.41MB 平均=1.64MB/s 速率=1.64MB/s
+[2026-01-28 01:08:11] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (2)(2).mp4 elapsed 24.5s
+[2026-01-28 01:08:11] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (2).mp4
+[2026-01-28 01:08:16] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日 (2).mp4 elapsed 5.1s
+[2026-01-28 01:08:16] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日(1).mp4
+[2026-01-28 01:08:22] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日(1).mp4 elapsed 6.1s
+[2026-01-28 01:08:22] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日(2).mp4
+[2026-01-28 01:08:31] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日(2).mp4 elapsed 8.7s
+[2026-01-28 01:08:31] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日(3).mp4
+[2026-01-28 01:08:41] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日(3).mp4 elapsed 10.2s
+[2026-01-28 01:08:41] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日.mp4
+[2026-01-28 01:08:48] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月5日.mp4 elapsed 7.2s
+[2026-01-28 01:08:48] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (1)(1).mp4
+[2026-01-28 01:08:55] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (1)(1).mp4 elapsed 6.6s
+[2026-01-28 01:08:55] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (1)(2).mp4
+[2026-01-28 01:09:00] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (1)(2).mp4 elapsed 5.1s
+[2026-01-28 01:09:00] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (1)(3).mp4
+[2026-01-28 01:09:04] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (1)(3).mp4 elapsed 4.1s
+[2026-01-28 01:09:04] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (1).mp4
+[2026-01-28 01:09:07] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (1).mp4 elapsed 3.1s
+[2026-01-28 01:09:07] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(1).mp4
+[2026-01-28 01:09:17] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(1).mp4 elapsed 9.7s
+[2026-01-28 01:09:17] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(2).mp4
+[2026-01-28 01:09:23] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(2).mp4 elapsed 6.1s
+[2026-01-28 01:09:23] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(3).mp4
+[2026-01-28 01:09:29] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(3).mp4 elapsed 6.1s
+[2026-01-28 01:09:29] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(4).mp4
+[2026-01-28 01:09:45] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(4).mp4 elapsed 16.4s
+[2026-01-28 01:09:45] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(5).mp4
+[2026-01-28 01:09:50] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2)(5).mp4 elapsed 5.1s
+[2026-01-28 01:09:50] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2).mp4
+[2026-01-28 01:09:58] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日 (2).mp4 elapsed 7.2s
+[2026-01-28 01:09:58] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(1).mp4
+[2026-01-28 01:10:17] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(1).mp4 elapsed 19.4s
+[2026-01-28 01:10:17] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(10).mp4
+[2026-01-28 01:10:23] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(10).mp4 elapsed 6.1s
+[2026-01-28 01:10:23] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(11).mp4
+[2026-01-28 01:10:30] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(11).mp4 elapsed 6.6s
+[2026-01-28 01:10:30] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(12).mp4
+[2026-01-28 01:10:35] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(12).mp4 elapsed 5.6s
+[2026-01-28 01:10:35] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(13).mp4
+[2026-01-28 01:10:38] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(13).mp4 elapsed 3.1s
+[2026-01-28 01:10:38] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(14).mp4
+[2026-01-28 01:10:54] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(14).mp4 elapsed 15.3s
+[2026-01-28 01:10:54] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(2).mp4
+[2026-01-28 01:10:57] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(2).mp4 elapsed 3.1s
+[2026-01-28 01:10:57] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(3).mp4
+[2026-01-28 01:11:11] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(3).mp4 elapsed 14.3s
+[2026-01-28 01:11:11] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(4).mp4
+[2026-01-28 01:11:14] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(4).mp4 elapsed 3.1s
+[2026-01-28 01:11:14] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(5).mp4
+[2026-01-28 01:11:21] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(5).mp4 elapsed 7.1s
+[2026-01-28 01:11:21] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(6).mp4
+[2026-01-28 01:11:27] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(6).mp4 elapsed 5.1s
+[2026-01-28 01:11:27] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(7).mp4
+[2026-01-28 01:11:33] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(7).mp4 elapsed 6.1s
+[2026-01-28 01:11:33] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(8).mp4
+[2026-01-28 01:11:37] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(8).mp4 elapsed 4.1s
+[2026-01-28 01:11:37] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(9).mp4
+[2026-01-28 01:11:41] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日(9).mp4 elapsed 4.1s
+[2026-01-28 01:11:41] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日.mp4
+[2026-01-28 01:11:45] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/1月8日.mp4 elapsed 4.1s
+[2026-01-28 01:11:45] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (1).mp4
+[2026-01-28 01:11:56] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (1).mp4 elapsed 10.7s
+[2026-01-28 01:11:56] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (10).mp4
+[2026-01-28 01:12:06] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (10).mp4 elapsed 10.2s
+[2026-01-28 01:12:06] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (11).mp4
+[2026-01-28 01:12:16] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (11).mp4 elapsed 9.7s
+[2026-01-28 01:12:16] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (12).mp4
+[2026-01-28 01:12:25] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (12).mp4 elapsed 9.7s
+[2026-01-28 01:12:25] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (13).mp4
+[2026-01-28 01:12:45] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (13).mp4 elapsed 19.9s
+[2026-01-28 01:12:45] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (14).mp4
+[2026-01-28 01:12:53] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (14).mp4 elapsed 7.7s
+[2026-01-28 01:12:53] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (2).mp4
+[2026-01-28 01:13:03] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (2).mp4 elapsed 9.7s
+[2026-01-28 01:13:03] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (21).mp4
+[2026-01-28 01:13:08] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (21).mp4 elapsed 5.1s
+[2026-01-28 01:13:08] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (22).mp4
+[2026-01-28 01:13:15] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (22).mp4 elapsed 7.7s
+[2026-01-28 01:13:15] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (29).mp4
+[2026-01-28 01:13:24] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (29).mp4 elapsed 8.7s
+[2026-01-28 01:13:24] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (3).mp4
+[2026-01-28 01:13:31] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (3).mp4 elapsed 7.1s
+[2026-01-28 01:13:31] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (4).mp4
+[2026-01-28 01:13:39] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (4).mp4 elapsed 8.2s
+[2026-01-28 01:13:39] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (5).mp4
+[2026-01-28 01:13:47] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (5).mp4 elapsed 7.1s
+[2026-01-28 01:13:47] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (6).mp4
+[2026-01-28 01:13:59] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (6).mp4 elapsed 12.8s
+[2026-01-28 01:13:59] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (7).mp4
+[2026-01-28 01:14:08] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (7).mp4 elapsed 8.7s
+[2026-01-28 01:14:08] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (8).mp4
+[2026-01-28 01:14:17] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (8).mp4 elapsed 8.7s
+[2026-01-28 01:14:17] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (9).mp4
+[2026-01-28 01:14:25] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂袋包/新（拼多多） (9).mp4 elapsed 8.7s
+[2026-01-28 01:14:25] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (1).mp4
+[2026-01-28 01:14:32] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (1).mp4 elapsed 6.6s
+[2026-01-28 01:14:32] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (10).mp4
+[2026-01-28 01:14:38] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (10).mp4 elapsed 6.1s
+[2026-01-28 01:14:38] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (11).mp4
+[2026-01-28 01:14:41] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (11).mp4 elapsed 3.1s
+[2026-01-28 01:14:41] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (12).mp4
+[2026-01-28 01:14:54] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (12).mp4 elapsed 12.3s
+[2026-01-28 01:14:54] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (13).mp4
+[2026-01-28 01:14:59] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (13).mp4 elapsed 5.1s
+[2026-01-28 01:14:59] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (2).mp4
+[2026-01-28 01:15:03] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (2).mp4 elapsed 4.1s
+[2026-01-28 01:15:03] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (3).mp4
+[2026-01-28 01:15:11] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (3).mp4 elapsed 8.2s
+[2026-01-28 01:15:11] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (4).mp4
+[2026-01-28 01:15:20] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (4).mp4 elapsed 9.2s
+[2026-01-28 01:15:20] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (5).mp4
+[2026-01-28 01:15:26] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (5).mp4 elapsed 6.1s
+[2026-01-28 01:15:26] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (6).mp4
+[2026-01-28 01:15:34] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (6).mp4 elapsed 7.1s
+[2026-01-28 01:15:34] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (7).mp4
+[2026-01-28 01:15:41] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (7).mp4 elapsed 7.1s
+[2026-01-28 01:15:41] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (8).mp4
+[2026-01-28 01:15:48] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (8).mp4 elapsed 7.7s
+[2026-01-28 01:15:48] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (9).mp4
+[2026-01-28 01:15:55] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/0128拼多多 (9).mp4 elapsed 6.1s
+[2026-01-28 01:15:55] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/旧1.mp4
+[2026-01-28 01:16:03] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/旧1.mp4 elapsed 8.2s
+[2026-01-28 01:16:03] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/旧2.mp4
+[2026-01-28 01:16:06] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/旧2.mp4 elapsed 3.1s
+[2026-01-28 01:16:06] INFO: download start /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/旧3.mp4
+[2026-01-28 01:16:18] INFO: download done /a_vso/video/20260128/拼多多旗舰店/染发剂子母管/旧3.mp4 elapsed 11.7s
+[2026-01-28 01:16:18] INFO: download start /a_vso/video/20260128/拼多多旗舰店/洗发水白瓶款/洗发水1.mp4
+[2026-01-28 01:16:26] INFO: download done /a_vso/video/20260128/拼多多旗舰店/洗发水白瓶款/洗发水1.mp4 elapsed 8.7s
+[2026-01-28 11:11:43] INFO: 配置已保存
+[2026-01-28 11:13:59] INFO: 配置已保存
+[2026-01-28 11:38:16] INFO: 配置已保存
+[2026-01-28 11:38:16] INFO: 上传计划已保存
+[2026-01-28 11:38:22] INFO: 配置已保存
+[2026-01-28 11:38:22] INFO: 上传计划已保存
+[2026-01-28 11:39:10] INFO: 配置已保存
+[2026-01-28 11:39:10] INFO: 上传计划已保存
+[2026-01-28 13:02:11] INFO: 配置已保存
+[2026-01-28 13:02:11] INFO: 上传计划已保存
+[2026-01-28 13:16:21] INFO: 配置已保存
+[2026-01-28 13:16:21] INFO: 上传计划已保存
+[2026-01-28 13:16:33] INFO: 配置已保存
+[2026-01-28 13:16:33] INFO: 上传计划已保存
+[2026-01-28 14:07:05] INFO: 配置已保存
+[2026-01-28 14:07:05] INFO: 上传计划已保存
+[2026-01-28 14:07:06] INFO: 配置已保存
+[2026-01-28 14:07:06] INFO: 上传计划已保存
+[2026-01-28 14:07:07] INFO: 配置已保存
+[2026-01-28 14:07:07] INFO: 上传计划已保存
+[2026-01-28 14:10:15] INFO: auto cycle start
+[2026-01-28 14:10:15] INFO: download already done today, skip
+[2026-01-28 14:10:15] INFO: download ready, start upload
+[2026-01-28 14:10:15] INFO: 上传触发
+[2026-01-28 14:10:15] INFO: 扫描根目录: C:\Users\20487\Desktop\pdd_vd\video
+[2026-01-28 14:10:20] INFO: [拼多多旗舰店] 发现视频 70 个，目录 3 个
+[2026-01-28 14:10:20] INFO: [拼多多旗舰店] 今日完成 0 个，失败 0 个，进行中 0 个
+[2026-01-28 14:10:20] INFO: [拼多多旗舰店] 当前发布时段 14:10，本轮可发布 15 个
+[2026-01-28 14:10:20] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (1).mp4
+[2026-01-28 14:10:25] INFO: 准备上传文件: 0128拼多多 (1).mp4, size=36138515 bytes, mime=video/mp4
+[2026-01-28 14:10:25] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:10:25] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:10:35] INFO: 上传分片 2/2 size=16215571
+[2026-01-28 14:10:49] INFO: complete vid=openplat-video-sign#eaqvczcay7b7outthfxcjjrg4i751rc7
+[2026-01-28 14:10:50] INFO: upload cover image: 0128拼多多 (1).jpg, size=111245 bytes, mime=image/jpeg
+[2026-01-28 14:11:06] INFO: publish desc=没有纯植物染发膏。 #干枯毛躁护发好物 #美妆好物大盘点 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 14:11:06] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/5605e117-9d4d-4d92-bace-4207efa136b8.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#eaqvczcay7b7outthfxcjjrg4i751rc7","desc":"没有纯植物染发膏。 #干枯毛躁护发好物 #美妆好物大盘点 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 14:11:11] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (1).mp4 video_id=6837792053582643758
+[2026-01-28 14:11:11] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (10).mp4
+[2026-01-28 14:11:16] INFO: 准备上传文件: 0128拼多多 (10).mp4, size=57852668 bytes, mime=video/mp4
+[2026-01-28 14:11:16] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:11:16] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:11:27] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:11:37] INFO: 上传分片 3/3 size=18006780
+[2026-01-28 14:11:52] INFO: complete vid=openplat-video-sign#bpy23kz7nuuxp7sf7tnzjjrg5cha3yv7
+[2026-01-28 14:11:53] INFO: upload cover image: 0128拼多多 (10).jpg, size=358700 bytes, mime=image/jpeg
+[2026-01-28 14:12:09] INFO: publish desc=染发膏没有纯植物的，都有化学成分。 #省到家的护发好物清单 #美妆好物大盘点 #显白发色 #黄皮必备发色
+[2026-01-28 14:12:09] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/35bebb56-d071-4623-b7d2-db5d43daefb9.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#bpy23kz7nuuxp7sf7tnzjjrg5cha3yv7","desc":"染发膏没有纯植物的，都有化学成分。 #省到家的护发好物清单 #美妆好物大盘点 #显白发色 #黄皮必备发色"}
+[2026-01-28 14:12:14] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (10).mp4 video_id=6837792581696065251
+[2026-01-28 14:12:14] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (11).mp4
+[2026-01-28 14:12:19] INFO: 准备上传文件: 0128拼多多 (11).mp4, size=7329788 bytes, mime=video/mp4
+[2026-01-28 14:12:19] INFO: 开始分片上传，共 1 片
+[2026-01-28 14:12:19] INFO: 上传分片 1/1 size=7329788
+[2026-01-28 14:12:30] INFO: complete vid=openplat-video-sign#2akcl8gr2fon4ep1i3lkjjrg5uoblw9z
+[2026-01-28 14:12:30] INFO: upload cover image: 0128拼多多 (11).jpg, size=243767 bytes, mime=image/jpeg
+[2026-01-28 14:12:48] INFO: publish desc=拍一发八，拍一发八。 #省到家的护发好物清单 #干枯毛躁护发好物 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 14:12:48] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/eb4ef250-8c1d-4b89-87eb-2c87e03942a9.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#2akcl8gr2fon4ep1i3lkjjrg5uoblw9z","desc":"拍一发八，拍一发八。 #省到家的护发好物清单 #干枯毛躁护发好物 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 14:12:52] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (11).mp4 video_id=6837792901880830511
+[2026-01-28 14:12:52] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (12).mp4
+[2026-01-28 14:12:57] INFO: 准备上传文件: 0128拼多多 (12).mp4, size=24680294 bytes, mime=video/mp4
+[2026-01-28 14:12:57] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:12:57] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:13:11] INFO: 上传分片 2/2 size=4757350
+[2026-01-28 14:13:21] INFO: complete vid=openplat-video-sign#tlp2ess95ceydba0taohjjrg6jgnyk18
+[2026-01-28 14:13:22] INFO: upload cover image: 0128拼多多 (12).jpg, size=147307 bytes, mime=image/jpeg
+[2026-01-28 14:13:38] INFO: publish desc=拍一八八，染博士柔彩染发霜。 #头皮护理好物推荐 #省到家的护发好物清单 #盖白发染发膏 #黄皮必备发色
+[2026-01-28 14:13:38] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/8057cd43-d56a-4a92-b5a9-c6b0a0d5c8aa.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#tlp2ess95ceydba0taohjjrg6jgnyk18","desc":"拍一八八，染博士柔彩染发霜。 #头皮护理好物推荐 #省到家的护发好物清单 #盖白发染发膏 #黄皮必备发色"}
+[2026-01-28 14:13:43] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (12).mp4 video_id=6837793328299172466
+[2026-01-28 14:13:43] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日 (1)(1).mp4
+[2026-01-28 14:13:48] INFO: 准备上传文件: 1月5日 (1)(1).mp4, size=46493229 bytes, mime=video/mp4
+[2026-01-28 14:13:48] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:13:48] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:13:58] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:14:09] INFO: 上传分片 3/3 size=6647341
+[2026-01-28 14:14:21] INFO: complete vid=openplat-video-sign#7lhgfdtye1eilh8u0nitjjrg7c4bwc3z
+[2026-01-28 14:14:21] INFO: upload cover image: 1月5日 (1)(1).jpg, size=230564 bytes, mime=image/jpeg
+[2026-01-28 14:14:38] INFO: publish desc=新升级柔彩染发膏，护发力超强。 #干枯毛躁护发好物 #美妆好物大盘点 #显白发色 #安全染发剂推荐
+[2026-01-28 14:14:38] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/c207f7b4-b502-4dbd-80a1-4b8f157db767.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#7lhgfdtye1eilh8u0nitjjrg7c4bwc3z","desc":"新升级柔彩染发膏，护发力超强。 #干枯毛躁护发好物 #美妆好物大盘点 #显白发色 #安全染发剂推荐"}
+[2026-01-28 14:14:43] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日 (1)(1).mp4 video_id=6837793829308566836
+[2026-01-28 14:14:43] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日 (1)(2).mp4
+[2026-01-28 14:14:48] INFO: 准备上传文件: 1月5日 (1)(2).mp4, size=44417431 bytes, mime=video/mp4
+[2026-01-28 14:14:48] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:14:48] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:14:58] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:15:09] INFO: 上传分片 3/3 size=4571543
+[2026-01-28 14:15:20] INFO: complete vid=openplat-video-sign#y46fbz5oa5vl42cqeacojjrg84ip7q39
+[2026-01-28 14:15:20] INFO: upload cover image: 1月5日 (1)(2).jpg, size=151787 bytes, mime=image/jpeg
+[2026-01-28 14:15:38] INFO: publish desc=染发剂袋包，亲肤安全，显白洋气。 #干枯毛躁护发好物 #美妆好物大盘点 #染发注意事项 #盖白发染发膏
+[2026-01-28 14:15:38] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/fa7a16b4-79c7-4efa-a9fa-5b184e6891cb.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#y46fbz5oa5vl42cqeacojjrg84ip7q39","desc":"染发剂袋包，亲肤安全，显白洋气。 #干枯毛躁护发好物 #美妆好物大盘点 #染发注意事项 #盖白发染发膏"}
+[2026-01-28 14:15:43] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日 (1)(2).mp4 video_id=6837794331970838604
+[2026-01-28 14:15:43] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日 (1)(3).mp4
+[2026-01-28 14:15:48] INFO: 准备上传文件: 1月5日 (1)(3).mp4, size=41356156 bytes, mime=video/mp4
+[2026-01-28 14:15:48] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:15:48] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:15:58] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:16:13] INFO: 上传分片 3/3 size=1510268
+[2026-01-28 14:16:22] INFO: complete vid=openplat-video-sign#b39ct0gvrytb4mt0foh2jjrg8ykczuir
+[2026-01-28 14:16:23] INFO: upload cover image: 1月5日 (1)(3).jpg, size=191418 bytes, mime=image/jpeg
+[2026-01-28 14:16:40] INFO: publish desc=新升级柔彩染发膏，护发力强。 #美妆好物大盘点 #省到家的护发好物清单 #显白发色 #染发注意事项
+[2026-01-28 14:16:40] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/f65b0230-a290-479d-93d9-3936fbf8213d.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#b39ct0gvrytb4mt0foh2jjrg8ykczuir","desc":"新升级柔彩染发膏，护发力强。 #美妆好物大盘点 #省到家的护发好物清单 #显白发色 #染发注意事项"}
+[2026-01-28 14:16:44] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日 (1)(3).mp4 video_id=6837794848239248528
+[2026-01-28 14:16:44] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日 (1).mp4
+[2026-01-28 14:16:49] INFO: 准备上传文件: 1月5日 (1).mp4, size=30798152 bytes, mime=video/mp4
+[2026-01-28 14:16:49] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:16:49] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:17:00] INFO: 上传分片 2/2 size=10875208
+[2026-01-28 14:17:12] INFO: complete vid=openplat-video-sign#vopmfyx0qr8xgdmhuczzjjrg9mie2vh8
+[2026-01-28 14:17:12] INFO: upload cover image: 1月5日 (1).jpg, size=223443 bytes, mime=image/jpeg
+[2026-01-28 14:17:29] INFO: publish desc=新升级柔彩染发膏护发力强。 #头皮护理好物推荐 #省到家的护发好物清单 #黄皮必备发色 #显白发色
+[2026-01-28 14:17:29] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/e46a9966-68ab-40d7-afb0-8148bd66bf31.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#vopmfyx0qr8xgdmhuczzjjrg9mie2vh8","desc":"新升级柔彩染发膏护发力强。 #头皮护理好物推荐 #省到家的护发好物清单 #黄皮必备发色 #显白发色"}
+[2026-01-28 14:17:34] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日 (1).mp4 video_id=6837795261101420629
+[2026-01-28 14:17:34] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日 (2)(1).mp4
+[2026-01-28 14:17:38] INFO: 准备上传文件: 1月5日 (2)(1).mp4, size=29881597 bytes, mime=video/mp4
+[2026-01-28 14:17:38] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:17:38] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:17:49] INFO: 上传分片 2/2 size=9958653
+[2026-01-28 14:18:01] INFO: complete vid=openplat-video-sign#sjzkhpfhqkuj0z2mqqyzjjrga9yxvh0s
+[2026-01-28 14:18:01] INFO: upload cover image: 1月5日 (2)(1).jpg, size=183236 bytes, mime=image/jpeg
+[2026-01-28 14:18:18] INFO: publish desc=这款染发剂袋包使用方便。 #头皮护理好物推荐 #美妆好物大盘点 #安全染发剂推荐 #染发注意事项
+[2026-01-28 14:18:18] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/93a3760b-eb02-4b83-8be5-db879caf2ae5.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#sjzkhpfhqkuj0z2mqqyzjjrga9yxvh0s","desc":"这款染发剂袋包使用方便。 #头皮护理好物推荐 #美妆好物大盘点 #安全染发剂推荐 #染发注意事项"}
+[2026-01-28 14:18:23] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日 (2)(1).mp4 video_id=6837795671849523643
+[2026-01-28 14:18:23] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日 (2)(2).mp4
+[2026-01-28 14:18:27] INFO: 准备上传文件: 1月5日 (2)(2).mp4, size=35028031 bytes, mime=video/mp4
+[2026-01-28 14:18:27] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:18:27] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:18:39] INFO: 上传分片 2/2 size=15105087
+[2026-01-28 14:18:54] INFO: complete vid=openplat-video-sign#j9ynnfm06asrpig2gxgfjjrgazefnrak
+[2026-01-28 14:18:54] INFO: upload cover image: 1月5日 (2)(2).jpg, size=170985 bytes, mime=image/jpeg
+[2026-01-28 14:19:11] INFO: publish desc=新升级柔彩染发膏，护发力超强。 #省到家的护发好物清单 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 14:19:11] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/51dfaf7b-44ee-4aff-8341-63c9953e693b.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#j9ynnfm06asrpig2gxgfjjrgazefnrak","desc":"新升级柔彩染发膏，护发力超强。 #省到家的护发好物清单 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 14:19:15] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日 (2)(2).mp4 video_id=6837796115330177936
+[2026-01-28 14:19:15] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日 (2).mp4
+[2026-01-28 14:19:20] INFO: 准备上传文件: 1月5日 (2).mp4, size=45052297 bytes, mime=video/mp4
+[2026-01-28 14:19:20] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:19:20] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:19:31] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:19:41] INFO: 上传分片 3/3 size=5206409
+[2026-01-28 14:19:52] INFO: complete vid=openplat-video-sign#r6dqalnt6rvkpjdgh58ijjrgbrdbhb2b
+[2026-01-28 14:19:52] INFO: upload cover image: 1月5日 (2).jpg, size=256384 bytes, mime=image/jpeg
+[2026-01-28 14:20:08] INFO: publish desc=染发不伤发质，使用方便。 #头皮护理好物推荐 #美妆好物大盘点 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 14:20:08] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/458916f2-7e76-4afb-9cd9-a58aab59a04e.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#r6dqalnt6rvkpjdgh58ijjrgbrdbhb2b","desc":"染发不伤发质，使用方便。 #头皮护理好物推荐 #美妆好物大盘点 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 14:20:13] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日 (2).mp4 video_id=6837796599940034887
+[2026-01-28 14:20:13] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日(1).mp4
+[2026-01-28 14:20:18] INFO: 准备上传文件: 1月5日(1).mp4, size=47539364 bytes, mime=video/mp4
+[2026-01-28 14:20:18] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:20:18] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:20:28] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:20:39] INFO: 上传分片 3/3 size=7693476
+[2026-01-28 14:20:51] INFO: complete vid=openplat-video-sign#pfdxyfvdnta0v8l031vajjrgcjvydg2y
+[2026-01-28 14:20:51] INFO: upload cover image: 1月5日(1).jpg, size=202518 bytes, mime=image/jpeg
+[2026-01-28 14:21:08] INFO: publish desc=染发剂袋包，轻松在家染发。 #美妆好物大盘点 #头皮护理好物推荐 #染发注意事项 #黄皮必备发色
+[2026-01-28 14:21:08] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/000c54a5-12f0-4744-920d-91b1bcbc5ddd.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#pfdxyfvdnta0v8l031vajjrgcjvydg2y","desc":"染发剂袋包，轻松在家染发。 #美妆好物大盘点 #头皮护理好物推荐 #染发注意事项 #黄皮必备发色"}
+[2026-01-28 14:21:13] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日(1).mp4 video_id=6837797098617424812
+[2026-01-28 14:21:13] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日(2).mp4
+[2026-01-28 14:21:17] INFO: 准备上传文件: 1月5日(2).mp4, size=48972062 bytes, mime=video/mp4
+[2026-01-28 14:21:17] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:21:17] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:21:28] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:21:38] INFO: 上传分片 3/3 size=9126174
+[2026-01-28 14:21:49] INFO: complete vid=openplat-video-sign#hlv8z1shvdut9l82jpphjjrgdc3vg9tp
+[2026-01-28 14:21:50] INFO: upload cover image: 1月5日(2).jpg, size=151714 bytes, mime=image/jpeg
+[2026-01-28 14:22:06] INFO: publish desc=染发频繁选柔彩级更合适。 #美妆好物大盘点 #省到家的护发好物清单 #盖白发染发膏 #染发注意事项
+[2026-01-28 14:22:06] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/200df3f8-a17b-4b81-9176-ef3d49c9cb2f.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#hlv8z1shvdut9l82jpphjjrgdc3vg9tp","desc":"染发频繁选柔彩级更合适。 #美妆好物大盘点 #省到家的护发好物清单 #盖白发染发膏 #染发注意事项"}
+[2026-01-28 14:22:11] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日(2).mp4 video_id=6837797590425424558
+[2026-01-28 14:22:11] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日(3).mp4
+[2026-01-28 14:22:16] INFO: 准备上传文件: 1月5日(3).mp4, size=24352157 bytes, mime=video/mp4
+[2026-01-28 14:22:16] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:22:16] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:22:27] INFO: 上传分片 2/2 size=4429213
+[2026-01-28 14:22:37] INFO: complete vid=openplat-video-sign#xu1fwqjqew8znve2l92ujjrgdyy7ivu9
+[2026-01-28 14:22:37] INFO: upload cover image: 1月5日(3).jpg, size=297116 bytes, mime=image/jpeg
+[2026-01-28 14:22:53] INFO: publish desc=染发剂袋包，一瓶搞定黑茶色。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #显白发色
+[2026-01-28 14:22:53] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/2bc67475-b6b7-4cfe-acf7-79fac8ba0200.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#xu1fwqjqew8znve2l92ujjrgdyy7ivu9","desc":"染发剂袋包，一瓶搞定黑茶色。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #显白发色"}
+[2026-01-28 14:22:58] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日(3).mp4 video_id=6837797984941181313
+[2026-01-28 14:22:58] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月5日.mp4
+[2026-01-28 14:23:03] INFO: 准备上传文件: 1月5日.mp4, size=44639768 bytes, mime=video/mp4
+[2026-01-28 14:23:03] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:23:03] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:23:14] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:23:24] INFO: 上传分片 3/3 size=4793880
+[2026-01-28 14:23:34] INFO: complete vid=openplat-video-sign#ocmsgilgajzwzwhznbfajjrgeqpcaa5a
+[2026-01-28 14:23:35] INFO: upload cover image: 1月5日.jpg, size=387366 bytes, mime=image/jpeg
+[2026-01-28 14:23:52] INFO: publish desc=十几块就买到了一盒染发膏的八件套。 #美妆好物大盘点 #干枯毛躁护发好物 #染发注意事项 #显白发色
+[2026-01-28 14:23:52] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/abcd2941-c75e-4886-aae8-2eb107a51d45.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#ocmsgilgajzwzwhznbfajjrgeqpcaa5a","desc":"十几块就买到了一盒染发膏的八件套。 #美妆好物大盘点 #干枯毛躁护发好物 #染发注意事项 #显白发色"}
+[2026-01-28 14:23:57] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月5日.mp4 video_id=6837798475221543158
+[2026-01-28 14:23:57] INFO: [拼多多旗舰店] ???????????
+[2026-01-28 14:24:02] INFO: [拼多多美容护发官方旗舰店] 发现视频 69 个，目录 3 个
+[2026-01-28 14:24:02] INFO: [拼多多美容护发官方旗舰店] 今日完成 0 个，失败 0 个，进行中 0 个
+[2026-01-28 14:24:02] INFO: [拼多多美容护发官方旗舰店] 当前发布时段 14:10，本轮可发布 15 个
+[2026-01-28 14:24:02] INFO: [拼多多美容护发官方旗舰店] 开始上传 小黑/0128拼多多小黑 (1).mp4
+[2026-01-28 14:24:07] INFO: 准备上传文件: 0128拼多多小黑 (1).mp4, size=82171955 bytes, mime=video/mp4
+[2026-01-28 14:24:07] INFO: 开始分片上传，共 5 片
+[2026-01-28 14:24:07] INFO: 上传分片 1/5 size=19922944
+[2026-01-28 14:24:17] INFO: 上传分片 2/5 size=19922944
+[2026-01-28 14:24:27] INFO: 上传分片 3/5 size=19922944
+[2026-01-28 14:24:38] INFO: 上传分片 4/5 size=19922944
+[2026-01-28 14:24:49] INFO: 上传分片 5/5 size=2480179
+[2026-01-28 14:24:59] INFO: complete vid=openplat-video-sign#xhfvlmfxcdc0eeqhc8sujjrgfva35nig
+[2026-01-28 14:24:59] INFO: upload cover image: 0128拼多多小黑 (1).jpg, size=205398 bytes, mime=image/jpeg
+[2026-01-28 14:25:15] INFO: publish desc=十九块九，五十九一个。 #美妆好物大盘点 #头皮护理好物推荐
+[2026-01-28 14:25:15] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/46db1ee3-c6dc-4b77-aef2-28b4f0a9293a.jpeg","goods_id":820092110567,"vid":"openplat-video-sign#xhfvlmfxcdc0eeqhc8sujjrgfva35nig","desc":"十九块九，五十九一个。 #美妆好物大盘点 #头皮护理好物推荐"}
+[2026-01-28 14:25:20] INFO: [拼多多美容护发官方旗舰店] 上传完成 小黑/0128拼多多小黑 (1).mp4 video_id=6837799176811308766
+[2026-01-28 14:25:20] INFO: [拼多多美容护发官方旗舰店] 开始上传 小黑/0128拼多多小黑 (2).mp4
+[2026-01-28 14:25:25] INFO: 准备上传文件: 0128拼多多小黑 (2).mp4, size=118810741 bytes, mime=video/mp4
+[2026-01-28 14:25:25] INFO: 开始分片上传，共 6 片
+[2026-01-28 14:25:25] INFO: 上传分片 1/6 size=19922944
+[2026-01-28 14:25:36] INFO: 上传分片 2/6 size=19922944
+[2026-01-28 14:25:46] INFO: 上传分片 3/6 size=19922944
+[2026-01-28 14:25:57] INFO: 上传分片 4/6 size=19922944
+[2026-01-28 14:26:07] INFO: 上传分片 5/6 size=19922944
+[2026-01-28 14:26:18] INFO: 上传分片 6/6 size=19196021
+[2026-01-28 14:26:33] INFO: complete vid=openplat-video-sign#uxmmpyjmowcvo17fbskljjrgh4urppt1
+[2026-01-28 14:26:33] INFO: upload cover image: 0128拼多多小黑 (2).jpg, size=129362 bytes, mime=image/jpeg
+[2026-01-28 14:26:51] INFO: publish desc=连用二十天，头发变好。 #干枯毛躁护发好物 #美妆好物大盘点
+[2026-01-28 14:26:51] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/57deb66e-befe-4618-98fa-ea4586edd1de.jpeg","goods_id":820092110567,"vid":"openplat-video-sign#uxmmpyjmowcvo17fbskljjrgh4urppt1","desc":"连用二十天，头发变好。 #干枯毛躁护发好物 #美妆好物大盘点"}
+[2026-01-28 14:26:56] INFO: [拼多多美容护发官方旗舰店] 上传完成 小黑/0128拼多多小黑 (2).mp4 video_id=6837799979693778585
+[2026-01-28 14:26:56] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂子母管/0128拼多多 (1).mp4
+[2026-01-28 14:27:01] INFO: 准备上传文件: 0128拼多多 (1).mp4, size=36138515 bytes, mime=video/mp4
+[2026-01-28 14:27:01] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:27:01] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:27:11] INFO: 上传分片 2/2 size=16215571
+[2026-01-28 14:27:26] INFO: complete vid=openplat-video-sign#jxmxqbgu5xzhgf0vlaptjjrghu1nul74
+[2026-01-28 14:27:26] INFO: upload cover image: 0128拼多多 (1).jpg, size=111245 bytes, mime=image/jpeg
+[2026-01-28 14:27:43] INFO: publish desc=没有纯植物染发膏。 #干枯毛躁护发好物 #美妆好物大盘点 #染发注意事项 #盖白发染发膏
+[2026-01-28 14:27:43] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/505242b2-cbef-4713-9766-237f150791c6.jpeg","goods_id":591500186361,"vid":"openplat-video-sign#jxmxqbgu5xzhgf0vlaptjjrghu1nul74","desc":"没有纯植物染发膏。 #干枯毛躁护发好物 #美妆好物大盘点 #染发注意事项 #盖白发染发膏"}
+[2026-01-28 14:27:48] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂子母管/0128拼多多 (1).mp4 video_id=6837800416161031274
+[2026-01-28 14:27:48] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂子母管/0128拼多多 (10).mp4
+[2026-01-28 14:27:53] INFO: 准备上传文件: 0128拼多多 (10).mp4, size=57852668 bytes, mime=video/mp4
+[2026-01-28 14:27:53] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:27:53] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:28:03] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:28:13] INFO: 上传分片 3/3 size=18006780
+[2026-01-28 14:28:28] INFO: complete vid=openplat-video-sign#qxjoht7lgirsceq7hcj8jjrginxt3s28
+[2026-01-28 14:28:28] INFO: upload cover image: 0128拼多多 (10).jpg, size=358700 bytes, mime=image/jpeg
+[2026-01-28 14:28:45] INFO: publish desc=染发膏没有纯植物的，都有化学成分。 #省到家的护发好物清单 #美妆好物大盘点 #黄皮必备发色 #盖白发染发膏
+[2026-01-28 14:28:45] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/3cc69391-1f94-411f-9816-cfec94834e89.jpeg","goods_id":591500186361,"vid":"openplat-video-sign#qxjoht7lgirsceq7hcj8jjrginxt3s28","desc":"染发膏没有纯植物的，都有化学成分。 #省到家的护发好物清单 #美妆好物大盘点 #黄皮必备发色 #盖白发染发膏"}
+[2026-01-28 14:28:50] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂子母管/0128拼多多 (10).mp4 video_id=6837800934249931531
+[2026-01-28 14:28:50] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂子母管/0128拼多多 (11).mp4
+[2026-01-28 14:28:55] INFO: 准备上传文件: 0128拼多多 (11).mp4, size=7329788 bytes, mime=video/mp4
+[2026-01-28 14:28:55] INFO: 开始分片上传，共 1 片
+[2026-01-28 14:28:55] INFO: 上传分片 1/1 size=7329788
+[2026-01-28 14:29:07] INFO: complete vid=openplat-video-sign#3r5xihior42dkb8ghexnjjrgj70v1uqd
+[2026-01-28 14:29:07] INFO: upload cover image: 0128拼多多 (11).jpg, size=243767 bytes, mime=image/jpeg
+[2026-01-28 14:29:24] INFO: publish desc=拍两瓶送三瓶，年货节福利多。 #省到家的护发好物清单 #头皮护理好物推荐 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 14:29:24] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/3dd1cc2f-2da1-42ed-a118-ec69a0fa0afc.jpeg","goods_id":591500186361,"vid":"openplat-video-sign#3r5xihior42dkb8ghexnjjrgj70v1uqd","desc":"拍两瓶送三瓶，年货节福利多。 #省到家的护发好物清单 #头皮护理好物推荐 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 14:29:29] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂子母管/0128拼多多 (11).mp4 video_id=6837801263644981184
+[2026-01-28 14:29:29] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日 (1)(1).mp4
+[2026-01-28 14:29:34] INFO: 准备上传文件: 1月5日 (1)(1).mp4, size=46493229 bytes, mime=video/mp4
+[2026-01-28 14:29:34] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:29:34] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:29:44] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:29:55] INFO: 上传分片 3/3 size=6647341
+[2026-01-28 14:30:06] INFO: complete vid=openplat-video-sign#xopcbeq2jjeuwzmt6i0cjjrgjzdxjnaf
+[2026-01-28 14:30:06] INFO: upload cover image: 1月5日 (1)(1).jpg, size=230564 bytes, mime=image/jpeg
+[2026-01-28 14:30:23] INFO: publish desc=新升级柔彩染发膏，护发更柔顺。 #美妆好物大盘点 #头皮护理好物推荐 #盖白发染发膏 #染发注意事项
+[2026-01-28 14:30:23] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/e20d7966-60dc-4c18-81cf-7b44eac9801c.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#xopcbeq2jjeuwzmt6i0cjjrgjzdxjnaf","desc":"新升级柔彩染发膏，护发更柔顺。 #美妆好物大盘点 #头皮护理好物推荐 #盖白发染发膏 #染发注意事项"}
+[2026-01-28 14:30:28] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日 (1)(1).mp4 video_id=6837801755713027991
+[2026-01-28 14:30:28] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日 (1)(2).mp4
+[2026-01-28 14:30:33] INFO: 准备上传文件: 1月5日 (1)(2).mp4, size=44417431 bytes, mime=video/mp4
+[2026-01-28 14:30:33] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:30:33] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:30:43] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:30:53] INFO: 上传分片 3/3 size=4571543
+[2026-01-28 14:31:03] INFO: complete vid=openplat-video-sign#hjwsigtb1us27ayawntzjjrgkqxq89q2
+[2026-01-28 14:31:04] INFO: upload cover image: 1月5日 (1)(2).jpg, size=151787 bytes, mime=image/jpeg
+[2026-01-28 14:31:20] INFO: publish desc=染发剂袋包，亲肤易用，效果自然。 #头皮护理好物推荐 #美妆好物大盘点 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 14:31:20] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/d52bcbe2-1082-4de4-add9-e70b7154e8f1.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#hjwsigtb1us27ayawntzjjrgkqxq89q2","desc":"染发剂袋包，亲肤易用，效果自然。 #头皮护理好物推荐 #美妆好物大盘点 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 14:31:25] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日 (1)(2).mp4 video_id=6837802237026034389
+[2026-01-28 14:31:25] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日 (1)(3).mp4
+[2026-01-28 14:31:30] INFO: 准备上传文件: 1月5日 (1)(3).mp4, size=41356156 bytes, mime=video/mp4
+[2026-01-28 14:31:30] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:31:30] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:31:40] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:31:51] INFO: 上传分片 3/3 size=1510268
+[2026-01-28 14:32:01] INFO: complete vid=openplat-video-sign#dhjpnbxkyfeagjbk9kdijjrglim4z5d1
+[2026-01-28 14:32:01] INFO: upload cover image: 1月5日 (1)(3).jpg, size=191418 bytes, mime=image/jpeg
+[2026-01-28 14:32:18] INFO: publish desc=亲肤染发，护发不干枯。 #干枯毛躁护发好物 #头皮护理好物推荐 #安全染发剂推荐 #显白发色
+[2026-01-28 14:32:18] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/33b3f903-b4af-4bc7-914f-85ef535b5081.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#dhjpnbxkyfeagjbk9kdijjrglim4z5d1","desc":"亲肤染发，护发不干枯。 #干枯毛躁护发好物 #头皮护理好物推荐 #安全染发剂推荐 #显白发色"}
+[2026-01-28 14:32:22] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日 (1)(3).mp4 video_id=6837802717634437963
+[2026-01-28 14:32:23] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日 (1).mp4
+[2026-01-28 14:32:27] INFO: 准备上传文件: 1月5日 (1).mp4, size=30798152 bytes, mime=video/mp4
+[2026-01-28 14:32:27] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:32:27] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:32:37] INFO: 上传分片 2/2 size=10875208
+[2026-01-28 14:32:50] INFO: complete vid=openplat-video-sign#xujkll0ekuq7jtjc0gqujjrgm64p6t3k
+[2026-01-28 14:32:50] INFO: upload cover image: 1月5日 (1).jpg, size=223443 bytes, mime=image/jpeg
+[2026-01-28 14:33:07] INFO: publish desc=新升级柔彩染发膏护发力强。 #头皮护理好物推荐 #省到家的护发好物清单 #安全染发剂推荐 #显白发色
+[2026-01-28 14:33:07] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/23e9af44-ed64-45a3-a95a-0eb0ae0e11bd.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#xujkll0ekuq7jtjc0gqujjrgm64p6t3k","desc":"新升级柔彩染发膏护发力强。 #头皮护理好物推荐 #省到家的护发好物清单 #安全染发剂推荐 #显白发色"}
+[2026-01-28 14:33:11] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日 (1).mp4 video_id=6837803127736699638
+[2026-01-28 14:33:11] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日 (2)(1).mp4
+[2026-01-28 14:33:16] INFO: 准备上传文件: 1月5日 (2)(1).mp4, size=29881597 bytes, mime=video/mp4
+[2026-01-28 14:33:16] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:33:16] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:33:26] INFO: 上传分片 2/2 size=9958653
+[2026-01-28 14:33:38] INFO: complete vid=openplat-video-sign#h732bnwcr9d8cga0eivkjjrgmtjgoimz
+[2026-01-28 14:33:38] INFO: upload cover image: 1月5日 (2)(1).jpg, size=183236 bytes, mime=image/jpeg
+[2026-01-28 14:33:55] INFO: publish desc=这款染发剂袋包使用方便。 #省到家的护发好物清单 #头皮护理好物推荐 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 14:33:55] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/9d4efea2-07fb-4f7b-a0ce-a09888465368.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#h732bnwcr9d8cga0eivkjjrgmtjgoimz","desc":"这款染发剂袋包使用方便。 #省到家的护发好物清单 #头皮护理好物推荐 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 14:34:00] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日 (2)(1).mp4 video_id=6837803533451729170
+[2026-01-28 14:34:00] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日 (2)(2).mp4
+[2026-01-28 14:34:04] INFO: 准备上传文件: 1月5日 (2)(2).mp4, size=35028031 bytes, mime=video/mp4
+[2026-01-28 14:34:04] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:34:04] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:34:15] INFO: 上传分片 2/2 size=15105087
+[2026-01-28 14:34:28] INFO: complete vid=openplat-video-sign#3nxudzfcjtzrm4yvmu7kjjrgnhrq3kpz
+[2026-01-28 14:34:29] INFO: upload cover image: 1月5日 (2)(2).jpg, size=170985 bytes, mime=image/jpeg
+[2026-01-28 14:34:45] INFO: publish desc=新升级柔彩染发膏，护发力强。 #美妆好物大盘点 #头皮护理好物推荐 #染发注意事项 #盖白发染发膏
+[2026-01-28 14:34:46] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/713cd207-1d5d-4b97-ac16-aa7c3cbcc43c.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#3nxudzfcjtzrm4yvmu7kjjrgnhrq3kpz","desc":"新升级柔彩染发膏，护发力强。 #美妆好物大盘点 #头皮护理好物推荐 #染发注意事项 #盖白发染发膏"}
+[2026-01-28 14:34:50] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日 (2)(2).mp4 video_id=6837803957839478805
+[2026-01-28 14:34:50] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日 (2).mp4
+[2026-01-28 14:34:55] INFO: 准备上传文件: 1月5日 (2).mp4, size=45052297 bytes, mime=video/mp4
+[2026-01-28 14:34:55] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:34:55] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:35:05] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:35:15] INFO: 上传分片 3/3 size=5206409
+[2026-01-28 14:35:26] INFO: complete vid=openplat-video-sign#pl9rs6z7drsaimvut4qujjrgo9bhj8zs
+[2026-01-28 14:35:26] INFO: upload cover image: 1月5日 (2).jpg, size=256384 bytes, mime=image/jpeg
+[2026-01-28 14:35:43] INFO: publish desc=染发不伤发质，使用方便。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #显白发色
+[2026-01-28 14:35:43] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/4cefbab2-8759-477f-83f2-2f4d3d427364.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#pl9rs6z7drsaimvut4qujjrgo9bhj8zs","desc":"染发不伤发质，使用方便。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #显白发色"}
+[2026-01-28 14:35:48] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日 (2).mp4 video_id=6837804442566895951
+[2026-01-28 14:35:48] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日(1).mp4
+[2026-01-28 14:35:53] INFO: 准备上传文件: 1月5日(1).mp4, size=47539364 bytes, mime=video/mp4
+[2026-01-28 14:35:53] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:35:53] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:36:03] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:36:13] INFO: 上传分片 3/3 size=7693476
+[2026-01-28 14:36:24] INFO: complete vid=openplat-video-sign#hzocofrtkarmwev8q0gmjjrgp1jh3z24
+[2026-01-28 14:36:24] INFO: upload cover image: 1月5日(1).jpg, size=202518 bytes, mime=image/jpeg
+[2026-01-28 14:36:41] INFO: publish desc=染发剂袋包，轻松在家染发。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #显白发色
+[2026-01-28 14:36:41] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/e197c902-8e42-4379-81f9-306345e7310f.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#hzocofrtkarmwev8q0gmjjrgp1jh3z24","desc":"染发剂袋包，轻松在家染发。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #显白发色"}
+[2026-01-28 14:36:46] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日(1).mp4 video_id=6837804930423171825
+[2026-01-28 14:36:46] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日(2).mp4
+[2026-01-28 14:36:51] INFO: 准备上传文件: 1月5日(2).mp4, size=48972062 bytes, mime=video/mp4
+[2026-01-28 14:36:51] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:36:51] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:37:01] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:37:12] INFO: 上传分片 3/3 size=9126174
+[2026-01-28 14:37:23] INFO: complete vid=openplat-video-sign#adc100jwqxzpitgrvb4ejjrgptybwnhh
+[2026-01-28 14:37:24] INFO: upload cover image: 1月5日(2).jpg, size=151714 bytes, mime=image/jpeg
+[2026-01-28 14:37:41] INFO: publish desc=柔彩染发霜千万别买贵了，更别买错了。 #美妆好物大盘点 #干枯毛躁护发好物 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 14:37:41] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/918b11b6-2481-4565-afe9-cdf8d006d698.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#adc100jwqxzpitgrvb4ejjrgptybwnhh","desc":"柔彩染发霜千万别买贵了，更别买错了。 #美妆好物大盘点 #干枯毛躁护发好物 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 14:37:46] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日(2).mp4 video_id=6837805429553935224
+[2026-01-28 14:37:46] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日(3).mp4
+[2026-01-28 14:37:51] INFO: 准备上传文件: 1月5日(3).mp4, size=24352157 bytes, mime=video/mp4
+[2026-01-28 14:37:51] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:37:51] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:38:01] INFO: 上传分片 2/2 size=4429213
+[2026-01-28 14:38:11] INFO: complete vid=openplat-video-sign#dj0d30t2zrprgv5bh26ujjrgqh65oikv
+[2026-01-28 14:38:12] INFO: upload cover image: 1月5日(3).jpg, size=297116 bytes, mime=image/jpeg
+[2026-01-28 14:38:28] INFO: publish desc=染发剂袋包，一瓶搞定白发。 #美妆好物大盘点 #头皮护理好物推荐 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 14:38:28] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/47f4a1ac-24a6-462d-9737-252db3ecac0a.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#dj0d30t2zrprgv5bh26ujjrgqh65oikv","desc":"染发剂袋包，一瓶搞定白发。 #美妆好物大盘点 #头皮护理好物推荐 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 14:38:33] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日(3).mp4 video_id=6837805823717795254
+[2026-01-28 14:38:33] INFO: [拼多多美容护发官方旗舰店] ???????????
+[2026-01-28 14:38:38] INFO: [拼多多个护店] 发现视频 61 个，目录 2 个
+[2026-01-28 14:38:38] INFO: [拼多多个护店] 今日完成 0 个，失败 0 个，进行中 0 个
+[2026-01-28 14:38:38] INFO: [拼多多个护店] 当前发布时段 14:10，本轮可发布 13 个
+[2026-01-28 14:38:38] INFO: [拼多多个护店] 开始上传 染发剂子母管/0128拼多多 (1).mp4
+[2026-01-28 14:38:42] INFO: 准备上传文件: 0128拼多多 (1).mp4, size=36138515 bytes, mime=video/mp4
+[2026-01-28 14:38:42] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:38:42] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:38:54] INFO: 上传分片 2/2 size=16215571
+[2026-01-28 14:39:08] INFO: complete vid=openplat-video-sign#gz3ltsdjuo9fzrpsfbshjjrgr8avup6e
+[2026-01-28 14:39:08] INFO: upload cover image: 0128拼多多 (1).jpg, size=111245 bytes, mime=image/jpeg
+[2026-01-28 14:39:25] INFO: publish desc=没有纯植物染发膏。 #美妆好物大盘点 #省到家的护发好物清单 #显白发色 #盖白发染发膏
+[2026-01-28 14:39:25] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/d14956e9-90d3-429d-bb68-b9bbb92c186b.jpeg","goods_id":766636609261,"vid":"openplat-video-sign#gz3ltsdjuo9fzrpsfbshjjrgr8avup6e","desc":"没有纯植物染发膏。 #美妆好物大盘点 #省到家的护发好物清单 #显白发色 #盖白发染发膏"}
+[2026-01-28 14:39:30] INFO: [拼多多个护店] 上传完成 染发剂子母管/0128拼多多 (1).mp4 video_id=6837806304303158675
+[2026-01-28 14:39:30] INFO: [拼多多个护店] 开始上传 染发剂子母管/0128拼多多 (10).mp4
+[2026-01-28 14:39:35] INFO: 准备上传文件: 0128拼多多 (10).mp4, size=57852668 bytes, mime=video/mp4
+[2026-01-28 14:39:35] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:39:35] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:39:45] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:39:56] INFO: 上传分片 3/3 size=18006780
+[2026-01-28 14:40:11] INFO: complete vid=openplat-video-sign#jlthnim2btxzmolnk1ppjjrgs2m5hros
+[2026-01-28 14:40:11] INFO: upload cover image: 0128拼多多 (10).jpg, size=358700 bytes, mime=image/jpeg
+[2026-01-28 14:40:29] INFO: publish desc=染发膏没有纯植物的，都有化学成分。 #省到家的护发好物清单 #头皮护理好物推荐 #染发注意事项 #黄皮必备发色
+[2026-01-28 14:40:29] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/452c76d2-f9dc-4e82-b1a7-ad709fae9f28.jpeg","goods_id":766636609261,"vid":"openplat-video-sign#jlthnim2btxzmolnk1ppjjrgs2m5hros","desc":"染发膏没有纯植物的，都有化学成分。 #省到家的护发好物清单 #头皮护理好物推荐 #染发注意事项 #黄皮必备发色"}
+[2026-01-28 14:40:34] INFO: [拼多多个护店] 上传完成 染发剂子母管/0128拼多多 (10).mp4 video_id=6837806837315620963
+[2026-01-28 14:40:34] INFO: [拼多多个护店] 开始上传 染发剂子母管/0128拼多多 (11).mp4
+[2026-01-28 14:40:38] INFO: 准备上传文件: 0128拼多多 (11).mp4, size=7329788 bytes, mime=video/mp4
+[2026-01-28 14:40:38] INFO: 开始分片上传，共 1 片
+[2026-01-28 14:40:38] INFO: 上传分片 1/1 size=7329788
+[2026-01-28 14:40:50] INFO: complete vid=openplat-video-sign#3qp1qruvpckr8arpbbypjjrgslcm79i0
+[2026-01-28 14:40:50] INFO: upload cover image: 0128拼多多 (11).jpg, size=243767 bytes, mime=image/jpeg
+[2026-01-28 14:41:07] INFO: publish desc=拍一发八，送的比买的还多。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #显白发色
+[2026-01-28 14:41:07] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/70c71b47-22c4-4c28-904e-6dc20599c980.jpeg","goods_id":766636609261,"vid":"openplat-video-sign#3qp1qruvpckr8arpbbypjjrgslcm79i0","desc":"拍一发八，送的比买的还多。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #显白发色"}
+[2026-01-28 14:41:11] INFO: [拼多多个护店] 上传完成 染发剂子母管/0128拼多多 (11).mp4 video_id=6837807155243836394
+[2026-01-28 14:41:11] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日 (1)(1).mp4
+[2026-01-28 14:41:16] INFO: 准备上传文件: 1月5日 (1)(1).mp4, size=46493229 bytes, mime=video/mp4
+[2026-01-28 14:41:16] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:41:16] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:41:28] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:41:40] INFO: 上传分片 3/3 size=6647341
+[2026-01-28 14:41:51] INFO: complete vid=openplat-video-sign#6uzvo5k8qpgq2w2rbcp8jjrgteryijf9
+[2026-01-28 14:41:51] INFO: upload cover image: 1月5日 (1)(1).jpg, size=230564 bytes, mime=image/jpeg
+[2026-01-28 14:42:09] INFO: publish desc=新升级柔彩染发膏，护发更柔顺。 #干枯毛躁护发好物 #美妆好物大盘点 #染发注意事项 #盖白发染发膏
+[2026-01-28 14:42:09] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/e6930857-ba2a-4c9d-bab3-11551ee58dcc.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#6uzvo5k8qpgq2w2rbcp8jjrgteryijf9","desc":"新升级柔彩染发膏，护发更柔顺。 #干枯毛躁护发好物 #美妆好物大盘点 #染发注意事项 #盖白发染发膏"}
+[2026-01-28 14:42:14] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日 (1)(1).mp4 video_id=6837807679741384182
+[2026-01-28 14:42:14] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日 (1)(2).mp4
+[2026-01-28 14:42:19] INFO: 准备上传文件: 1月5日 (1)(2).mp4, size=44417431 bytes, mime=video/mp4
+[2026-01-28 14:42:19] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:42:19] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:42:30] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:42:41] INFO: 上传分片 3/3 size=4571543
+[2026-01-28 14:42:52] INFO: complete vid=openplat-video-sign#iill0sjxxpqk0ddx1biljjrgu8i0n516
+[2026-01-28 14:42:53] INFO: upload cover image: 1月5日 (1)(2).jpg, size=151787 bytes, mime=image/jpeg
+[2026-01-28 14:43:13] INFO: publish desc=染发剂袋包，亲肤易用，效果自然。 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 14:43:13] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/1a29fc7d-a0ec-4b4a-bccf-3389623e40fa.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#iill0sjxxpqk0ddx1biljjrgu8i0n516","desc":"染发剂袋包，亲肤易用，效果自然。 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 14:43:18] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日 (1)(2).mp4 video_id=6837808216738648593
+[2026-01-28 14:43:18] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日 (1)(3).mp4
+[2026-01-28 14:43:23] INFO: 准备上传文件: 1月5日 (1)(3).mp4, size=41356156 bytes, mime=video/mp4
+[2026-01-28 14:43:23] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:43:23] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:43:45] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:43:57] INFO: 上传分片 3/3 size=1510268
+[2026-01-28 14:44:07] INFO: complete vid=openplat-video-sign#f1qwjoqabw1fjbhhq1zgjjrgv8n306vy
+[2026-01-28 14:44:08] INFO: upload cover image: 1月5日 (1)(3).jpg, size=191418 bytes, mime=image/jpeg
+[2026-01-28 14:44:26] INFO: publish desc=亲肤染发，护发不干枯。 #干枯毛躁护发好物 #头皮护理好物推荐 #安全染发剂推荐 #染发注意事项
+[2026-01-28 14:44:26] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/a4822827-1ae7-44b9-85ea-74895c2067b1.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#f1qwjoqabw1fjbhhq1zgjjrgv8n306vy","desc":"亲肤染发，护发不干枯。 #干枯毛躁护发好物 #头皮护理好物推荐 #安全染发剂推荐 #染发注意事项"}
+[2026-01-28 14:44:31] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日 (1)(3).mp4 video_id=6837808827940378122
+[2026-01-28 14:44:31] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日 (1).mp4
+[2026-01-28 14:44:36] INFO: 准备上传文件: 1月5日 (1).mp4, size=30798152 bytes, mime=video/mp4
+[2026-01-28 14:44:36] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:44:36] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:44:47] INFO: 上传分片 2/2 size=10875208
+[2026-01-28 14:45:00] INFO: complete vid=openplat-video-sign#0k0aeuocrjdhay7mna6yjjrgvy3dib4u
+[2026-01-28 14:45:01] INFO: upload cover image: 1月5日 (1).jpg, size=223443 bytes, mime=image/jpeg
+[2026-01-28 14:45:18] INFO: publish desc=新升级柔彩染发膏，护发力强。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 14:45:18] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/848996db-5126-47f6-a691-da45e3294019.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#0k0aeuocrjdhay7mna6yjjrgvy3dib4u","desc":"新升级柔彩染发膏，护发力强。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 14:45:23] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日 (1).mp4 video_id=6837809265943652287
+[2026-01-28 14:45:23] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日 (2)(1).mp4
+[2026-01-28 14:45:28] INFO: 准备上传文件: 1月5日 (2)(1).mp4, size=29881597 bytes, mime=video/mp4
+[2026-01-28 14:45:28] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:45:28] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:45:40] INFO: 上传分片 2/2 size=9958653
+[2026-01-28 14:45:52] INFO: complete vid=openplat-video-sign#t4bfy6gqjxco8iqllucbjjrgwn9dsz4o
+[2026-01-28 14:45:53] INFO: upload cover image: 1月5日 (2)(1).jpg, size=183236 bytes, mime=image/jpeg
+[2026-01-28 14:46:10] INFO: publish desc=这款染发剂袋包使用方便，直接挤出就能染。 #美妆好物大盘点 #干枯毛躁护发好物 #染发注意事项 #盖白发染发膏
+[2026-01-28 14:46:10] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/f7428c94-ed00-4488-8a62-b4c6e056a0c6.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#t4bfy6gqjxco8iqllucbjjrgwn9dsz4o","desc":"这款染发剂袋包使用方便，直接挤出就能染。 #美妆好物大盘点 #干枯毛躁护发好物 #染发注意事项 #盖白发染发膏"}
+[2026-01-28 14:46:15] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日 (2)(1).mp4 video_id=6837809702545036914
+[2026-01-28 14:46:15] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日 (2)(2).mp4
+[2026-01-28 14:46:21] INFO: 准备上传文件: 1月5日 (2)(2).mp4, size=35028031 bytes, mime=video/mp4
+[2026-01-28 14:46:21] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:46:21] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:46:32] INFO: 上传分片 2/2 size=15105087
+[2026-01-28 14:46:46] INFO: complete vid=openplat-video-sign#fcnxitdorwja3mhhoglhjjrgxcu0dqof
+[2026-01-28 14:46:46] INFO: upload cover image: 1月5日 (2)(2).jpg, size=170985 bytes, mime=image/jpeg
+[2026-01-28 14:47:04] INFO: publish desc=新升级柔彩染发膏，护发力强。 #美妆好物大盘点 #省到家的护发好物清单 #染发注意事项 #显白发色
+[2026-01-28 14:47:04] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/2f613207-5f7b-498b-9cee-e2ffccf2341a.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#fcnxitdorwja3mhhoglhjjrgxcu0dqof","desc":"新升级柔彩染发膏，护发力强。 #美妆好物大盘点 #省到家的护发好物清单 #染发注意事项 #显白发色"}
+[2026-01-28 14:47:09] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日 (2)(2).mp4 video_id=6837810151336001271
+[2026-01-28 14:47:09] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日 (2).mp4
+[2026-01-28 14:47:13] INFO: 准备上传文件: 1月5日 (2).mp4, size=45052297 bytes, mime=video/mp4
+[2026-01-28 14:47:13] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:47:13] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:47:24] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:47:38] INFO: 上传分片 3/3 size=5206409
+[2026-01-28 14:47:51] INFO: complete vid=openplat-video-sign#c5hqia8s9yorfih527hdjjrgy85bxjvi
+[2026-01-28 14:47:51] INFO: upload cover image: 1月5日 (2).jpg, size=256384 bytes, mime=image/jpeg
+[2026-01-28 14:48:08] INFO: publish desc=染发不伤发质，使用方便。 #省到家的护发好物清单 #干枯毛躁护发好物 #黄皮必备发色 #盖白发染发膏
+[2026-01-28 14:48:08] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/7ef8f688-9dea-4116-895e-b7ea2b3e8f0e.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#c5hqia8s9yorfih527hdjjrgy85bxjvi","desc":"染发不伤发质，使用方便。 #省到家的护发好物清单 #干枯毛躁护发好物 #黄皮必备发色 #盖白发染发膏"}
+[2026-01-28 14:48:13] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日 (2).mp4 video_id=6837810694246435798
+[2026-01-28 14:48:13] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日(1).mp4
+[2026-01-28 14:48:18] INFO: 准备上传文件: 1月5日(1).mp4, size=47539364 bytes, mime=video/mp4
+[2026-01-28 14:48:18] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:48:18] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:48:29] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:48:40] INFO: 上传分片 3/3 size=7693476
+[2026-01-28 14:48:52] INFO: complete vid=openplat-video-sign#2z1lpnhrsm2ntoe9tmjhjjrgz1jrs5id
+[2026-01-28 14:48:52] INFO: upload cover image: 1月5日(1).jpg, size=202518 bytes, mime=image/jpeg
+[2026-01-28 14:49:10] INFO: publish desc=染发剂袋包，轻松简单在家染发。 #美妆好物大盘点 #省到家的护发好物清单 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 14:49:10] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/b4a7e0e8-9799-4555-bfd8-9ace4a7f1dc8.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#2z1lpnhrsm2ntoe9tmjhjjrgz1jrs5id","desc":"染发剂袋包，轻松简单在家染发。 #美妆好物大盘点 #省到家的护发好物清单 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 14:49:15] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日(1).mp4 video_id=6837811210363937166
+[2026-01-28 14:49:15] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日(2).mp4
+[2026-01-28 14:49:20] INFO: 准备上传文件: 1月5日(2).mp4, size=48972062 bytes, mime=video/mp4
+[2026-01-28 14:49:20] INFO: 开始分片上传，共 3 片
+[2026-01-28 14:49:20] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 14:49:31] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 14:49:42] INFO: 上传分片 3/3 size=9126174
+[2026-01-28 14:49:55] INFO: complete vid=openplat-video-sign#vrthdr7nom67nefrd5rhjjrgzw1jj7fw
+[2026-01-28 14:49:55] INFO: upload cover image: 1月5日(2).jpg, size=151714 bytes, mime=image/jpeg
+[2026-01-28 14:50:13] INFO: publish desc=柔彩级染膏，原料严选多种植物。 #头皮护理好物推荐 #省到家的护发好物清单 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 14:50:13] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/85b5278a-0c10-43b0-9404-f55de2d6511c.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#vrthdr7nom67nefrd5rhjjrgzw1jj7fw","desc":"柔彩级染膏，原料严选多种植物。 #头皮护理好物推荐 #省到家的护发好物清单 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 14:50:18] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日(2).mp4 video_id=6837811741974770810
+[2026-01-28 14:50:18] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日(3).mp4
+[2026-01-28 14:50:23] INFO: 准备上传文件: 1月5日(3).mp4, size=24352157 bytes, mime=video/mp4
+[2026-01-28 14:50:23] INFO: 开始分片上传，共 2 片
+[2026-01-28 14:50:23] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 14:50:35] INFO: 上传分片 2/2 size=4429213
+[2026-01-28 14:50:46] INFO: complete vid=openplat-video-sign#22v0ep0x7ssr0yoeacjdjjrh0kpdkgiv
+[2026-01-28 14:50:46] INFO: upload cover image: 1月5日(3).jpg, size=297116 bytes, mime=image/jpeg
+[2026-01-28 14:51:04] INFO: publish desc=染发剂袋包，一瓶搞定黑茶色。 #美妆好物大盘点 #头皮护理好物推荐 #染发注意事项 #安全染发剂推荐
+[2026-01-28 14:51:04] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/c2d02487-b5ae-4e06-8d6e-3bf12d426817.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#22v0ep0x7ssr0yoeacjdjjrh0kpdkgiv","desc":"染发剂袋包，一瓶搞定黑茶色。 #美妆好物大盘点 #头皮护理好物推荐 #染发注意事项 #安全染发剂推荐"}
+[2026-01-28 14:51:09] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日(3).mp4 video_id=6837812165272572996
+[2026-01-28 14:51:09] INFO: [拼多多个护店] ???????????
+[2026-01-28 14:51:14] INFO: auto cycle done
+[2026-01-28 15:00:10] INFO: auto cycle start
+[2026-01-28 15:00:10] INFO: download already done today, skip
+[2026-01-28 15:00:10] INFO: download ready, start upload
+[2026-01-28 15:00:10] INFO: 上传触发
+[2026-01-28 15:00:10] INFO: 扫描根目录: C:\Users\20487\Desktop\pdd_vd\video
+[2026-01-28 15:00:15] INFO: [拼多多旗舰店] 发现视频 70 个，目录 3 个
+[2026-01-28 15:00:15] INFO: [拼多多旗舰店] 今日完成 15 个，失败 0 个，进行中 0 个
+[2026-01-28 15:00:15] INFO: [拼多多旗舰店] 当前发布时段 15:00，本轮可发布 21 个
+[2026-01-28 15:00:15] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (13).mp4
+[2026-01-28 15:00:20] INFO: 准备上传文件: 0128拼多多 (13).mp4, size=24102561 bytes, mime=video/mp4
+[2026-01-28 15:00:20] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:00:20] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:00:30] INFO: 上传分片 2/2 size=4179617
+[2026-01-28 15:00:40] INFO: complete vid=openplat-video-sign#hosy7if5qpeyrkxlr0k6jjrh8iwnmcsj
+[2026-01-28 15:00:41] INFO: upload cover image: 0128拼多多 (13).jpg, size=90100 bytes, mime=image/jpeg
+[2026-01-28 15:00:58] INFO: publish desc=今天有优惠券，五十九块九买染发膏。 #省到家的护发好物清单 #干枯毛躁护发好物 #安全染发剂推荐 #染发注意事项
+[2026-01-28 15:00:58] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/3ca2b4dc-6029-4524-bbd8-215fa7b3d893.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#hosy7if5qpeyrkxlr0k6jjrh8iwnmcsj","desc":"今天有优惠券，五十九块九买染发膏。 #省到家的护发好物清单 #干枯毛躁护发好物 #安全染发剂推荐 #染发注意事项"}
+[2026-01-28 15:01:02] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (13).mp4 video_id=6837817145931180065
+[2026-01-28 15:01:02] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (2).mp4
+[2026-01-28 15:01:07] INFO: 准备上传文件: 0128拼多多 (2).mp4, size=33236873 bytes, mime=video/mp4
+[2026-01-28 15:01:07] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:01:07] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:01:18] INFO: 上传分片 2/2 size=13313929
+[2026-01-28 15:01:31] INFO: complete vid=openplat-video-sign#dudourja6bnmjjuuriicjjrh97agta3f
+[2026-01-28 15:01:31] INFO: upload cover image: 0128拼多多 (2).jpg, size=147018 bytes, mime=image/jpeg
+[2026-01-28 15:01:48] INFO: publish desc=补发根能减少染发频率。 #美妆好物大盘点 #干枯毛躁护发好物 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 15:01:48] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/ecf8df48-16eb-472c-a8a5-1bfb1eab321f.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#dudourja6bnmjjuuriicjjrh97agta3f","desc":"补发根能减少染发频率。 #美妆好物大盘点 #干枯毛躁护发好物 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 15:01:53] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (2).mp4 video_id=6837817565839593141
+[2026-01-28 15:01:53] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (3).mp4
+[2026-01-28 15:01:57] INFO: 准备上传文件: 0128拼多多 (3).mp4, size=27249067 bytes, mime=video/mp4
+[2026-01-28 15:01:57] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:01:57] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:02:08] INFO: 上传分片 2/2 size=7326123
+[2026-01-28 15:02:19] INFO: complete vid=openplat-video-sign#8ktxdke02plufgonwvocjjrh9uhkzosv
+[2026-01-28 15:02:19] INFO: upload cover image: 0128拼多多 (3).jpg, size=190542 bytes, mime=image/jpeg
+[2026-01-28 15:02:36] INFO: publish desc=柔彩级染发膏可以三十天染一次。 #美妆好物大盘点 #干枯毛躁护发好物 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 15:02:36] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/3a25a300-1fac-482f-905c-6d8d182110ba.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#8ktxdke02plufgonwvocjjrh9uhkzosv","desc":"柔彩级染发膏可以三十天染一次。 #美妆好物大盘点 #干枯毛躁护发好物 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 15:02:41] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (3).mp4 video_id=6837817974063387278
+[2026-01-28 15:02:41] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (4).mp4
+[2026-01-28 15:02:46] INFO: 准备上传文件: 0128拼多多 (4).mp4, size=65150100 bytes, mime=video/mp4
+[2026-01-28 15:02:46] INFO: 开始分片上传，共 4 片
+[2026-01-28 15:02:46] INFO: 上传分片 1/4 size=19922944
+[2026-01-28 15:02:56] INFO: 上传分片 2/4 size=19922944
+[2026-01-28 15:03:07] INFO: 上传分片 3/4 size=19922944
+[2026-01-28 15:03:17] INFO: 上传分片 4/4 size=5381268
+[2026-01-28 15:03:28] INFO: complete vid=openplat-video-sign#ohaos4ags8bocflxa5lsjjrharhr6y0a
+[2026-01-28 15:03:28] INFO: upload cover image: 0128拼多多 (4).jpg, size=181479 bytes, mime=image/jpeg
+[2026-01-28 15:03:44] INFO: publish desc=一年用两次，保持很久。 #干枯毛躁护发好物 #美妆好物大盘点 #安全染发剂推荐 #染发注意事项
+[2026-01-28 15:03:44] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/ee76f3d3-dfee-4ee0-9515-f269bf0877fa.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#ohaos4ags8bocflxa5lsjjrharhr6y0a","desc":"一年用两次，保持很久。 #干枯毛躁护发好物 #美妆好物大盘点 #安全染发剂推荐 #染发注意事项"}
+[2026-01-28 15:03:49] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (4).mp4 video_id=6837818544798673194
+[2026-01-28 15:03:49] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (5).mp4
+[2026-01-28 15:03:54] INFO: 准备上传文件: 0128拼多多 (5).mp4, size=65769484 bytes, mime=video/mp4
+[2026-01-28 15:03:54] INFO: 开始分片上传，共 4 片
+[2026-01-28 15:03:54] INFO: 上传分片 1/4 size=19922944
+[2026-01-28 15:04:05] INFO: 上传分片 2/4 size=19922944
+[2026-01-28 15:04:15] INFO: 上传分片 3/4 size=19922944
+[2026-01-28 15:04:25] INFO: 上传分片 4/4 size=6000652
+[2026-01-28 15:04:36] INFO: complete vid=openplat-video-sign#2wvrt9b0h4cjtzfgapmijjrhbofturrk
+[2026-01-28 15:04:36] INFO: upload cover image: 0128拼多多 (5).jpg, size=278947 bytes, mime=image/jpeg
+[2026-01-28 15:04:53] INFO: publish desc=染发后发质干枯毛躁的一定要试试。 #头皮护理好物推荐 #省到家的护发好物清单 #显白发色 #黄皮必备发色
+[2026-01-28 15:04:53] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/17f61ed1-d047-453a-97ed-289f0dc59a86.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#2wvrt9b0h4cjtzfgapmijjrhbofturrk","desc":"染发后发质干枯毛躁的一定要试试。 #头皮护理好物推荐 #省到家的护发好物清单 #显白发色 #黄皮必备发色"}
+[2026-01-28 15:04:58] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (5).mp4 video_id=6837819121892822258
+[2026-01-28 15:04:58] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (1)(1).mp4
+[2026-01-28 15:05:03] INFO: 准备上传文件: 1月8日 (1)(1).mp4, size=24079181 bytes, mime=video/mp4
+[2026-01-28 15:05:03] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:05:03] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:05:13] INFO: 上传分片 2/2 size=4156237
+[2026-01-28 15:05:24] INFO: complete vid=openplat-video-sign#b6qseaob2fxtkyaajdmqjjrhcbddf6mz
+[2026-01-28 15:05:24] INFO: upload cover image: 1月8日 (1)(1).jpg, size=197098 bytes, mime=image/jpeg
+[2026-01-28 15:05:40] INFO: publish desc=染出靓丽发色同时拥有柔顺发丝。 #省到家的护发好物清单 #干枯毛躁护发好物 #安全染发剂推荐 #黄皮必备发色
+[2026-01-28 15:05:40] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/d5efef58-3a36-46de-871a-5325c539e5a5.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#b6qseaob2fxtkyaajdmqjjrhcbddf6mz","desc":"染出靓丽发色同时拥有柔顺发丝。 #省到家的护发好物清单 #干枯毛躁护发好物 #安全染发剂推荐 #黄皮必备发色"}
+[2026-01-28 15:05:45] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (1)(1).mp4 video_id=6837819516383699784
+[2026-01-28 15:05:45] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (1)(2).mp4
+[2026-01-28 15:05:50] INFO: 准备上传文件: 1月8日 (1)(2).mp4, size=30549371 bytes, mime=video/mp4
+[2026-01-28 15:05:50] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:05:50] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:06:00] INFO: 上传分片 2/2 size=10626427
+[2026-01-28 15:06:12] INFO: complete vid=openplat-video-sign#2w5rhz1rlk2tg04hx6oojjrhcyq04iu3
+[2026-01-28 15:06:12] INFO: upload cover image: 1月8日 (1)(2).jpg, size=276992 bytes, mime=image/jpeg
+[2026-01-28 15:06:29] INFO: publish desc=染发护发双料选手。 #干枯毛躁护发好物 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 15:06:29] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/27e280a6-7711-4aaf-ad03-9cbf8bb05c6d.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#2w5rhz1rlk2tg04hx6oojjrhcyq04iu3","desc":"染发护发双料选手。 #干枯毛躁护发好物 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 15:06:34] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (1)(2).mp4 video_id=6837819924960006206
+[2026-01-28 15:06:34] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (1)(3).mp4
+[2026-01-28 15:06:39] INFO: 准备上传文件: 1月8日 (1)(3).mp4, size=16092030 bytes, mime=video/mp4
+[2026-01-28 15:06:39] INFO: 开始分片上传，共 1 片
+[2026-01-28 15:06:39] INFO: 上传分片 1/1 size=16092030
+[2026-01-28 15:06:52] INFO: complete vid=openplat-video-sign#v2xvrvj8ggx1czh6yzpfjjrhdi7jcwxd
+[2026-01-28 15:06:53] INFO: upload cover image: 1月8日 (1)(3).jpg, size=239304 bytes, mime=image/jpeg
+[2026-01-28 15:07:09] INFO: publish desc=染发工具都是送你的 #省到家的护发好物清单 #头皮护理好物推荐 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 15:07:09] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/1bd52b5f-df25-498c-b742-69055113a291.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#v2xvrvj8ggx1czh6yzpfjjrhdi7jcwxd","desc":"染发工具都是送你的 #省到家的护发好物清单 #头皮护理好物推荐 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 15:07:14] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (1)(3).mp4 video_id=6837820258582862514
+[2026-01-28 15:07:14] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (1).mp4
+[2026-01-28 15:07:18] INFO: 准备上传文件: 1月8日 (1).mp4, size=25893391 bytes, mime=video/mp4
+[2026-01-28 15:07:18] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:07:18] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:07:29] INFO: 上传分片 2/2 size=5970447
+[2026-01-28 15:07:39] INFO: complete vid=openplat-video-sign#ipmxgsb5furoionqrtffjjrhe4nzdcql
+[2026-01-28 15:07:39] INFO: upload cover image: 1月8日 (1).jpg, size=146545 bytes, mime=image/jpeg
+[2026-01-28 15:07:56] INFO: publish desc=染发护发双料选手，黑松露精粹添加。 #省到家的护发好物清单 #美妆好物大盘点 #安全染发剂推荐 #黄皮必备发色
+[2026-01-28 15:07:56] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/1b6ea018-e3c4-4252-ac02-90a3b4d814a5.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#ipmxgsb5furoionqrtffjjrhe4nzdcql","desc":"染发护发双料选手，黑松露精粹添加。 #省到家的护发好物清单 #美妆好物大盘点 #安全染发剂推荐 #黄皮必备发色"}
+[2026-01-28 15:08:01] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (1).mp4 video_id=6837820656177490242
+[2026-01-28 15:08:01] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (2)(1).mp4
+[2026-01-28 15:08:06] INFO: 准备上传文件: 1月8日 (2)(1).mp4, size=31765820 bytes, mime=video/mp4
+[2026-01-28 15:08:06] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:08:06] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:08:16] INFO: 上传分片 2/2 size=11842876
+[2026-01-28 15:08:29] INFO: complete vid=openplat-video-sign#nv31whdrxyhjj33gqekxjjrheskgw4wl
+[2026-01-28 15:08:29] INFO: upload cover image: 1月8日 (2)(1).jpg, size=284010 bytes, mime=image/jpeg
+[2026-01-28 15:08:46] INFO: publish desc=染发剂袋包，三十分钟轻松染发。 #头皮护理好物推荐 #干枯毛躁护发好物 #染发注意事项 #显白发色
+[2026-01-28 15:08:46] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/5dce9038-3daa-47a0-a37e-ba2a594cccc4.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#nv31whdrxyhjj33gqekxjjrheskgw4wl","desc":"染发剂袋包，三十分钟轻松染发。 #头皮护理好物推荐 #干枯毛躁护发好物 #染发注意事项 #显白发色"}
+[2026-01-28 15:08:50] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (2)(1).mp4 video_id=6837821070742724916
+[2026-01-28 15:08:50] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (2)(2).mp4
+[2026-01-28 15:08:55] INFO: 准备上传文件: 1月8日 (2)(2).mp4, size=29112629 bytes, mime=video/mp4
+[2026-01-28 15:08:55] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:08:55] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:09:06] INFO: 上传分片 2/2 size=9189685
+[2026-01-28 15:09:17] INFO: complete vid=openplat-video-sign#nux2md8wuuvpowrabuhnjjrhfg0wxw3h
+[2026-01-28 15:09:18] INFO: upload cover image: 1月8日 (2)(2).jpg, size=312406 bytes, mime=image/jpeg
+[2026-01-28 15:09:34] INFO: publish desc=染发护发双料选手。 #省到家的护发好物清单 #头皮护理好物推荐 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 15:09:34] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/7618d244-9cfb-4009-994b-5fb1d0e78d52.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#nux2md8wuuvpowrabuhnjjrhfg0wxw3h","desc":"染发护发双料选手。 #省到家的护发好物清单 #头皮护理好物推荐 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 15:09:39] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (2)(2).mp4 video_id=6837821481054627459
+[2026-01-28 15:09:39] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (2)(3).mp4
+[2026-01-28 15:09:44] INFO: 准备上传文件: 1月8日 (2)(3).mp4, size=28784455 bytes, mime=video/mp4
+[2026-01-28 15:09:44] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:09:44] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:09:54] INFO: 上传分片 2/2 size=8861511
+[2026-01-28 15:10:06] INFO: complete vid=openplat-video-sign#7djhgs0ed3ao61rgqqenjjrhg3gjncgs
+[2026-01-28 15:10:06] INFO: upload cover image: 1月8日 (2)(3).jpg, size=185043 bytes, mime=image/jpeg
+[2026-01-28 15:10:23] INFO: publish desc=天青明茶色，染发更雅致。 #头皮护理好物推荐 #干枯毛躁护发好物 #显白发色 #盖白发染发膏
+[2026-01-28 15:10:23] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/3effb161-d744-484b-88db-e2d582640214.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#7djhgs0ed3ao61rgqqenjjrhg3gjncgs","desc":"天青明茶色，染发更雅致。 #头皮护理好物推荐 #干枯毛躁护发好物 #显白发色 #盖白发染发膏"}
+[2026-01-28 15:10:27] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (2)(3).mp4 video_id=6837821885360344672
+[2026-01-28 15:10:27] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (2)(4).mp4
+[2026-01-28 15:10:32] INFO: 准备上传文件: 1月8日 (2)(4).mp4, size=28875968 bytes, mime=video/mp4
+[2026-01-28 15:10:32] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:10:32] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:10:43] INFO: 上传分片 2/2 size=8953024
+[2026-01-28 15:10:54] INFO: complete vid=openplat-video-sign#f9oxhxl3jqtupuat02lgjjrhgqr7t27g
+[2026-01-28 15:10:55] INFO: upload cover image: 1月8日 (2)(4).jpg, size=203356 bytes, mime=image/jpeg
+[2026-01-28 15:11:11] INFO: publish desc=染发护发双料选手，黑松露精粹。 #头皮护理好物推荐 #干枯毛躁护发好物 #黄皮必备发色 #盖白发染发膏
+[2026-01-28 15:11:11] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/7f71b401-9168-4125-bfad-adc81e467e7b.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#f9oxhxl3jqtupuat02lgjjrhgqr7t27g","desc":"染发护发双料选手，黑松露精粹。 #头皮护理好物推荐 #干枯毛躁护发好物 #黄皮必备发色 #盖白发染发膏"}
+[2026-01-28 15:11:16] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (2)(4).mp4 video_id=6837822293088739406
+[2026-01-28 15:11:16] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (2)(5).mp4
+[2026-01-28 15:11:21] INFO: 准备上传文件: 1月8日 (2)(5).mp4, size=55560107 bytes, mime=video/mp4
+[2026-01-28 15:11:21] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:11:21] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:11:31] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:11:42] INFO: 上传分片 3/3 size=15714219
+[2026-01-28 15:11:56] INFO: complete vid=openplat-video-sign#zccezttpoc6aflnvxelljjrhhk9yhcu2
+[2026-01-28 15:11:56] INFO: upload cover image: 1月8日 (2)(5).jpg, size=161194 bytes, mime=image/jpeg
+[2026-01-28 15:12:13] INFO: publish desc=染发护发双料选手，黑松露精粹。 #干枯毛躁护发好物 #美妆好物大盘点 #黄皮必备发色 #盖白发染发膏
+[2026-01-28 15:12:13] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/5bd35e47-9e8c-454e-99d8-9881d6014d51.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#zccezttpoc6aflnvxelljjrhhk9yhcu2","desc":"染发护发双料选手，黑松露精粹。 #干枯毛躁护发好物 #美妆好物大盘点 #黄皮必备发色 #盖白发染发膏"}
+[2026-01-28 15:12:18] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (2)(5).mp4 video_id=6837822810732933523
+[2026-01-28 15:12:18] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日 (2).mp4
+[2026-01-28 15:12:23] INFO: 准备上传文件: 1月8日 (2).mp4, size=38529459 bytes, mime=video/mp4
+[2026-01-28 15:12:23] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:12:23] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:12:33] INFO: 上传分片 2/2 size=18606515
+[2026-01-28 15:12:47] INFO: complete vid=openplat-video-sign#3prwy2rzji9lfwp0f9fwjjrhi9784t3v
+[2026-01-28 15:12:48] INFO: upload cover image: 1月8日 (2).jpg, size=184754 bytes, mime=image/jpeg
+[2026-01-28 15:13:04] INFO: publish desc=染发护发双料选手，黑松露精粹。 #头皮护理好物推荐 #干枯毛躁护发好物 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 15:13:04] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/b49b8676-6286-4872-9241-1787faf362ea.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#3prwy2rzji9lfwp0f9fwjjrhi9784t3v","desc":"染发护发双料选手，黑松露精粹。 #头皮护理好物推荐 #干枯毛躁护发好物 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 15:13:09] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日 (2).mp4 video_id=6837823240187892279
+[2026-01-28 15:13:09] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(1).mp4
+[2026-01-28 15:13:14] INFO: 准备上传文件: 1月8日(1).mp4, size=36658615 bytes, mime=video/mp4
+[2026-01-28 15:13:14] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:13:14] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:13:24] INFO: 上传分片 2/2 size=16735671
+[2026-01-28 15:13:38] INFO: complete vid=openplat-video-sign#p6qcy26yxl8qqlqw50lejjrhixkl3ehc
+[2026-01-28 15:13:38] INFO: upload cover image: 1月8日(1).jpg, size=217319 bytes, mime=image/jpeg
+[2026-01-28 15:13:55] INFO: publish desc=染博士天青茗茶色，显色高级。 #头皮护理好物推荐 #美妆好物大盘点 #显白发色 #染发注意事项
+[2026-01-28 15:13:55] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/0d9e3790-ae0c-4eee-853a-5187fe7e68f8.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#p6qcy26yxl8qqlqw50lejjrhixkl3ehc","desc":"染博士天青茗茶色，显色高级。 #头皮护理好物推荐 #美妆好物大盘点 #显白发色 #染发注意事项"}
+[2026-01-28 15:14:00] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(1).mp4 video_id=6837823666429581672
+[2026-01-28 15:14:00] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(10).mp4
+[2026-01-28 15:14:05] INFO: 准备上传文件: 1月8日(10).mp4, size=35790661 bytes, mime=video/mp4
+[2026-01-28 15:14:05] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:14:05] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:14:15] INFO: 上传分片 2/2 size=15867717
+[2026-01-28 15:14:29] INFO: complete vid=openplat-video-sign#39ywtlw29cm5dws3v7gjjjrhjm9gl50q
+[2026-01-28 15:14:30] INFO: upload cover image: 1月8日(10).jpg, size=269402 bytes, mime=image/jpeg
+[2026-01-28 15:14:46] INFO: publish desc=染博士柔彩染发膏，黄皮显白的本命发色。 #头皮护理好物推荐 #省到家的护发好物清单 #盖白发染发膏 #显白发色
+[2026-01-28 15:14:46] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/893f3db4-77ae-40b8-b736-128b45625983.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#39ywtlw29cm5dws3v7gjjjrhjm9gl50q","desc":"染博士柔彩染发膏，黄皮显白的本命发色。 #头皮护理好物推荐 #省到家的护发好物清单 #盖白发染发膏 #显白发色"}
+[2026-01-28 15:14:51] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(10).mp4 video_id=6837824098266732942
+[2026-01-28 15:14:51] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(11).mp4
+[2026-01-28 15:14:56] INFO: 准备上传文件: 1月8日(11).mp4, size=47035909 bytes, mime=video/mp4
+[2026-01-28 15:14:56] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:14:56] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:15:06] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:15:17] INFO: 上传分片 3/3 size=7190021
+[2026-01-28 15:15:28] INFO: complete vid=openplat-video-sign#s5ngqnnx4lawvm35a35fjjrhkeiz3mxo
+[2026-01-28 15:15:28] INFO: upload cover image: 1月8日(11).jpg, size=229242 bytes, mime=image/jpeg
+[2026-01-28 15:15:45] INFO: publish desc=染博士柔彩染膏，会梳头就会染发。 #省到家的护发好物清单 #头皮护理好物推荐 #染发注意事项 #显白发色
+[2026-01-28 15:15:45] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/64855009-74ad-4197-b27d-74231f37442c.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#s5ngqnnx4lawvm35a35fjjrhkeiz3mxo","desc":"染博士柔彩染膏，会梳头就会染发。 #省到家的护发好物清单 #头皮护理好物推荐 #染发注意事项 #显白发色"}
+[2026-01-28 15:15:50] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(11).mp4 video_id=6837824591583889873
+[2026-01-28 15:15:50] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(12).mp4
+[2026-01-28 15:15:55] INFO: 准备上传文件: 1月8日(12).mp4, size=23796236 bytes, mime=video/mp4
+[2026-01-28 15:15:55] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:15:55] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:16:06] INFO: 上传分片 2/2 size=3873292
+[2026-01-28 15:16:16] INFO: complete vid=openplat-video-sign#k9fxewypquckizcdojysjjrhl1kohyog
+[2026-01-28 15:16:16] INFO: upload cover image: 1月8日(12).jpg, size=241664 bytes, mime=image/jpeg
+[2026-01-28 15:16:33] INFO: publish desc=染发膏能牢牢盖白还不伤发 #干枯毛躁护发好物 #美妆好物大盘点 #显白发色 #黄皮必备发色
+[2026-01-28 15:16:33] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/c2549ec4-9141-4d6c-bdef-6f3ca34832ad.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#k9fxewypquckizcdojysjjrhl1kohyog","desc":"染发膏能牢牢盖白还不伤发 #干枯毛躁护发好物 #美妆好物大盘点 #显白发色 #黄皮必备发色"}
+[2026-01-28 15:16:38] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(12).mp4 video_id=6837824991091484359
+[2026-01-28 15:16:38] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(13).mp4
+[2026-01-28 15:16:42] INFO: 准备上传文件: 1月8日(13).mp4, size=27669820 bytes, mime=video/mp4
+[2026-01-28 15:16:42] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:16:43] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:16:53] INFO: 上传分片 2/2 size=7746876
+[2026-01-28 15:17:04] INFO: complete vid=openplat-video-sign#8pt8gkjr9vivzg9jidsyjjrhlowihgtp
+[2026-01-28 15:17:05] INFO: upload cover image: 1月8日(13).jpg, size=216886 bytes, mime=image/jpeg
+[2026-01-28 15:17:21] INFO: publish desc=染博士柔彩染膏，茶棕色显白不花色。 #头皮护理好物推荐 #美妆好物大盘点 #显白发色 #盖白发染发膏
+[2026-01-28 15:17:21] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/a62450ca-c12c-476a-8623-4d8a3a287bb8.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#8pt8gkjr9vivzg9jidsyjjrhlowihgtp","desc":"染博士柔彩染膏，茶棕色显白不花色。 #头皮护理好物推荐 #美妆好物大盘点 #显白发色 #盖白发染发膏"}
+[2026-01-28 15:17:26] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(13).mp4 video_id=6837825395145479632
+[2026-01-28 15:17:26] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(14).mp4
+[2026-01-28 15:17:31] INFO: 准备上传文件: 1月8日(14).mp4, size=26072025 bytes, mime=video/mp4
+[2026-01-28 15:17:31] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:17:31] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:17:41] INFO: 上传分片 2/2 size=6149081
+[2026-01-28 15:17:52] INFO: complete vid=openplat-video-sign#pxofbxup9milbdx56rx8jjrhmbz1uknj
+[2026-01-28 15:17:52] INFO: upload cover image: 1月8日(14).jpg, size=232481 bytes, mime=image/jpeg
+[2026-01-28 15:18:09] INFO: publish desc=染出来的颜色比较自然。 #头皮护理好物推荐 #美妆好物大盘点 #盖白发染发膏 #黄皮必备发色
+[2026-01-28 15:18:09] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/5e8a5c04-7841-4860-8a87-90bf1e99c563.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#pxofbxup9milbdx56rx8jjrhmbz1uknj","desc":"染出来的颜色比较自然。 #头皮护理好物推荐 #美妆好物大盘点 #盖白发染发膏 #黄皮必备发色"}
+[2026-01-28 15:18:13] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(14).mp4 video_id=6837825793763829234
+[2026-01-28 15:18:13] INFO: [拼多多旗舰店] ???????????
+[2026-01-28 15:18:18] INFO: [拼多多美容护发官方旗舰店] 发现视频 69 个，目录 3 个
+[2026-01-28 15:18:18] INFO: [拼多多美容护发官方旗舰店] 今日完成 15 个，失败 0 个，进行中 0 个
+[2026-01-28 15:18:18] INFO: [拼多多美容护发官方旗舰店] 当前发布时段 15:00，本轮可发布 22 个
+[2026-01-28 15:18:18] INFO: [拼多多美容护发官方旗舰店] 开始上传 小黑/0128拼多多小黑 (3).mp4
+[2026-01-28 15:18:23] INFO: 准备上传文件: 0128拼多多小黑 (3).mp4, size=98101362 bytes, mime=video/mp4
+[2026-01-28 15:18:23] INFO: 开始分片上传，共 5 片
+[2026-01-28 15:18:23] INFO: 上传分片 1/5 size=19922944
+[2026-01-28 15:18:34] INFO: 上传分片 2/5 size=19922944
+[2026-01-28 15:18:45] INFO: 上传分片 3/5 size=19922944
+[2026-01-28 15:18:56] INFO: 上传分片 4/5 size=19922944
+[2026-01-28 15:19:07] INFO: 上传分片 5/5 size=18409586
+[2026-01-28 15:19:22] INFO: complete vid=openplat-video-sign#m54yuetfzsdgrtjlx3ppjjrhnjb2t62e
+[2026-01-28 15:19:22] INFO: upload cover image: 0128拼多多小黑 (3).jpg, size=155437 bytes, mime=image/jpeg
+[2026-01-28 15:19:39] INFO: publish desc=十九块九，帮你缓解头发问题。 #省到家的护发好物清单 #美妆好物大盘点
+[2026-01-28 15:19:39] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/be60520f-702c-4c02-8823-ef26bc02523a.jpeg","goods_id":820092110567,"vid":"openplat-video-sign#m54yuetfzsdgrtjlx3ppjjrhnjb2t62e","desc":"十九块九，帮你缓解头发问题。 #省到家的护发好物清单 #美妆好物大盘点"}
+[2026-01-28 15:19:44] INFO: [拼多多美容护发官方旗舰店] 上传完成 小黑/0128拼多多小黑 (3).mp4 video_id=6837826555138843210
+[2026-01-28 15:19:44] INFO: [拼多多美容护发官方旗舰店] 开始上传 小黑/0128拼多多小黑 (4).mp4
+[2026-01-28 15:19:49] INFO: 准备上传文件: 0128拼多多小黑 (4).mp4, size=53166624 bytes, mime=video/mp4
+[2026-01-28 15:19:49] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:19:49] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:20:00] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:20:13] INFO: 上传分片 3/3 size=13320736
+[2026-01-28 15:20:27] INFO: complete vid=openplat-video-sign#bo4zjtkvhxx6lsrbmntljjrhoemxpobf
+[2026-01-28 15:20:27] INFO: upload cover image: 0128拼多多小黑 (4).jpg, size=184350 bytes, mime=image/jpeg
+[2026-01-28 15:20:45] INFO: publish desc=贵在健康，贵在安全。 #省到家的护发好物清单 #干枯毛躁护发好物
+[2026-01-28 15:20:45] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/b6b32aa1-a9af-4e22-8673-dd84d7d72a99.jpeg","goods_id":820092110567,"vid":"openplat-video-sign#bo4zjtkvhxx6lsrbmntljjrhoemxpobf","desc":"贵在健康，贵在安全。 #省到家的护发好物清单 #干枯毛躁护发好物"}
+[2026-01-28 15:20:50] INFO: [拼多多美容护发官方旗舰店] 上传完成 小黑/0128拼多多小黑 (4).mp4 video_id=6837827104425519039
+[2026-01-28 15:20:50] INFO: [拼多多美容护发官方旗舰店] 开始上传 小黑/0128拼多多小黑 (5).mp4
+[2026-01-28 15:20:54] INFO: 准备上传文件: 0128拼多多小黑 (5).mp4, size=70214595 bytes, mime=video/mp4
+[2026-01-28 15:20:54] INFO: 开始分片上传，共 4 片
+[2026-01-28 15:20:54] INFO: 上传分片 1/4 size=19922944
+[2026-01-28 15:21:05] INFO: 上传分片 2/4 size=19922944
+[2026-01-28 15:21:15] INFO: 上传分片 3/4 size=19922944
+[2026-01-28 15:21:25] INFO: 上传分片 4/4 size=10445763
+[2026-01-28 15:21:37] INFO: complete vid=openplat-video-sign#zhxe139aydzeugjfsylljjrhpccwv6d2
+[2026-01-28 15:21:37] INFO: upload cover image: 0128拼多多小黑 (5).jpg, size=289598 bytes, mime=image/jpeg
+[2026-01-28 15:21:55] INFO: publish desc=小黑能修复受损发质，让染发更持久。 #干枯毛躁护发好物 #美妆好物大盘点
+[2026-01-28 15:21:55] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/69971c60-7696-4167-b711-1b265efd3eb9.jpeg","goods_id":820092110567,"vid":"openplat-video-sign#zhxe139aydzeugjfsylljjrhpccwv6d2","desc":"小黑能修复受损发质，让染发更持久。 #干枯毛躁护发好物 #美妆好物大盘点"}
+[2026-01-28 15:21:59] INFO: [拼多多美容护发官方旗舰店] 上传完成 小黑/0128拼多多小黑 (5).mp4 video_id=6837827690646078744
+[2026-01-28 15:21:59] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂子母管/0128拼多多 (12).mp4
+[2026-01-28 15:22:04] INFO: 准备上传文件: 0128拼多多 (12).mp4, size=24680294 bytes, mime=video/mp4
+[2026-01-28 15:22:04] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:22:04] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:22:15] INFO: 上传分片 2/2 size=4757350
+[2026-01-28 15:22:25] INFO: complete vid=openplat-video-sign#gkhqmgtn5pkiu6ikmnvfjjrhpzfezbu2
+[2026-01-28 15:22:25] INFO: upload cover image: 0128拼多多 (12).jpg, size=147307 bytes, mime=image/jpeg
+[2026-01-28 15:22:42] INFO: publish desc=拍一八八，染博士柔彩染发霜。 #省到家的护发好物清单 #头皮护理好物推荐 #盖白发染发膏 #显白发色
+[2026-01-28 15:22:42] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/621853d5-a234-4b30-8dea-cc23970a3cf6.jpeg","goods_id":591500186361,"vid":"openplat-video-sign#gkhqmgtn5pkiu6ikmnvfjjrhpzfezbu2","desc":"拍一八八，染博士柔彩染发霜。 #省到家的护发好物清单 #头皮护理好物推荐 #盖白发染发膏 #显白发色"}
+[2026-01-28 15:22:47] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂子母管/0128拼多多 (12).mp4 video_id=6837828086798068588
+[2026-01-28 15:22:47] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂子母管/0128拼多多 (13).mp4
+[2026-01-28 15:22:51] INFO: 准备上传文件: 0128拼多多 (13).mp4, size=24102561 bytes, mime=video/mp4
+[2026-01-28 15:22:51] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:22:51] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:23:02] INFO: 上传分片 2/2 size=4179617
+[2026-01-28 15:23:12] INFO: complete vid=openplat-video-sign#p16erh3ofaucjgywkhiujjrhqm65toyy
+[2026-01-28 15:23:12] INFO: upload cover image: 0128拼多多 (13).jpg, size=90100 bytes, mime=image/jpeg
+[2026-01-28 15:23:29] INFO: publish desc=柔彩级染膏三十到四十五天可染一次。 #美妆好物大盘点 #干枯毛躁护发好物 #黄皮必备发色 #染发注意事项
+[2026-01-28 15:23:29] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/4b9daaad-9651-4e6b-8b2b-89d5f7b5c05a.jpeg","goods_id":591500186361,"vid":"openplat-video-sign#p16erh3ofaucjgywkhiujjrhqm65toyy","desc":"柔彩级染膏三十到四十五天可染一次。 #美妆好物大盘点 #干枯毛躁护发好物 #黄皮必备发色 #染发注意事项"}
+[2026-01-28 15:23:34] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂子母管/0128拼多多 (13).mp4 video_id=6837828485684988771
+[2026-01-28 15:23:34] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂子母管/0128拼多多 (2).mp4
+[2026-01-28 15:23:39] INFO: 准备上传文件: 0128拼多多 (2).mp4, size=33236873 bytes, mime=video/mp4
+[2026-01-28 15:23:39] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:23:39] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:23:49] INFO: 上传分片 2/2 size=13313929
+[2026-01-28 15:24:02] INFO: complete vid=openplat-video-sign#czwj5mpvaqa6hfqj7fyajjrhraaa1b98
+[2026-01-28 15:24:02] INFO: upload cover image: 0128拼多多 (2).jpg, size=147018 bytes, mime=image/jpeg
+[2026-01-28 15:24:19] INFO: publish desc=补发根能减少染发频率。 #美妆好物大盘点 #干枯毛躁护发好物 #染发注意事项 #显白发色
+[2026-01-28 15:24:19] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/9f50db57-c4db-4aba-9994-b851ff577ee8.jpeg","goods_id":591500186361,"vid":"openplat-video-sign#czwj5mpvaqa6hfqj7fyajjrhraaa1b98","desc":"补发根能减少染发频率。 #美妆好物大盘点 #干枯毛躁护发好物 #染发注意事项 #显白发色"}
+[2026-01-28 15:24:24] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂子母管/0128拼多多 (2).mp4 video_id=6837828905702378423
+[2026-01-28 15:24:24] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂子母管/0128拼多多 (3).mp4
+[2026-01-28 15:24:29] INFO: 准备上传文件: 0128拼多多 (3).mp4, size=27249067 bytes, mime=video/mp4
+[2026-01-28 15:24:29] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:24:29] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:24:40] INFO: 上传分片 2/2 size=7326123
+[2026-01-28 15:24:52] INFO: complete vid=openplat-video-sign#lrdlvc16hp30pnoategwjjrhry0u1rtc
+[2026-01-28 15:24:52] INFO: upload cover image: 0128拼多多 (3).jpg, size=190542 bytes, mime=image/jpeg
+[2026-01-28 15:25:09] INFO: publish desc=柔彩级染发膏可以三十天染一次。 #美妆好物大盘点 #头皮护理好物推荐 #显白发色 #黄皮必备发色
+[2026-01-28 15:25:09] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/04bafe86-2634-42b4-9914-5d0666e1c2f3.jpeg","goods_id":591500186361,"vid":"openplat-video-sign#lrdlvc16hp30pnoategwjjrhry0u1rtc","desc":"柔彩级染发膏可以三十天染一次。 #美妆好物大盘点 #头皮护理好物推荐 #显白发色 #黄皮必备发色"}
+[2026-01-28 15:25:14] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂子母管/0128拼多多 (3).mp4 video_id=6837829322549776929
+[2026-01-28 15:25:14] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月5日.mp4
+[2026-01-28 15:25:19] INFO: 准备上传文件: 1月5日.mp4, size=44639768 bytes, mime=video/mp4
+[2026-01-28 15:25:19] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:25:19] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:25:29] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:25:40] INFO: 上传分片 3/3 size=4793880
+[2026-01-28 15:25:50] INFO: complete vid=openplat-video-sign#nrx4mtaxn5pvec2i00uxjjrhsq3o7jdq
+[2026-01-28 15:25:50] INFO: upload cover image: 1月5日.jpg, size=387366 bytes, mime=image/jpeg
+[2026-01-28 15:26:07] INFO: publish desc=十几块就买到了一盒染发膏的八件套。 #美妆好物大盘点 #省到家的护发好物清单 #染发注意事项 #黄皮必备发色
+[2026-01-28 15:26:07] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/7d609cdb-3fb5-45c2-8c42-a9bc7753a8e4.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#nrx4mtaxn5pvec2i00uxjjrhsq3o7jdq","desc":"十几块就买到了一盒染发膏的八件套。 #美妆好物大盘点 #省到家的护发好物清单 #染发注意事项 #黄皮必备发色"}
+[2026-01-28 15:26:12] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月5日.mp4 video_id=6837829810556349187
+[2026-01-28 15:26:12] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (1)(1).mp4
+[2026-01-28 15:26:17] INFO: 准备上传文件: 1月8日 (1)(1).mp4, size=24079181 bytes, mime=video/mp4
+[2026-01-28 15:26:17] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:26:17] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:26:28] INFO: 上传分片 2/2 size=4156237
+[2026-01-28 15:26:38] INFO: complete vid=openplat-video-sign#lyxidrutce2ryzfpjohojjrhtd5rcb14
+[2026-01-28 15:26:38] INFO: upload cover image: 1月8日 (1)(1).jpg, size=197098 bytes, mime=image/jpeg
+[2026-01-28 15:26:54] INFO: publish desc=染发护发双料选手，柔顺发丝更温柔。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #安全染发剂推荐
+[2026-01-28 15:26:54] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/3824bbd0-0453-42c0-a9d3-ce131fcb891e.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#lyxidrutce2ryzfpjohojjrhtd5rcb14","desc":"染发护发双料选手，柔顺发丝更温柔。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #安全染发剂推荐"}
+[2026-01-28 15:26:59] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (1)(1).mp4 video_id=6837830204946952644
+[2026-01-28 15:26:59] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (1)(2).mp4
+[2026-01-28 15:27:04] INFO: 准备上传文件: 1月8日 (1)(2).mp4, size=30549371 bytes, mime=video/mp4
+[2026-01-28 15:27:04] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:27:04] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:27:14] INFO: 上传分片 2/2 size=10626427
+[2026-01-28 15:27:26] INFO: complete vid=openplat-video-sign#hlsuulxnanqsjqh8dtphjjrhu0o2tbvw
+[2026-01-28 15:27:27] INFO: upload cover image: 1月8日 (1)(2).jpg, size=276992 bytes, mime=image/jpeg
+[2026-01-28 15:27:43] INFO: publish desc=染博士柔彩染膏，染发护发双效合一。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 15:27:43] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/60f2c776-8101-43c8-a644-97774da4d4cf.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#hlsuulxnanqsjqh8dtphjjrhu0o2tbvw","desc":"染博士柔彩染膏，染发护发双效合一。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 15:27:48] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (1)(2).mp4 video_id=6837830613254081291
+[2026-01-28 15:27:48] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (1)(3).mp4
+[2026-01-28 15:27:53] INFO: 准备上传文件: 1月8日 (1)(3).mp4, size=16092030 bytes, mime=video/mp4
+[2026-01-28 15:27:53] INFO: 开始分片上传，共 1 片
+[2026-01-28 15:27:53] INFO: 上传分片 1/1 size=16092030
+[2026-01-28 15:28:06] INFO: complete vid=openplat-video-sign#bwq23gs38jro934syalsjjrhujxpd9vv
+[2026-01-28 15:28:07] INFO: upload cover image: 1月8日 (1)(3).jpg, size=239304 bytes, mime=image/jpeg
+[2026-01-28 15:28:23] INFO: publish desc=染发工具都是送你的。 #美妆好物大盘点 #干枯毛躁护发好物 #安全染发剂推荐 #黄皮必备发色
+[2026-01-28 15:28:23] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/09648ca4-5d26-42fc-8c5c-d2c66d8592dd.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#bwq23gs38jro934syalsjjrhujxpd9vv","desc":"染发工具都是送你的。 #美妆好物大盘点 #干枯毛躁护发好物 #安全染发剂推荐 #黄皮必备发色"}
+[2026-01-28 15:28:27] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (1)(3).mp4 video_id=6837830945526530707
+[2026-01-28 15:28:27] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (1).mp4
+[2026-01-28 15:28:32] INFO: 准备上传文件: 1月8日 (1).mp4, size=25893391 bytes, mime=video/mp4
+[2026-01-28 15:28:32] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:28:32] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:28:43] INFO: 上传分片 2/2 size=5970447
+[2026-01-28 15:28:53] INFO: complete vid=openplat-video-sign#9hwpndeynzngq124aht9jjrhv6jfsh64
+[2026-01-28 15:28:54] INFO: upload cover image: 1月8日 (1).jpg, size=146545 bytes, mime=image/jpeg
+[2026-01-28 15:29:10] INFO: publish desc=染博士柔彩染膏，黑松露精粹护发染发。 #美妆好物大盘点 #干枯毛躁护发好物 #显白发色 #安全染发剂推荐
+[2026-01-28 15:29:10] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/a991efd9-69bd-46f2-a96f-f18bf0053b61.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#9hwpndeynzngq124aht9jjrhv6jfsh64","desc":"染博士柔彩染膏，黑松露精粹护发染发。 #美妆好物大盘点 #干枯毛躁护发好物 #显白发色 #安全染发剂推荐"}
+[2026-01-28 15:29:15] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (1).mp4 video_id=6837831340462398254
+[2026-01-28 15:29:15] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (2)(1).mp4
+[2026-01-28 15:29:19] INFO: 准备上传文件: 1月8日 (2)(1).mp4, size=31765820 bytes, mime=video/mp4
+[2026-01-28 15:29:19] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:29:19] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:29:30] INFO: 上传分片 2/2 size=11842876
+[2026-01-28 15:29:44] INFO: complete vid=openplat-video-sign#3uytotr6jsiuhftvrcqyjjrhvv1cxwbc
+[2026-01-28 15:29:45] INFO: upload cover image: 1月8日 (2)(1).jpg, size=284010 bytes, mime=image/jpeg
+[2026-01-28 15:30:01] INFO: publish desc=染发剂袋包不用调不用兑，方便快捷。 #省到家的护发好物清单 #干枯毛躁护发好物 #黄皮必备发色 #盖白发染发膏
+[2026-01-28 15:30:01] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/a2be9bd3-21ff-44fb-bc22-878cd008ca74.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#3uytotr6jsiuhftvrcqyjjrhvv1cxwbc","desc":"染发剂袋包不用调不用兑，方便快捷。 #省到家的护发好物清单 #干枯毛躁护发好物 #黄皮必备发色 #盖白发染发膏"}
+[2026-01-28 15:30:06] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (2)(1).mp4 video_id=6837831768751755369
+[2026-01-28 15:30:06] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (2)(2).mp4
+[2026-01-28 15:30:10] INFO: 准备上传文件: 1月8日 (2)(2).mp4, size=29112629 bytes, mime=video/mp4
+[2026-01-28 15:30:10] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:30:10] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:30:21] INFO: 上传分片 2/2 size=9189685
+[2026-01-28 15:30:32] INFO: complete vid=openplat-video-sign#5xohwilornotbdcuuzefjjrhwi5ncxpm
+[2026-01-28 15:30:33] INFO: upload cover image: 1月8日 (2)(2).jpg, size=312406 bytes, mime=image/jpeg
+[2026-01-28 15:30:49] INFO: publish desc=染发护发双效，发色自然不毛躁。 #头皮护理好物推荐 #美妆好物大盘点 #染发注意事项 #显白发色
+[2026-01-28 15:30:49] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/4db962c4-28cf-4ec4-8b2d-91ca3d9507b0.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#5xohwilornotbdcuuzefjjrhwi5ncxpm","desc":"染发护发双效，发色自然不毛躁。 #头皮护理好物推荐 #美妆好物大盘点 #染发注意事项 #显白发色"}
+[2026-01-28 15:30:54] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (2)(2).mp4 video_id=6837832175103988313
+[2026-01-28 15:30:54] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (2)(3).mp4
+[2026-01-28 15:30:59] INFO: 准备上传文件: 1月8日 (2)(3).mp4, size=28784455 bytes, mime=video/mp4
+[2026-01-28 15:30:59] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:30:59] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:31:09] INFO: 上传分片 2/2 size=8861511
+[2026-01-28 15:31:21] INFO: complete vid=openplat-video-sign#v6ksmwe7vqkuuq7prycpjjrhx5nccv2j
+[2026-01-28 15:31:21] INFO: upload cover image: 1月8日 (2)(3).jpg, size=185043 bytes, mime=image/jpeg
+[2026-01-28 15:31:38] INFO: publish desc=天青明茶色，染发更雅致。 #省到家的护发好物清单 #头皮护理好物推荐 #盖白发染发膏 #显白发色
+[2026-01-28 15:31:38] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/00f36cb3-9601-4a56-ab6f-b6ddf5badd06.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#v6ksmwe7vqkuuq7prycpjjrhx5nccv2j","desc":"天青明茶色，染发更雅致。 #省到家的护发好物清单 #头皮护理好物推荐 #盖白发染发膏 #显白发色"}
+[2026-01-28 15:31:43] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (2)(3).mp4 video_id=6837832582739976239
+[2026-01-28 15:31:43] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (2)(4).mp4
+[2026-01-28 15:31:47] INFO: 准备上传文件: 1月8日 (2)(4).mp4, size=28875968 bytes, mime=video/mp4
+[2026-01-28 15:31:47] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:31:47] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:31:58] INFO: 上传分片 2/2 size=8953024
+[2026-01-28 15:32:10] INFO: complete vid=openplat-video-sign#qa1sczlw8jioafnr51zgjjrhxszegjkg
+[2026-01-28 15:32:10] INFO: upload cover image: 1月8日 (2)(4).jpg, size=203356 bytes, mime=image/jpeg
+[2026-01-28 15:32:26] INFO: publish desc=染发护发双料选手，黑松露精粹添加。 #头皮护理好物推荐 #美妆好物大盘点 #盖白发染发膏 #染发注意事项
+[2026-01-28 15:32:26] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/597b8953-c96c-42e9-917c-2a113bf771c7.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#qa1sczlw8jioafnr51zgjjrhxszegjkg","desc":"染发护发双料选手，黑松露精粹添加。 #头皮护理好物推荐 #美妆好物大盘点 #盖白发染发膏 #染发注意事项"}
+[2026-01-28 15:32:31] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (2)(4).mp4 video_id=6837832989016919018
+[2026-01-28 15:32:31] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (2)(5).mp4
+[2026-01-28 15:32:36] INFO: 准备上传文件: 1月8日 (2)(5).mp4, size=55560107 bytes, mime=video/mp4
+[2026-01-28 15:32:36] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:32:36] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:32:46] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:32:57] INFO: 上传分片 3/3 size=15714219
+[2026-01-28 15:33:11] INFO: complete vid=openplat-video-sign#v0pktvzwmizgyv9w50nqjjrhymiz3mye
+[2026-01-28 15:33:11] INFO: upload cover image: 1月8日 (2)(5).jpg, size=161194 bytes, mime=image/jpeg
+[2026-01-28 15:33:28] INFO: publish desc=染发护发双料选手，黑松露精粹和多种植萃添加成分。 #干枯毛躁护发好物 #美妆好物大盘点 #染发注意事项 #安全染发剂推荐
+[2026-01-28 15:33:28] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/cfc191a8-abde-48f5-9872-7c426bc22b00.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#v0pktvzwmizgyv9w50nqjjrhymiz3mye","desc":"染发护发双料选手，黑松露精粹和多种植萃添加成分。 #干枯毛躁护发好物 #美妆好物大盘点 #染发注意事项 #安全染发剂推荐"}
+[2026-01-28 15:33:33] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (2)(5).mp4 video_id=6837833504874321375
+[2026-01-28 15:33:33] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日 (2).mp4
+[2026-01-28 15:33:37] INFO: 准备上传文件: 1月8日 (2).mp4, size=38529459 bytes, mime=video/mp4
+[2026-01-28 15:33:37] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:33:37] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:33:48] INFO: 上传分片 2/2 size=18606515
+[2026-01-28 15:34:03] INFO: complete vid=openplat-video-sign#gctsst0lts6yexeykisyjjrhzbsxqiii
+[2026-01-28 15:34:04] INFO: upload cover image: 1月8日 (2).jpg, size=184754 bytes, mime=image/jpeg
+[2026-01-28 15:34:20] INFO: publish desc=染发护发双料选手，黑松露精粹添加。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #显白发色
+[2026-01-28 15:34:20] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/f2388bdf-f88e-41ab-a76e-f1844b26e55a.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#gctsst0lts6yexeykisyjjrhzbsxqiii","desc":"染发护发双料选手，黑松露精粹添加。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #显白发色"}
+[2026-01-28 15:34:25] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日 (2).mp4 video_id=6837833943992517258
+[2026-01-28 15:34:25] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(1).mp4
+[2026-01-28 15:34:30] INFO: 准备上传文件: 1月8日(1).mp4, size=36658615 bytes, mime=video/mp4
+[2026-01-28 15:34:30] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:34:30] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:34:40] INFO: 上传分片 2/2 size=16735671
+[2026-01-28 15:34:55] INFO: complete vid=openplat-video-sign#zwen4ls6czz6kzf4tirsjjri00sua47s
+[2026-01-28 15:34:56] INFO: upload cover image: 1月8日(1).jpg, size=217319 bytes, mime=image/jpeg
+[2026-01-28 15:35:12] INFO: publish desc=染博士天青明茶色，显色高级。 #省到家的护发好物清单 #美妆好物大盘点 #盖白发染发膏 #显白发色
+[2026-01-28 15:35:12] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/c360f531-c967-4e30-b745-eb8a567bf6a4.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#zwen4ls6czz6kzf4tirsjjri00sua47s","desc":"染博士天青明茶色，显色高级。 #省到家的护发好物清单 #美妆好物大盘点 #盖白发染发膏 #显白发色"}
+[2026-01-28 15:35:17] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(1).mp4 video_id=6837834380577859278
+[2026-01-28 15:35:17] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(10).mp4
+[2026-01-28 15:35:22] INFO: 准备上传文件: 1月8日(10).mp4, size=35790661 bytes, mime=video/mp4
+[2026-01-28 15:35:22] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:35:22] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:35:32] INFO: 上传分片 2/2 size=15867717
+[2026-01-28 15:35:46] INFO: complete vid=openplat-video-sign#wikmusn0pp4eoxpwtnzojjri0p65d9vz
+[2026-01-28 15:35:46] INFO: upload cover image: 1月8日(10).jpg, size=269402 bytes, mime=image/jpeg
+[2026-01-28 15:36:03] INFO: publish desc=染博士柔彩染膏，边染边护发。 #头皮护理好物推荐 #干枯毛躁护发好物 #安全染发剂推荐 #显白发色
+[2026-01-28 15:36:03] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/95b8dec7-053b-49b7-a355-c4136eb4e0ca.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#wikmusn0pp4eoxpwtnzojjri0p65d9vz","desc":"染博士柔彩染膏，边染边护发。 #头皮护理好物推荐 #干枯毛躁护发好物 #安全染发剂推荐 #显白发色"}
+[2026-01-28 15:36:07] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(10).mp4 video_id=6837834803791485120
+[2026-01-28 15:36:08] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(11).mp4
+[2026-01-28 15:36:12] INFO: 准备上传文件: 1月8日(11).mp4, size=47035909 bytes, mime=video/mp4
+[2026-01-28 15:36:12] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:36:12] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:36:23] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:36:33] INFO: 上传分片 3/3 size=7190021
+[2026-01-28 15:36:47] INFO: complete vid=openplat-video-sign#9tnearvh08q2ghbjejdojjri1ijb0rfg
+[2026-01-28 15:36:47] INFO: upload cover image: 1月8日(11).jpg, size=229242 bytes, mime=image/jpeg
+[2026-01-28 15:37:04] INFO: publish desc=染博士柔彩染膏，会梳头就会染发。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #显白发色
+[2026-01-28 15:37:04] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/6508ae0f-7e11-45bd-bb21-f854847a63f3.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#9tnearvh08q2ghbjejdojjri1ijb0rfg","desc":"染博士柔彩染膏，会梳头就会染发。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #显白发色"}
+[2026-01-28 15:37:09] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(11).mp4 video_id=6837835317711165723
+[2026-01-28 15:37:09] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(12).mp4
+[2026-01-28 15:37:13] INFO: 准备上传文件: 1月8日(12).mp4, size=23796236 bytes, mime=video/mp4
+[2026-01-28 15:37:13] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:37:13] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:37:24] INFO: 上传分片 2/2 size=3873292
+[2026-01-28 15:37:34] INFO: complete vid=openplat-video-sign#neej3bk8rekalapasqtljjri25dtyl7w
+[2026-01-28 15:37:34] INFO: upload cover image: 1月8日(12).jpg, size=241664 bytes, mime=image/jpeg
+[2026-01-28 15:37:51] INFO: publish desc=染发膏能牢牢盖白还不伤发 #省到家的护发好物清单 #头皮护理好物推荐 #染发注意事项 #显白发色
+[2026-01-28 15:37:51] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/667e3bea-c9ab-41a6-a83e-77cfb7a7e78a.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#neej3bk8rekalapasqtljjri25dtyl7w","desc":"染发膏能牢牢盖白还不伤发 #省到家的护发好物清单 #头皮护理好物推荐 #染发注意事项 #显白发色"}
+[2026-01-28 15:37:56] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(12).mp4 video_id=6837835712739169477
+[2026-01-28 15:37:56] INFO: [拼多多美容护发官方旗舰店] ???????????
+[2026-01-28 15:38:01] INFO: [拼多多个护店] 发现视频 61 个，目录 2 个
+[2026-01-28 15:38:01] INFO: [拼多多个护店] 今日完成 13 个，失败 0 个，进行中 0 个
+[2026-01-28 15:38:01] INFO: [拼多多个护店] 当前发布时段 15:00，本轮可发布 19 个
+[2026-01-28 15:38:01] INFO: [拼多多个护店] 开始上传 染发剂子母管/0128拼多多 (12).mp4
+[2026-01-28 15:38:06] INFO: 准备上传文件: 0128拼多多 (12).mp4, size=24680294 bytes, mime=video/mp4
+[2026-01-28 15:38:06] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:38:06] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:38:16] INFO: 上传分片 2/2 size=4757350
+[2026-01-28 15:38:27] INFO: complete vid=openplat-video-sign#1not3iw92ntn0ts4nqfljjri2urjfznn
+[2026-01-28 15:38:27] INFO: upload cover image: 0128拼多多 (12).jpg, size=147307 bytes, mime=image/jpeg
+[2026-01-28 15:38:44] INFO: publish desc=拍一八八，染博士柔彩染发霜。 #干枯毛躁护发好物 #省到家的护发好物清单 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 15:38:44] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/1bcf0f6c-fb3e-4d25-bfa9-d39ead9fe664.jpeg","goods_id":766636609261,"vid":"openplat-video-sign#1not3iw92ntn0ts4nqfljjri2urjfznn","desc":"拍一八八，染博士柔彩染发霜。 #干枯毛躁护发好物 #省到家的护发好物清单 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 15:38:49] INFO: [拼多多个护店] 上传完成 染发剂子母管/0128拼多多 (12).mp4 video_id=6837836159585471439
+[2026-01-28 15:38:49] INFO: [拼多多个护店] 开始上传 染发剂子母管/0128拼多多 (13).mp4
+[2026-01-28 15:38:54] INFO: 准备上传文件: 0128拼多多 (13).mp4, size=24102561 bytes, mime=video/mp4
+[2026-01-28 15:38:54] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:38:54] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:39:04] INFO: 上传分片 2/2 size=4179617
+[2026-01-28 15:39:14] INFO: complete vid=openplat-video-sign#zrcypbstjaz2ec9zvxsrjjri3hmbqxw0
+[2026-01-28 15:39:14] INFO: upload cover image: 0128拼多多 (13).jpg, size=90100 bytes, mime=image/jpeg
+[2026-01-28 15:39:31] INFO: publish desc=今天直播间，染发膏只要几十块。 #省到家的护发好物清单 #头皮护理好物推荐 #盖白发染发膏 #显白发色
+[2026-01-28 15:39:31] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/6a601432-e54b-45d3-b5d4-b843ebf03323.jpeg","goods_id":766636609261,"vid":"openplat-video-sign#zrcypbstjaz2ec9zvxsrjjri3hmbqxw0","desc":"今天直播间，染发膏只要几十块。 #省到家的护发好物清单 #头皮护理好物推荐 #盖白发染发膏 #显白发色"}
+[2026-01-28 15:39:36] INFO: [拼多多个护店] 上传完成 染发剂子母管/0128拼多多 (13).mp4 video_id=6837836552718275448
+[2026-01-28 15:39:36] INFO: [拼多多个护店] 开始上传 染发剂子母管/0128拼多多 (2).mp4
+[2026-01-28 15:39:41] INFO: 准备上传文件: 0128拼多多 (2).mp4, size=33236873 bytes, mime=video/mp4
+[2026-01-28 15:39:41] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:39:41] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:39:51] INFO: 上传分片 2/2 size=13313929
+[2026-01-28 15:40:04] INFO: complete vid=openplat-video-sign#nl4eirgxxkqplbxr55injjri45q8guyl
+[2026-01-28 15:40:05] INFO: upload cover image: 0128拼多多 (2).jpg, size=147018 bytes, mime=image/jpeg
+[2026-01-28 15:40:22] INFO: publish desc=补发根能减少染发频率。 #省到家的护发好物清单 #干枯毛躁护发好物 #黄皮必备发色 #染发注意事项
+[2026-01-28 15:40:22] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/86e6d1a5-6fb1-4e9a-a940-8aaf086f5014.jpeg","goods_id":766636609261,"vid":"openplat-video-sign#nl4eirgxxkqplbxr55injjri45q8guyl","desc":"补发根能减少染发频率。 #省到家的护发好物清单 #干枯毛躁护发好物 #黄皮必备发色 #染发注意事项"}
+[2026-01-28 15:40:27] INFO: [拼多多个护店] 上传完成 染发剂子母管/0128拼多多 (2).mp4 video_id=6837836978389326284
+[2026-01-28 15:40:27] INFO: [拼多多个护店] 开始上传 染发剂子母管/0128拼多多 (3).mp4
+[2026-01-28 15:40:31] INFO: 准备上传文件: 0128拼多多 (3).mp4, size=27249067 bytes, mime=video/mp4
+[2026-01-28 15:40:31] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:40:31] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:40:42] INFO: 上传分片 2/2 size=7326123
+[2026-01-28 15:40:53] INFO: complete vid=openplat-video-sign#2i2bnu9xl4towwwn1pkijjri4tacv8pc
+[2026-01-28 15:40:53] INFO: upload cover image: 0128拼多多 (3).jpg, size=190542 bytes, mime=image/jpeg
+[2026-01-28 15:41:11] INFO: publish desc=柔彩级染发膏可以三十天染一次。 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #染发注意事项
+[2026-01-28 15:41:11] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/a74e5ba2-48dc-4945-9553-19f799e756fe.jpeg","goods_id":766636609261,"vid":"openplat-video-sign#2i2bnu9xl4towwwn1pkijjri4tacv8pc","desc":"柔彩级染发膏可以三十天染一次。 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #染发注意事项"}
+[2026-01-28 15:41:16] INFO: [拼多多个护店] 上传完成 染发剂子母管/0128拼多多 (3).mp4 video_id=6837837389405750751
+[2026-01-28 15:41:16] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月5日.mp4
+[2026-01-28 15:41:20] INFO: 准备上传文件: 1月5日.mp4, size=44639768 bytes, mime=video/mp4
+[2026-01-28 15:41:20] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:41:21] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:41:31] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:41:42] INFO: 上传分片 3/3 size=4793880
+[2026-01-28 15:41:52] INFO: complete vid=openplat-video-sign#ltupgyq161ee1hhzrv5ejjri5lmw0b75
+[2026-01-28 15:41:52] INFO: upload cover image: 1月5日.jpg, size=387366 bytes, mime=image/jpeg
+[2026-01-28 15:42:10] INFO: publish desc=十几块就买到了一盒染发膏的八件套。 #美妆好物大盘点 #省到家的护发好物清单 #盖白发染发膏 #黄皮必备发色
+[2026-01-28 15:42:10] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/67991f82-249d-49f0-b4de-9e90af281140.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#ltupgyq161ee1hhzrv5ejjri5lmw0b75","desc":"十几块就买到了一盒染发膏的八件套。 #美妆好物大盘点 #省到家的护发好物清单 #盖白发染发膏 #黄皮必备发色"}
+[2026-01-28 15:42:14] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月5日.mp4 video_id=6837837882504942726
+[2026-01-28 15:42:14] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (1)(1).mp4
+[2026-01-28 15:42:19] INFO: 准备上传文件: 1月8日 (1)(1).mp4, size=24079181 bytes, mime=video/mp4
+[2026-01-28 15:42:19] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:42:19] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:42:30] INFO: 上传分片 2/2 size=4156237
+[2026-01-28 15:42:40] INFO: complete vid=openplat-video-sign#zkkouovvlp9waevnh6eejjri68kbtvm7
+[2026-01-28 15:42:40] INFO: upload cover image: 1月8日 (1)(1).jpg, size=197098 bytes, mime=image/jpeg
+[2026-01-28 15:42:56] INFO: publish desc=染出靓丽发色同时拥有柔顺发丝。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #安全染发剂推荐
+[2026-01-28 15:42:56] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/ba5456d3-63e3-46a9-93b0-a49b1115275a.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#zkkouovvlp9waevnh6eejjri68kbtvm7","desc":"染出靓丽发色同时拥有柔顺发丝。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #安全染发剂推荐"}
+[2026-01-28 15:43:01] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (1)(1).mp4 video_id=6837838275334813563
+[2026-01-28 15:43:01] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (1)(2).mp4
+[2026-01-28 15:43:06] INFO: 准备上传文件: 1月8日 (1)(2).mp4, size=30549371 bytes, mime=video/mp4
+[2026-01-28 15:43:06] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:43:06] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:43:16] INFO: 上传分片 2/2 size=10626427
+[2026-01-28 15:43:29] INFO: complete vid=openplat-video-sign#dat4oyrf3afackccnau0jjri6w49ziaj
+[2026-01-28 15:43:29] INFO: upload cover image: 1月8日 (1)(2).jpg, size=276992 bytes, mime=image/jpeg
+[2026-01-28 15:43:45] INFO: publish desc=染发护发双料选手，黑松露精粹。 #省到家的护发好物清单 #头皮护理好物推荐 #黄皮必备发色 #显白发色
+[2026-01-28 15:43:45] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/37343bf3-a682-4218-9961-d6ebce8c49f9.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#dat4oyrf3afackccnau0jjri6w49ziaj","desc":"染发护发双料选手，黑松露精粹。 #省到家的护发好物清单 #头皮护理好物推荐 #黄皮必备发色 #显白发色"}
+[2026-01-28 15:43:50] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (1)(2).mp4 video_id=6837838686058729705
+[2026-01-28 15:43:50] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (1)(3).mp4
+[2026-01-28 15:43:55] INFO: 准备上传文件: 1月8日 (1)(3).mp4, size=16092030 bytes, mime=video/mp4
+[2026-01-28 15:43:55] INFO: 开始分片上传，共 1 片
+[2026-01-28 15:43:55] INFO: 上传分片 1/1 size=16092030
+[2026-01-28 15:44:09] INFO: complete vid=openplat-video-sign#ckekrtylkewnfrbwzbnxjjri7fgdtceo
+[2026-01-28 15:44:09] INFO: upload cover image: 1月8日 (1)(3).jpg, size=239304 bytes, mime=image/jpeg
+[2026-01-28 15:44:25] INFO: publish desc=染发护发双料选手。 #干枯毛躁护发好物 #省到家的护发好物清单 #盖白发染发膏 #显白发色
+[2026-01-28 15:44:25] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/2ae4080a-6fde-4537-ba79-9e876f9d0246.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#ckekrtylkewnfrbwzbnxjjri7fgdtceo","desc":"染发护发双料选手。 #干枯毛躁护发好物 #省到家的护发好物清单 #盖白发染发膏 #显白发色"}
+[2026-01-28 15:44:30] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (1)(3).mp4 video_id=6837839015721945867
+[2026-01-28 15:44:30] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (1).mp4
+[2026-01-28 15:44:34] INFO: 准备上传文件: 1月8日 (1).mp4, size=25893391 bytes, mime=video/mp4
+[2026-01-28 15:44:34] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:44:34] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:44:45] INFO: 上传分片 2/2 size=5970447
+[2026-01-28 15:44:55] INFO: complete vid=openplat-video-sign#qygl1jkfm6qxdai0vvbjjjri81yqhzvi
+[2026-01-28 15:44:56] INFO: upload cover image: 1月8日 (1).jpg, size=146545 bytes, mime=image/jpeg
+[2026-01-28 15:45:12] INFO: publish desc=染发护发双料选手，黑松露精粹添加。 #干枯毛躁护发好物 #美妆好物大盘点 #显白发色 #安全染发剂推荐
+[2026-01-28 15:45:12] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/42fa6c30-a371-4f2c-a311-aa9f6accf2d5.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#qygl1jkfm6qxdai0vvbjjjri81yqhzvi","desc":"染发护发双料选手，黑松露精粹添加。 #干枯毛躁护发好物 #美妆好物大盘点 #显白发色 #安全染发剂推荐"}
+[2026-01-28 15:45:17] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (1).mp4 video_id=6837839414314841100
+[2026-01-28 15:45:17] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (2)(1).mp4
+[2026-01-28 15:45:22] INFO: 准备上传文件: 1月8日 (2)(1).mp4, size=31765820 bytes, mime=video/mp4
+[2026-01-28 15:45:22] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:45:22] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:45:32] INFO: 上传分片 2/2 size=11842876
+[2026-01-28 15:45:44] INFO: complete vid=openplat-video-sign#c07gst1mzzyawlmhb1swjjri8pkkpcyk
+[2026-01-28 15:45:45] INFO: upload cover image: 1月8日 (2)(1).jpg, size=284010 bytes, mime=image/jpeg
+[2026-01-28 15:46:01] INFO: publish desc=染发剂袋包，三十分钟搞定显色均匀。 #头皮护理好物推荐 #美妆好物大盘点 #显白发色 #黄皮必备发色
+[2026-01-28 15:46:01] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/8b5bc482-6bfd-4713-ae28-e728d9168964.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#c07gst1mzzyawlmhb1swjjri8pkkpcyk","desc":"染发剂袋包，三十分钟搞定显色均匀。 #头皮护理好物推荐 #美妆好物大盘点 #显白发色 #黄皮必备发色"}
+[2026-01-28 15:46:06] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (2)(1).mp4 video_id=6837839825952643276
+[2026-01-28 15:46:06] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (2)(2).mp4
+[2026-01-28 15:46:11] INFO: 准备上传文件: 1月8日 (2)(2).mp4, size=29112629 bytes, mime=video/mp4
+[2026-01-28 15:46:11] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:46:11] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:46:22] INFO: 上传分片 2/2 size=9189685
+[2026-01-28 15:46:33] INFO: complete vid=openplat-video-sign#4cbeyleg5mp1hbmtgj6zjjri9d5fbo52
+[2026-01-28 15:46:34] INFO: upload cover image: 1月8日 (2)(2).jpg, size=312406 bytes, mime=image/jpeg
+[2026-01-28 15:46:50] INFO: publish desc=染发护发双料选手。 #头皮护理好物推荐 #美妆好物大盘点 #黄皮必备发色 #染发注意事项
+[2026-01-28 15:46:50] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/c35bd53b-cb95-40ea-ac64-3b8e7fe23033.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#4cbeyleg5mp1hbmtgj6zjjri9d5fbo52","desc":"染发护发双料选手。 #头皮护理好物推荐 #美妆好物大盘点 #黄皮必备发色 #染发注意事项"}
+[2026-01-28 15:46:55] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (2)(2).mp4 video_id=6837840236986042512
+[2026-01-28 15:46:55] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (2)(3).mp4
+[2026-01-28 15:47:00] INFO: 准备上传文件: 1月8日 (2)(3).mp4, size=28784455 bytes, mime=video/mp4
+[2026-01-28 15:47:00] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:47:00] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:47:10] INFO: 上传分片 2/2 size=8861511
+[2026-01-28 15:47:22] INFO: complete vid=openplat-video-sign#cnub2j0ifro22ujnymwcjjria0nvsh4a
+[2026-01-28 15:47:23] INFO: upload cover image: 1月8日 (2)(3).jpg, size=185043 bytes, mime=image/jpeg
+[2026-01-28 15:47:39] INFO: publish desc=天青明茶色，染发更雅致。 #省到家的护发好物清单 #头皮护理好物推荐 #安全染发剂推荐 #染发注意事项
+[2026-01-28 15:47:39] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/78178db7-d48a-47fa-8eab-bde87c9051a3.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#cnub2j0ifro22ujnymwcjjria0nvsh4a","desc":"天青明茶色，染发更雅致。 #省到家的护发好物清单 #头皮护理好物推荐 #安全染发剂推荐 #染发注意事项"}
+[2026-01-28 15:47:44] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (2)(3).mp4 video_id=6837840646400347213
+[2026-01-28 15:47:44] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (2)(4).mp4
+[2026-01-28 15:47:49] INFO: 准备上传文件: 1月8日 (2)(4).mp4, size=28875968 bytes, mime=video/mp4
+[2026-01-28 15:47:49] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:47:49] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:47:59] INFO: 上传分片 2/2 size=8953024
+[2026-01-28 15:48:11] INFO: complete vid=openplat-video-sign#5jizoamk9ic5dlgtwx6rjjriao34rhhf
+[2026-01-28 15:48:11] INFO: upload cover image: 1月8日 (2)(4).jpg, size=203356 bytes, mime=image/jpeg
+[2026-01-28 15:48:28] INFO: publish desc=染发护发双料选手，黑松露精粹。 #美妆好物大盘点 #干枯毛躁护发好物 #盖白发染发膏 #染发注意事项
+[2026-01-28 15:48:28] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/da5c21c7-53d1-4425-ad4c-f0fcdc3fdcc6.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#5jizoamk9ic5dlgtwx6rjjriao34rhhf","desc":"染发护发双料选手，黑松露精粹。 #美妆好物大盘点 #干枯毛躁护发好物 #盖白发染发膏 #染发注意事项"}
+[2026-01-28 15:48:33] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (2)(4).mp4 video_id=6837841055840012661
+[2026-01-28 15:48:33] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (2)(5).mp4
+[2026-01-28 15:48:37] INFO: 准备上传文件: 1月8日 (2)(5).mp4, size=55560107 bytes, mime=video/mp4
+[2026-01-28 15:48:37] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:48:37] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:48:48] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:48:59] INFO: 上传分片 3/3 size=15714219
+[2026-01-28 15:49:12] INFO: complete vid=openplat-video-sign#byb30v9wuvyxkxqcbdocjjribhqmhuc0
+[2026-01-28 15:49:13] INFO: upload cover image: 1月8日 (2)(5).jpg, size=161194 bytes, mime=image/jpeg
+[2026-01-28 15:49:29] INFO: publish desc=染发护发双料选手，柔顺发丝显年轻。 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 15:49:29] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/4848a5b2-3a0e-424c-bc73-7d97c4abd2e4.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#byb30v9wuvyxkxqcbdocjjribhqmhuc0","desc":"染发护发双料选手，柔顺发丝显年轻。 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 15:49:34] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (2)(5).mp4 video_id=6837841570959066673
+[2026-01-28 15:49:34] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日 (2).mp4
+[2026-01-28 15:49:39] INFO: 准备上传文件: 1月8日 (2).mp4, size=38529459 bytes, mime=video/mp4
+[2026-01-28 15:49:39] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:49:39] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:49:50] INFO: 上传分片 2/2 size=18606515
+[2026-01-28 15:50:05] INFO: complete vid=openplat-video-sign#jyerxjhk1u2s3nzm8iswjjric6xuhq65
+[2026-01-28 15:50:05] INFO: upload cover image: 1月8日 (2).jpg, size=184754 bytes, mime=image/jpeg
+[2026-01-28 15:50:23] INFO: publish desc=染发护发双料选手，黑松露精粹。 #干枯毛躁护发好物 #头皮护理好物推荐 #显白发色 #染发注意事项
+[2026-01-28 15:50:23] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/316b01d9-54b3-46ca-a9ac-8a241f3c5d97.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#jyerxjhk1u2s3nzm8iswjjric6xuhq65","desc":"染发护发双料选手，黑松露精粹。 #干枯毛躁护发好物 #头皮护理好物推荐 #显白发色 #染发注意事项"}
+[2026-01-28 15:50:28] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日 (2).mp4 video_id=6837842024690688074
+[2026-01-28 15:50:28] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(1).mp4
+[2026-01-28 15:50:33] INFO: 准备上传文件: 1月8日(1).mp4, size=36658615 bytes, mime=video/mp4
+[2026-01-28 15:50:33] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:50:33] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:50:44] INFO: 上传分片 2/2 size=16735671
+[2026-01-28 15:50:59] INFO: complete vid=openplat-video-sign#emldtsu7dicikk3tn5jwjjricwxhpiyr
+[2026-01-28 15:50:59] INFO: upload cover image: 1月8日(1).jpg, size=217319 bytes, mime=image/jpeg
+[2026-01-28 15:51:16] INFO: publish desc=染博士天青茗茶色，显色高级。 #头皮护理好物推荐 #干枯毛躁护发好物 #盖白发染发膏 #显白发色
+[2026-01-28 15:51:16] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/0c3bc3be-f574-452a-8830-7c8746daf20d.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#emldtsu7dicikk3tn5jwjjricwxhpiyr","desc":"染博士天青茗茶色，显色高级。 #头皮护理好物推荐 #干枯毛躁护发好物 #盖白发染发膏 #显白发色"}
+[2026-01-28 15:51:21] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(1).mp4 video_id=6837842466082144418
+[2026-01-28 15:51:21] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(10).mp4
+[2026-01-28 15:51:26] INFO: 准备上传文件: 1月8日(10).mp4, size=35790661 bytes, mime=video/mp4
+[2026-01-28 15:51:26] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:51:26] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:51:36] INFO: 上传分片 2/2 size=15867717
+[2026-01-28 15:51:50] INFO: complete vid=openplat-video-sign#wjmp2w89kc9u5lpgpmt8jjridlol40iy
+[2026-01-28 15:51:50] INFO: upload cover image: 1月8日(10).jpg, size=269402 bytes, mime=image/jpeg
+[2026-01-28 15:52:07] INFO: publish desc=染博士柔彩染膏，边染边护发。 #省到家的护发好物清单 #美妆好物大盘点 #染发注意事项 #盖白发染发膏
+[2026-01-28 15:52:07] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/b732b1dc-459c-48c2-9cff-df79f0123948.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#wjmp2w89kc9u5lpgpmt8jjridlol40iy","desc":"染博士柔彩染膏，边染边护发。 #省到家的护发好物清单 #美妆好物大盘点 #染发注意事项 #盖白发染发膏"}
+[2026-01-28 15:52:12] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(10).mp4 video_id=6837842895369622109
+[2026-01-28 15:52:12] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(11).mp4
+[2026-01-28 15:52:17] INFO: 准备上传文件: 1月8日(11).mp4, size=47035909 bytes, mime=video/mp4
+[2026-01-28 15:52:17] INFO: 开始分片上传，共 3 片
+[2026-01-28 15:52:17] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 15:52:28] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 15:52:39] INFO: 上传分片 3/3 size=7190021
+[2026-01-28 15:52:50] INFO: complete vid=openplat-video-sign#axefnkdlmt4w74axxj20jjrieefo1ats
+[2026-01-28 15:52:50] INFO: upload cover image: 1月8日(11).jpg, size=229242 bytes, mime=image/jpeg
+[2026-01-28 15:53:07] INFO: publish desc=染博士柔彩染膏，会梳头就会染发。 #头皮护理好物推荐 #干枯毛躁护发好物 #安全染发剂推荐 #染发注意事项
+[2026-01-28 15:53:07] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/9cf21eb0-1f47-4b9f-a846-ea186456eaa7.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#axefnkdlmt4w74axxj20jjrieefo1ats","desc":"染博士柔彩染膏，会梳头就会染发。 #头皮护理好物推荐 #干枯毛躁护发好物 #安全染发剂推荐 #染发注意事项"}
+[2026-01-28 15:53:12] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(11).mp4 video_id=6837843401957094962
+[2026-01-28 15:53:12] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(12).mp4
+[2026-01-28 15:53:17] INFO: 准备上传文件: 1月8日(12).mp4, size=23796236 bytes, mime=video/mp4
+[2026-01-28 15:53:17] INFO: 开始分片上传，共 2 片
+[2026-01-28 15:53:17] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 15:53:28] INFO: 上传分片 2/2 size=3873292
+[2026-01-28 15:53:39] INFO: complete vid=openplat-video-sign#ecrmjqqxpsxr97hcayzajjrif2dh05py
+[2026-01-28 15:53:40] INFO: upload cover image: 1月8日(12).jpg, size=241664 bytes, mime=image/jpeg
+[2026-01-28 15:53:57] INFO: publish desc=染发膏染发不花色，持久不褪。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 15:53:57] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/d67156c5-654b-472e-b1f6-3658fdb17d4d.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#ecrmjqqxpsxr97hcayzajjrif2dh05py","desc":"染发膏染发不花色，持久不褪。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 15:54:02] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(12).mp4 video_id=6837843815717188157
+[2026-01-28 15:54:02] INFO: [拼多多个护店] ???????????
+[2026-01-28 15:54:07] INFO: auto cycle done
+[2026-01-28 16:24:26] INFO: 配置已保存
+[2026-01-28 16:24:26] INFO: 上传计划已保存
+[2026-01-28 18:20:38] INFO: 配置已保存
+[2026-01-28 18:20:38] INFO: 上传计划已保存
+[2026-01-28 20:00:15] INFO: auto cycle start
+[2026-01-28 20:00:15] INFO: download already done today, skip
+[2026-01-28 20:00:15] INFO: download ready, start upload
+[2026-01-28 20:00:15] INFO: 上传触发
+[2026-01-28 20:00:15] INFO: 扫描根目录: C:\Users\20487\Desktop\pdd_vd\video
+[2026-01-28 20:00:20] INFO: [拼多多旗舰店] 发现视频 70 个，目录 3 个
+[2026-01-28 20:00:20] INFO: [拼多多旗舰店] 今日完成 36 个，失败 0 个，进行中 0 个
+[2026-01-28 20:00:20] INFO: [拼多多旗舰店] 当前发布时段 20:00，本轮可发布 10 个
+[2026-01-28 20:00:20] INFO: [拼多多旗舰店] 开始上传 染发剂子母管/0128拼多多 (6).mp4
+[2026-01-28 20:00:25] INFO: 准备上传文件: 0128拼多多 (6).mp4, size=57070000 bytes, mime=video/mp4
+[2026-01-28 20:00:25] INFO: 开始分片上传，共 3 片
+[2026-01-28 20:00:25] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 20:00:36] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 20:00:46] INFO: 上传分片 3/3 size=17224112
+[2026-01-28 20:01:01] INFO: complete vid=openplat-video-sign#awjvuwe0l9chjrpnlqwvjjrnxnv6yodh
+[2026-01-28 20:01:02] INFO: upload cover image: 0128拼多多 (6).jpg, size=181344 bytes, mime=image/jpeg
+[2026-01-28 20:01:19] INFO: publish desc=一年用两次，效果持久。 #干枯毛躁护发好物 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 20:01:19] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/7b825bad-7fb0-426c-a09c-7a6d4af6d5a4.jpeg","goods_id":420771392898,"vid":"openplat-video-sign#awjvuwe0l9chjrpnlqwvjjrnxnv6yodh","desc":"一年用两次，效果持久。 #干枯毛躁护发好物 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 20:01:24] INFO: [拼多多旗舰店] 上传完成 染发剂子母管/0128拼多多 (6).mp4 video_id=6837968326288548078
+[2026-01-28 20:01:24] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(2).mp4
+[2026-01-28 20:01:29] INFO: 准备上传文件: 1月8日(2).mp4, size=28613084 bytes, mime=video/mp4
+[2026-01-28 20:01:29] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:01:29] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:01:40] INFO: 上传分片 2/2 size=8690140
+[2026-01-28 20:01:52] INFO: complete vid=openplat-video-sign#uixwoqzw9celgxmad2cdjjrnyc9aro6y
+[2026-01-28 20:01:52] INFO: upload cover image: 1月8日(2).jpg, size=263516 bytes, mime=image/jpeg
+[2026-01-28 20:02:10] INFO: publish desc=染发显年轻，白发盖得干净。 #干枯毛躁护发好物 #省到家的护发好物清单 #染发注意事项 #黄皮必备发色
+[2026-01-28 20:02:10] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/0ae8c27f-82ef-4000-95bc-4dd6ae3fd4af.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#uixwoqzw9celgxmad2cdjjrnyc9aro6y","desc":"染发显年轻，白发盖得干净。 #干枯毛躁护发好物 #省到家的护发好物清单 #染发注意事项 #黄皮必备发色"}
+[2026-01-28 20:02:15] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(2).mp4 video_id=6837968748084529595
+[2026-01-28 20:02:15] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(3).mp4
+[2026-01-28 20:02:20] INFO: 准备上传文件: 1月8日(3).mp4, size=24013478 bytes, mime=video/mp4
+[2026-01-28 20:02:20] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:02:20] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:02:31] INFO: 上传分片 2/2 size=4090534
+[2026-01-28 20:02:41] INFO: complete vid=openplat-video-sign#tub7knsadpvgmh6cfodgjjrnyzx3iny5
+[2026-01-28 20:02:41] INFO: upload cover image: 1月8日(3).jpg, size=225532 bytes, mime=image/jpeg
+[2026-01-28 20:02:58] INFO: publish desc=染发膏已升级，自己在家就能操作。 #美妆好物大盘点 #干枯毛躁护发好物 #盖白发染发膏 #黄皮必备发色
+[2026-01-28 20:02:58] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/8a7e5f3e-d84d-4e40-8316-f67876717bdb.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#tub7knsadpvgmh6cfodgjjrnyzx3iny5","desc":"染发膏已升级，自己在家就能操作。 #美妆好物大盘点 #干枯毛躁护发好物 #盖白发染发膏 #黄皮必备发色"}
+[2026-01-28 20:03:03] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(3).mp4 video_id=6837969155392976732
+[2026-01-28 20:03:03] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(4).mp4
+[2026-01-28 20:03:08] INFO: 准备上传文件: 1月8日(4).mp4, size=30407835 bytes, mime=video/mp4
+[2026-01-28 20:03:08] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:03:08] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:03:19] INFO: 上传分片 2/2 size=10484891
+[2026-01-28 20:03:32] INFO: complete vid=openplat-video-sign#7z8ahgkr7mgayqo8clomjjrnzoil9ut8
+[2026-01-28 20:03:32] INFO: upload cover image: 1月8日(4).jpg, size=198336 bytes, mime=image/jpeg
+[2026-01-28 20:03:50] INFO: publish desc=染发时同时护理头发 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #显白发色
+[2026-01-28 20:03:50] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/6d235212-2436-4a25-bfc8-bf33248789f0.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#7z8ahgkr7mgayqo8clomjjrnzoil9ut8","desc":"染发时同时护理头发 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #显白发色"}
+[2026-01-28 20:03:55] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(4).mp4 video_id=6837969586995702755
+[2026-01-28 20:03:55] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(5).mp4
+[2026-01-28 20:04:00] INFO: 准备上传文件: 1月8日(5).mp4, size=35506806 bytes, mime=video/mp4
+[2026-01-28 20:04:00] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:04:00] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:04:10] INFO: 上传分片 2/2 size=15583862
+[2026-01-28 20:04:25] INFO: complete vid=openplat-video-sign#nrpayzs934ymwvnkvaiijjro0ds66ara
+[2026-01-28 20:04:25] INFO: upload cover image: 1月8日(5).jpg, size=337472 bytes, mime=image/jpeg
+[2026-01-28 20:04:43] INFO: publish desc=染博士天青茗茶显气质又高级。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #显白发色
+[2026-01-28 20:04:43] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/84ca2557-e832-4ab9-a7cc-052dd58d5204.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#nrpayzs934ymwvnkvaiijjro0ds66ara","desc":"染博士天青茗茶显气质又高级。 #干枯毛躁护发好物 #头皮护理好物推荐 #染发注意事项 #显白发色"}
+[2026-01-28 20:04:48] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(5).mp4 video_id=6837970030794679111
+[2026-01-28 20:04:48] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(6).mp4
+[2026-01-28 20:04:53] INFO: 准备上传文件: 1月8日(6).mp4, size=37946094 bytes, mime=video/mp4
+[2026-01-28 20:04:53] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:04:53] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:05:03] INFO: 上传分片 2/2 size=18023150
+[2026-01-28 20:05:18] INFO: complete vid=openplat-video-sign#7xa355qobcitm2hiw87njjro13gykz0v
+[2026-01-28 20:05:18] INFO: upload cover image: 1月8日(6).jpg, size=245762 bytes, mime=image/jpeg
+[2026-01-28 20:05:36] INFO: publish desc=染发剂袋包使用方便，效果好。 #干枯毛躁护发好物 #美妆好物大盘点 #显白发色 #盖白发染发膏
+[2026-01-28 20:05:36] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/f980b2f1-a3d9-41f7-bdb0-bbce9dfea5cf.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#7xa355qobcitm2hiw87njjro13gykz0v","desc":"染发剂袋包使用方便，效果好。 #干枯毛躁护发好物 #美妆好物大盘点 #显白发色 #盖白发染发膏"}
+[2026-01-28 20:05:41] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(6).mp4 video_id=6837970477706225736
+[2026-01-28 20:05:41] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(7).mp4
+[2026-01-28 20:05:46] INFO: 准备上传文件: 1月8日(7).mp4, size=33748621 bytes, mime=video/mp4
+[2026-01-28 20:05:46] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:05:46] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:05:56] INFO: 上传分片 2/2 size=13825677
+[2026-01-28 20:06:10] INFO: complete vid=openplat-video-sign#ren5psx2b9fzqu3rnhiqjjro1sg8nhoj
+[2026-01-28 20:06:10] INFO: upload cover image: 1月8日(7).jpg, size=265108 bytes, mime=image/jpeg
+[2026-01-28 20:06:28] INFO: publish desc=染发后头发圆润饱满，省下三千多。 #干枯毛躁护发好物 #省到家的护发好物清单 #安全染发剂推荐 #显白发色
+[2026-01-28 20:06:28] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/24fb9efd-9a0f-40cf-a64c-0c2a19080fd5.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#ren5psx2b9fzqu3rnhiqjjro1sg8nhoj","desc":"染发后头发圆润饱满，省下三千多。 #干枯毛躁护发好物 #省到家的护发好物清单 #安全染发剂推荐 #显白发色"}
+[2026-01-28 20:06:32] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(7).mp4 video_id=6837970909946255977
+[2026-01-28 20:06:32] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(8).mp4
+[2026-01-28 20:06:37] INFO: 准备上传文件: 1月8日(8).mp4, size=36455228 bytes, mime=video/mp4
+[2026-01-28 20:06:37] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:06:37] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:06:48] INFO: 上传分片 2/2 size=16532284
+[2026-01-28 20:07:02] INFO: complete vid=openplat-video-sign#rqehh9b3kdjvl7gjwyjpjjro2ht61j2t
+[2026-01-28 20:07:03] INFO: upload cover image: 1月8日(8).jpg, size=190852 bytes, mime=image/jpeg
+[2026-01-28 20:07:21] INFO: publish desc=染博士柔彩染膏，黄皮显白的本命发色。 #头皮护理好物推荐 #省到家的护发好物清单 #显白发色 #黄皮必备发色
+[2026-01-28 20:07:21] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/7da724a6-3ae5-449e-bd58-1556e4b452cd.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#rqehh9b3kdjvl7gjwyjpjjro2ht61j2t","desc":"染博士柔彩染膏，黄皮显白的本命发色。 #头皮护理好物推荐 #省到家的护发好物清单 #显白发色 #黄皮必备发色"}
+[2026-01-28 20:07:26] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(8).mp4 video_id=6837971356287209034
+[2026-01-28 20:07:26] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日(9).mp4
+[2026-01-28 20:07:31] INFO: 准备上传文件: 1月8日(9).mp4, size=40005213 bytes, mime=video/mp4
+[2026-01-28 20:07:31] INFO: 开始分片上传，共 3 片
+[2026-01-28 20:07:31] INFO: 上传分片 1/3 size=19922944
+[2026-01-28 20:07:41] INFO: 上传分片 2/3 size=19922944
+[2026-01-28 20:07:52] INFO: 上传分片 3/3 size=159325
+[2026-01-28 20:08:02] INFO: complete vid=openplat-video-sign#j721dely3fe8kdnzwetyjjro3aiqniob
+[2026-01-28 20:08:02] INFO: upload cover image: 1月8日(9).jpg, size=334732 bytes, mime=image/jpeg
+[2026-01-28 20:08:21] INFO: publish desc=染博士柔彩染膏，边染边护发。 #省到家的护发好物清单 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 20:08:21] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/93b3fb28-ff92-46bb-9780-8f19b8779e75.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#j721dely3fe8kdnzwetyjjro3aiqniob","desc":"染博士柔彩染膏，边染边护发。 #省到家的护发好物清单 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 20:08:26] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日(9).mp4 video_id=6837971864595484802
+[2026-01-28 20:08:26] INFO: [拼多多旗舰店] 开始上传 染发剂袋包/1月8日.mp4
+[2026-01-28 20:08:31] INFO: 准备上传文件: 1月8日.mp4, size=33080740 bytes, mime=video/mp4
+[2026-01-28 20:08:31] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:08:31] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:08:42] INFO: 上传分片 2/2 size=13157796
+[2026-01-28 20:08:55] INFO: complete vid=openplat-video-sign#zhzfctqfmqhzdhpga4bdjjro408d0zht
+[2026-01-28 20:08:56] INFO: upload cover image: 1月8日.jpg, size=200551 bytes, mime=image/jpeg
+[2026-01-28 20:09:14] INFO: publish desc=染博士天青茗茶显气质又高级。 #省到家的护发好物清单 #干枯毛躁护发好物 #显白发色 #盖白发染发膏
+[2026-01-28 20:09:14] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/8a251870-10b7-4ad9-b398-312ac6761bfa.jpeg","goods_id":837334279478,"vid":"openplat-video-sign#zhzfctqfmqhzdhpga4bdjjro408d0zht","desc":"染博士天青茗茶显气质又高级。 #省到家的护发好物清单 #干枯毛躁护发好物 #显白发色 #盖白发染发膏"}
+[2026-01-28 20:09:18] INFO: [拼多多旗舰店] 上传完成 染发剂袋包/1月8日.mp4 video_id=6837972302421631916
+[2026-01-28 20:09:18] INFO: [拼多多旗舰店] ???????????
+[2026-01-28 20:09:23] INFO: [拼多多美容护发官方旗舰店] 发现视频 69 个，目录 3 个
+[2026-01-28 20:09:23] INFO: [拼多多美容护发官方旗舰店] 今日完成 37 个，失败 0 个，进行中 0 个
+[2026-01-28 20:09:23] INFO: [拼多多美容护发官方旗舰店] 当前发布时段 20:00，本轮可发布 9 个
+[2026-01-28 20:09:23] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂子母管/0128拼多多 (4).mp4
+[2026-01-28 20:09:28] INFO: 准备上传文件: 0128拼多多 (4).mp4, size=65150100 bytes, mime=video/mp4
+[2026-01-28 20:09:28] INFO: 开始分片上传，共 4 片
+[2026-01-28 20:09:28] INFO: 上传分片 1/4 size=19922944
+[2026-01-28 20:09:39] INFO: 上传分片 2/4 size=19922944
+[2026-01-28 20:09:50] INFO: 上传分片 3/4 size=19922944
+[2026-01-28 20:10:01] INFO: 上传分片 4/4 size=5381268
+[2026-01-28 20:10:12] INFO: complete vid=openplat-video-sign#he3js8u28fqa3xt9pqrtjjro5120n1r0
+[2026-01-28 20:10:12] INFO: upload cover image: 0128拼多多 (4).jpg, size=181479 bytes, mime=image/jpeg
+[2026-01-28 20:10:30] INFO: publish desc=一年用两次，保持很久。 #干枯毛躁护发好物 #省到家的护发好物清单 #安全染发剂推荐 #黄皮必备发色
+[2026-01-28 20:10:30] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/e998d8e0-849b-4b70-9af0-7cf552ad63fb.jpeg","goods_id":591500186361,"vid":"openplat-video-sign#he3js8u28fqa3xt9pqrtjjro5120n1r0","desc":"一年用两次，保持很久。 #干枯毛躁护发好物 #省到家的护发好物清单 #安全染发剂推荐 #黄皮必备发色"}
+[2026-01-28 20:10:35] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂子母管/0128拼多多 (4).mp4 video_id=6837972941230612629
+[2026-01-28 20:10:35] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(13).mp4
+[2026-01-28 20:10:39] INFO: 准备上传文件: 1月8日(13).mp4, size=27669820 bytes, mime=video/mp4
+[2026-01-28 20:10:39] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:10:40] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:10:51] INFO: 上传分片 2/2 size=7746876
+[2026-01-28 20:11:03] INFO: complete vid=openplat-video-sign#vhn2x9xobrzmppohyj0mjjro5pkm4zby
+[2026-01-28 20:11:03] INFO: upload cover image: 1月8日(13).jpg, size=216886 bytes, mime=image/jpeg
+[2026-01-28 20:11:20] INFO: publish desc=染博士柔彩染膏，茶棕色显白不花色。 #美妆好物大盘点 #头皮护理好物推荐 #显白发色 #安全染发剂推荐
+[2026-01-28 20:11:20] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/b62c31e8-4f12-4f46-bd7f-3d9719fffc07.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#vhn2x9xobrzmppohyj0mjjro5pkm4zby","desc":"染博士柔彩染膏，茶棕色显白不花色。 #美妆好物大盘点 #头皮护理好物推荐 #显白发色 #安全染发剂推荐"}
+[2026-01-28 20:11:25] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(13).mp4 video_id=6837973364041951399
+[2026-01-28 20:11:25] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(14).mp4
+[2026-01-28 20:11:30] INFO: 准备上传文件: 1月8日(14).mp4, size=26072025 bytes, mime=video/mp4
+[2026-01-28 20:11:30] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:11:30] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:11:41] INFO: 上传分片 2/2 size=6149081
+[2026-01-28 20:11:52] INFO: complete vid=openplat-video-sign#lekl7bscnaei9fyaqragjjro6d8ce2ng
+[2026-01-28 20:11:52] INFO: upload cover image: 1月8日(14).jpg, size=232481 bytes, mime=image/jpeg
+[2026-01-28 20:12:10] INFO: publish desc=染出来的颜色比较自然。 #头皮护理好物推荐 #省到家的护发好物清单 #盖白发染发膏 #显白发色
+[2026-01-28 20:12:10] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/31e13926-683c-43eb-a428-8245566ebc72.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#lekl7bscnaei9fyaqragjjro6d8ce2ng","desc":"染出来的颜色比较自然。 #头皮护理好物推荐 #省到家的护发好物清单 #盖白发染发膏 #显白发色"}
+[2026-01-28 20:12:15] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(14).mp4 video_id=6837973779739269561
+[2026-01-28 20:12:15] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(2).mp4
+[2026-01-28 20:12:20] INFO: 准备上传文件: 1月8日(2).mp4, size=28613084 bytes, mime=video/mp4
+[2026-01-28 20:12:20] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:12:20] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:12:31] INFO: 上传分片 2/2 size=8690140
+[2026-01-28 20:12:43] INFO: complete vid=openplat-video-sign#orqs6ziig2gqllj5pn2ojjro71wqeix4
+[2026-01-28 20:12:43] INFO: upload cover image: 1月8日(2).jpg, size=263516 bytes, mime=image/jpeg
+[2026-01-28 20:13:01] INFO: publish desc=染发显年轻，白发盖得干净。 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #染发注意事项
+[2026-01-28 20:13:01] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/cffc8dfa-af03-4ace-8323-57abb997aea1.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#orqs6ziig2gqllj5pn2ojjro71wqeix4","desc":"染发显年轻，白发盖得干净。 #干枯毛躁护发好物 #省到家的护发好物清单 #黄皮必备发色 #染发注意事项"}
+[2026-01-28 20:13:06] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(2).mp4 video_id=6837974212197288797
+[2026-01-28 20:13:06] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(3).mp4
+[2026-01-28 20:13:11] INFO: 准备上传文件: 1月8日(3).mp4, size=24013478 bytes, mime=video/mp4
+[2026-01-28 20:13:11] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:13:11] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:13:22] INFO: 上传分片 2/2 size=4090534
+[2026-01-28 20:13:32] INFO: complete vid=openplat-video-sign#peyfsaeh6k2yhahrybadjjro7pc5ma3r
+[2026-01-28 20:13:32] INFO: upload cover image: 1月8日(3).jpg, size=225532 bytes, mime=image/jpeg
+[2026-01-28 20:13:49] INFO: publish desc=染发膏已升级，自己在家就能操作。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 20:13:49] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/7151350c-d09b-4f1b-a062-7712bf400acc.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#peyfsaeh6k2yhahrybadjjro7pc5ma3r","desc":"染发膏已升级，自己在家就能操作。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 20:13:55] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(3).mp4 video_id=6837974618448987201
+[2026-01-28 20:13:55] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(4).mp4
+[2026-01-28 20:13:59] INFO: 准备上传文件: 1月8日(4).mp4, size=30407835 bytes, mime=video/mp4
+[2026-01-28 20:13:59] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:13:59] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:14:10] INFO: 上传分片 2/2 size=10484891
+[2026-01-28 20:14:22] INFO: complete vid=openplat-video-sign#9ztznnlztzp46grgyi6jjjro8dqqa3qk
+[2026-01-28 20:14:23] INFO: upload cover image: 1月8日(4).jpg, size=198336 bytes, mime=image/jpeg
+[2026-01-28 20:14:40] INFO: publish desc=染发时同时护发，效果很好。 #省到家的护发好物清单 #美妆好物大盘点 #盖白发染发膏 #染发注意事项
+[2026-01-28 20:14:40] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/6aa1c379-85a8-4b4a-a4d9-677591f6dcaf.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#9ztznnlztzp46grgyi6jjjro8dqqa3qk","desc":"染发时同时护发，效果很好。 #省到家的护发好物清单 #美妆好物大盘点 #盖白发染发膏 #染发注意事项"}
+[2026-01-28 20:14:45] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(4).mp4 video_id=6837975039758754567
+[2026-01-28 20:14:45] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(5).mp4
+[2026-01-28 20:14:50] INFO: 准备上传文件: 1月8日(5).mp4, size=35506806 bytes, mime=video/mp4
+[2026-01-28 20:14:50] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:14:50] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:15:00] INFO: 上传分片 2/2 size=15583862
+[2026-01-28 20:15:15] INFO: complete vid=openplat-video-sign#oex5txm7oqwuysh75fo6jjro92voht18
+[2026-01-28 20:15:15] INFO: upload cover image: 1月8日(5).jpg, size=337472 bytes, mime=image/jpeg
+[2026-01-28 20:15:32] INFO: publish desc=染博士天青茗茶显气质又高级。 #头皮护理好物推荐 #美妆好物大盘点 #染发注意事项 #黄皮必备发色
+[2026-01-28 20:15:32] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/3fb9de79-b442-458f-bb99-412355fa92c5.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#oex5txm7oqwuysh75fo6jjro92voht18","desc":"染博士天青茗茶显气质又高级。 #头皮护理好物推荐 #美妆好物大盘点 #染发注意事项 #黄皮必备发色"}
+[2026-01-28 20:15:37] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(5).mp4 video_id=6837975479019680016
+[2026-01-28 20:15:37] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(6).mp4
+[2026-01-28 20:15:42] INFO: 准备上传文件: 1月8日(6).mp4, size=37946094 bytes, mime=video/mp4
+[2026-01-28 20:15:42] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:15:42] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:15:56] INFO: 上传分片 2/2 size=18023150
+[2026-01-28 20:16:11] INFO: complete vid=openplat-video-sign#s830iewvcrglesoqdqjejjro9ubaq1nw
+[2026-01-28 20:16:12] INFO: upload cover image: 1月8日(6).jpg, size=245762 bytes, mime=image/jpeg
+[2026-01-28 20:16:30] INFO: publish desc=染发剂袋包使用方便，效果好。 #干枯毛躁护发好物 #头皮护理好物推荐 #黄皮必备发色 #盖白发染发膏
+[2026-01-28 20:16:30] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/96b542c1-8297-4444-8386-eaa9a02a018d.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#s830iewvcrglesoqdqjejjro9ubaq1nw","desc":"染发剂袋包使用方便，效果好。 #干枯毛躁护发好物 #头皮护理好物推荐 #黄皮必备发色 #盖白发染发膏"}
+[2026-01-28 20:16:35] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(6).mp4 video_id=6837975962345908550
+[2026-01-28 20:16:35] INFO: [拼多多美容护发官方旗舰店] 开始上传 染发剂袋包/1月8日(7).mp4
+[2026-01-28 20:16:40] INFO: 准备上传文件: 1月8日(7).mp4, size=33748621 bytes, mime=video/mp4
+[2026-01-28 20:16:40] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:16:40] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:16:50] INFO: 上传分片 2/2 size=13825677
+[2026-01-28 20:17:04] INFO: complete vid=openplat-video-sign#3o0laweejeng9rorjwgfjjroajk9rvl3
+[2026-01-28 20:17:04] INFO: upload cover image: 1月8日(7).jpg, size=265108 bytes, mime=image/jpeg
+[2026-01-28 20:17:21] INFO: publish desc=染发后头发圆润饱满，省下三千多。 #干枯毛躁护发好物 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏
+[2026-01-28 20:17:21] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/2b94ec5e-af1f-464e-a9af-2bd8f2ac2ffd.jpeg","goods_id":838950890972,"vid":"openplat-video-sign#3o0laweejeng9rorjwgfjjroajk9rvl3","desc":"染发后头发圆润饱满，省下三千多。 #干枯毛躁护发好物 #美妆好物大盘点 #安全染发剂推荐 #盖白发染发膏"}
+[2026-01-28 20:17:26] INFO: [拼多多美容护发官方旗舰店] 上传完成 染发剂袋包/1月8日(7).mp4 video_id=6837976393470370281
+[2026-01-28 20:17:26] INFO: [拼多多美容护发官方旗舰店] ???????????
+[2026-01-28 20:17:31] INFO: [拼多多个护店] 发现视频 61 个，目录 2 个
+[2026-01-28 20:17:31] INFO: [拼多多个护店] 今日完成 32 个，失败 0 个，进行中 0 个
+[2026-01-28 20:17:31] INFO: [拼多多个护店] 当前发布时段 20:00，本轮可发布 9 个
+[2026-01-28 20:17:31] INFO: [拼多多个护店] 开始上传 染发剂子母管/0128拼多多 (4).mp4
+[2026-01-28 20:17:36] INFO: 准备上传文件: 0128拼多多 (4).mp4, size=65150100 bytes, mime=video/mp4
+[2026-01-28 20:17:36] INFO: 开始分片上传，共 4 片
+[2026-01-28 20:17:36] INFO: 上传分片 1/4 size=19922944
+[2026-01-28 20:17:47] INFO: 上传分片 2/4 size=19922944
+[2026-01-28 20:17:57] INFO: 上传分片 3/4 size=19922944
+[2026-01-28 20:18:08] INFO: 上传分片 4/4 size=5381268
+[2026-01-28 20:18:19] INFO: complete vid=openplat-video-sign#kqu4kgin5dx8hcrhqxpajjrobjiv9w08
+[2026-01-28 20:18:19] INFO: upload cover image: 0128拼多多 (4).jpg, size=181479 bytes, mime=image/jpeg
+[2026-01-28 20:18:36] INFO: publish desc=一年用两次，保持很久。 #省到家的护发好物清单 #干枯毛躁护发好物 #黄皮必备发色 #显白发色
+[2026-01-28 20:18:36] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/eb0d7cc7-b81a-41e6-b83b-5642562902be.jpeg","goods_id":766636609261,"vid":"openplat-video-sign#kqu4kgin5dx8hcrhqxpajjrobjiv9w08","desc":"一年用两次，保持很久。 #省到家的护发好物清单 #干枯毛躁护发好物 #黄皮必备发色 #显白发色"}
+[2026-01-28 20:18:41] INFO: [拼多多个护店] 上传完成 染发剂子母管/0128拼多多 (4).mp4 video_id=6837977023843160994
+[2026-01-28 20:18:41] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(13).mp4
+[2026-01-28 20:18:46] INFO: 准备上传文件: 1月8日(13).mp4, size=27669820 bytes, mime=video/mp4
+[2026-01-28 20:18:46] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:18:46] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:18:57] INFO: 上传分片 2/2 size=7746876
+[2026-01-28 20:19:08] INFO: complete vid=openplat-video-sign#nxiymcqhvvevg2ajnzb2jjroc7i6k1bb
+[2026-01-28 20:19:09] INFO: upload cover image: 1月8日(13).jpg, size=216886 bytes, mime=image/jpeg
+[2026-01-28 20:19:26] INFO: publish desc=染博士柔彩染膏，黄皮显白的本命发色。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 20:19:26] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/ff2b69a5-4581-4e9f-9a39-a0044c82f84b.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#nxiymcqhvvevg2ajnzb2jjroc7i6k1bb","desc":"染博士柔彩染膏，黄皮显白的本命发色。 #干枯毛躁护发好物 #头皮护理好物推荐 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 20:19:31] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(13).mp4 video_id=6837977442391966560
+[2026-01-28 20:19:31] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(14).mp4
+[2026-01-28 20:19:36] INFO: 准备上传文件: 1月8日(14).mp4, size=26072025 bytes, mime=video/mp4
+[2026-01-28 20:19:36] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:19:36] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:19:47] INFO: 上传分片 2/2 size=6149081
+[2026-01-28 20:19:58] INFO: complete vid=openplat-video-sign#osdsw1unlqjlzbb7sjmwjjrocvf8oh74
+[2026-01-28 20:19:58] INFO: upload cover image: 1月8日(14).jpg, size=232481 bytes, mime=image/jpeg
+[2026-01-28 20:20:15] INFO: publish desc=染出来的颜色比较自然。 #头皮护理好物推荐 #干枯毛躁护发好物 #染发注意事项 #安全染发剂推荐
+[2026-01-28 20:20:15] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/4ea54b3b-e570-4439-a4ff-e62750fc7b39.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#osdsw1unlqjlzbb7sjmwjjrocvf8oh74","desc":"染出来的颜色比较自然。 #头皮护理好物推荐 #干枯毛躁护发好物 #染发注意事项 #安全染发剂推荐"}
+[2026-01-28 20:20:20] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(14).mp4 video_id=6837977855078280187
+[2026-01-28 20:20:20] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(2).mp4
+[2026-01-28 20:20:25] INFO: 准备上传文件: 1月8日(2).mp4, size=28613084 bytes, mime=video/mp4
+[2026-01-28 20:20:25] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:20:25] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:20:36] INFO: 上传分片 2/2 size=8690140
+[2026-01-28 20:20:48] INFO: complete vid=openplat-video-sign#xczivhlojxadvtdslmlrjjrodjk4zg7p
+[2026-01-28 20:20:49] INFO: upload cover image: 1月8日(2).jpg, size=263516 bytes, mime=image/jpeg
+[2026-01-28 20:21:06] INFO: publish desc=染发显年轻，白发盖得干净。 #美妆好物大盘点 #头皮护理好物推荐 #盖白发染发膏 #安全染发剂推荐
+[2026-01-28 20:21:06] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/8fbd9b42-227b-4743-866c-7694ab016367.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#xczivhlojxadvtdslmlrjjrodjk4zg7p","desc":"染发显年轻，白发盖得干净。 #美妆好物大盘点 #头皮护理好物推荐 #盖白发染发膏 #安全染发剂推荐"}
+[2026-01-28 20:21:11] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(2).mp4 video_id=6837978276077233758
+[2026-01-28 20:21:11] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(3).mp4
+[2026-01-28 20:21:15] INFO: 准备上传文件: 1月8日(3).mp4, size=24013478 bytes, mime=video/mp4
+[2026-01-28 20:21:15] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:21:15] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:21:26] INFO: 上传分片 2/2 size=4090534
+[2026-01-28 20:21:37] INFO: complete vid=openplat-video-sign#h9s3l0xtrivr7vzx3efijjroe76uejs7
+[2026-01-28 20:21:37] INFO: upload cover image: 1月8日(3).jpg, size=225532 bytes, mime=image/jpeg
+[2026-01-28 20:21:54] INFO: publish desc=染发膏已升级，自己在家就能操作。 #省到家的护发好物清单 #美妆好物大盘点 #黄皮必备发色 #盖白发染发膏
+[2026-01-28 20:21:54] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/eb56cc11-c031-4a14-834d-6f40ebc819db.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#h9s3l0xtrivr7vzx3efijjroe76uejs7","desc":"染发膏已升级，自己在家就能操作。 #省到家的护发好物清单 #美妆好物大盘点 #黄皮必备发色 #盖白发染发膏"}
+[2026-01-28 20:21:59] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(3).mp4 video_id=6837978684820524032
+[2026-01-28 20:21:59] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(4).mp4
+[2026-01-28 20:22:04] INFO: 准备上传文件: 1月8日(4).mp4, size=30407835 bytes, mime=video/mp4
+[2026-01-28 20:22:04] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:22:04] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:22:15] INFO: 上传分片 2/2 size=10484891
+[2026-01-28 20:22:28] INFO: complete vid=openplat-video-sign#hxuf0gdefycvw4r5x1vkjjroevptmwut
+[2026-01-28 20:22:28] INFO: upload cover image: 1月8日(4).jpg, size=198336 bytes, mime=image/jpeg
+[2026-01-28 20:22:46] INFO: publish desc=染发时同时护理头发 #省到家的护发好物清单 #干枯毛躁护发好物 #显白发色 #安全染发剂推荐
+[2026-01-28 20:22:46] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/80cce987-ce2b-41e7-8132-b091e1904650.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#hxuf0gdefycvw4r5x1vkjjroevptmwut","desc":"染发时同时护理头发 #省到家的护发好物清单 #干枯毛躁护发好物 #显白发色 #安全染发剂推荐"}
+[2026-01-28 20:22:51] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(4).mp4 video_id=6837979118570353331
+[2026-01-28 20:22:51] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(5).mp4
+[2026-01-28 20:22:56] INFO: 准备上传文件: 1月8日(5).mp4, size=35506806 bytes, mime=video/mp4
+[2026-01-28 20:22:56] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:22:56] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:23:06] INFO: 上传分片 2/2 size=15583862
+[2026-01-28 20:23:21] INFO: complete vid=openplat-video-sign#bnbwpyfwfcjid7sog6qhjjrofkzc1gb9
+[2026-01-28 20:23:21] INFO: upload cover image: 1月8日(5).jpg, size=337472 bytes, mime=image/jpeg
+[2026-01-28 20:23:38] INFO: publish desc=染博士天青茗茶显气质又高级。 #头皮护理好物推荐 #省到家的护发好物清单 #黄皮必备发色 #安全染发剂推荐
+[2026-01-28 20:23:38] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/0e061f8f-7838-417d-b278-ce9da31fafe6.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#bnbwpyfwfcjid7sog6qhjjrofkzc1gb9","desc":"染博士天青茗茶显气质又高级。 #头皮护理好物推荐 #省到家的护发好物清单 #黄皮必备发色 #安全染发剂推荐"}
+[2026-01-28 20:23:43] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(5).mp4 video_id=6837979554895334753
+[2026-01-28 20:23:43] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(6).mp4
+[2026-01-28 20:23:48] INFO: 准备上传文件: 1月8日(6).mp4, size=37946094 bytes, mime=video/mp4
+[2026-01-28 20:23:48] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:23:48] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:23:59] INFO: 上传分片 2/2 size=18023150
+[2026-01-28 20:24:14] INFO: complete vid=openplat-video-sign#ho3vrd4fygr8qspxpjl8jjrogak7zcom
+[2026-01-28 20:24:14] INFO: upload cover image: 1月8日(6).jpg, size=245762 bytes, mime=image/jpeg
+[2026-01-28 20:24:31] INFO: publish desc=染发剂袋包使用方便，效果明显。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #染发注意事项
+[2026-01-28 20:24:31] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/f7bab0d0-5a14-44b4-8d81-0bf57d0e4e59.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#ho3vrd4fygr8qspxpjl8jjrogak7zcom","desc":"染发剂袋包使用方便，效果明显。 #美妆好物大盘点 #头皮护理好物推荐 #黄皮必备发色 #染发注意事项"}
+[2026-01-28 20:24:36] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(6).mp4 video_id=6837980000271797098
+[2026-01-28 20:24:36] INFO: [拼多多个护店] 开始上传 染发剂袋包/1月8日(7).mp4
+[2026-01-28 20:24:41] INFO: 准备上传文件: 1月8日(7).mp4, size=33748621 bytes, mime=video/mp4
+[2026-01-28 20:24:41] INFO: 开始分片上传，共 2 片
+[2026-01-28 20:24:41] INFO: 上传分片 1/2 size=19922944
+[2026-01-28 20:24:52] INFO: 上传分片 2/2 size=13825677
+[2026-01-28 20:25:06] INFO: complete vid=openplat-video-sign#fahizw59bmue2wp6xwvhjjrogznvdgtl
+[2026-01-28 20:25:06] INFO: upload cover image: 1月8日(7).jpg, size=265108 bytes, mime=image/jpeg
+[2026-01-28 20:25:24] INFO: publish desc=染发后头发更柔顺。 #头皮护理好物推荐 #美妆好物大盘点 #染发注意事项 #盖白发染发膏
+[2026-01-28 20:25:24] INFO: publish request={"cover":"https://video-snapshot.pddpic.com/openplat-img/2026-01-28/ab46a9f5-6767-40b7-bd9d-be58d6074e6e.jpeg","goods_id":839042285785,"vid":"openplat-video-sign#fahizw59bmue2wp6xwvhjjrogznvdgtl","desc":"染发后头发更柔顺。 #头皮护理好物推荐 #美妆好物大盘点 #染发注意事项 #盖白发染发膏"}
+[2026-01-28 20:25:29] INFO: [拼多多个护店] 上传完成 染发剂袋包/1月8日(7).mp4 video_id=6837980443425019896
+[2026-01-28 20:25:29] INFO: [拼多多个护店] ???????????
+[2026-01-28 20:25:34] INFO: auto cycle done

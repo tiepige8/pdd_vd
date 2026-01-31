@@ -15,13 +15,19 @@
       "../server.py",
       "../data/**",
       "../video/**",
-      "main.js"
+      "main.js",
+      "preload.js"
     ],
     "extraResources": [
       {
         "from": "../python-runtime",
         "to": "python-runtime",
         "filter": ["**/*"]
+      },
+      {
+        "from": "..",
+        "to": ".",
+        "filter": ["BaiduPCS-Go.exe"]
       }
     ],
     "directories": {
